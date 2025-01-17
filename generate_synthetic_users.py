@@ -4,111 +4,22 @@ import pandas as pd
 
 from person_probabilities import LANGUAGE_PROBS, GENRE_DISLIKE_PROBS
 
+from country_data import (
+    COUNTRIES,
+    CITIES_BY_COUNTRY,
+    LANGUAGES_BY_COUNTRY
+)
 
 def load_static_data():
     """
-    Loads and returns:
-      - Lists for clinical genders, age ranges, lifestyles, etc.
-      - Mappings for countries -> cities
-      - Mappings for countries -> official languages
-      - We no longer define the base probabilities here (LANGUAGE_PROBS)
-        because we import them from language_probs.py
+    Returns the static data structures used by the script
+    (except countries, cities, and languages which are imported from country_data).
     """
     clinical_genders = ["Male", "Female", "Other"]
     age_ranges = ["Under 18", "18-24", "25-34", "35-44", "45-54", "55-64", "65+"]
     lifestyles = ["Active", "Sedentary", "Balanced", "Busy", "Relaxed"]
 
-    # Master list of countries
-    countries = [
-        "Saudi Arabia", "Australia", "Armenia", "Brazil", "Canada", "China",
-        "Czech Republic", "Denmark", "Netherlands", "United Kingdom", "Estonia",
-        "Philippines", "France", "Germany", "Greece", "Israel", "Hungary",
-        "India", "Indonesia", "Italy", "Japan", "South Korea", "Mexico",
-        "Norway", "Iran", "Poland", "Portugal", "Romania", "Russia", "Serbia",
-        "Spain", "Sweden", "Thailand", "Turkey", "Ukraine", "USA", "Pakistan"
-    ]
-
-    cities_by_country = {
-        "Saudi Arabia": ["Riyadh"],
-        "Australia": ["Sydney", "Melbourne"],
-        "Armenia": ["Yerevan"],
-        "Brazil": ["Sao Paulo", "Rio de Janeiro"],
-        "Canada": ["Toronto", "Montreal"],
-        "China": ["Beijing", "Shanghai"],
-        "Czech Republic": ["Prague"],
-        "Denmark": ["Copenhagen"],
-        "Netherlands": ["Amsterdam", "Rotterdam"],
-        "United Kingdom": ["London", "Manchester", "Birmingham"],
-        "Estonia": ["Tallinn"],
-        "Philippines": ["Manila"],
-        "France": ["Paris", "Lyon", "Marseille"],
-        "Germany": ["Berlin", "Munich", "Frankfurt"],
-        "Greece": ["Athens"],
-        "Israel": ["Tel Aviv"],
-        "Hungary": ["Budapest"],
-        "India": ["Mumbai", "Delhi"],
-        "Indonesia": ["Jakarta"],
-        "Italy": ["Rome", "Milan"],
-        "Japan": ["Tokyo", "Osaka", "Kyoto"],
-        "South Korea": ["Seoul", "Busan"],
-        "Mexico": ["Mexico City"],
-        "Norway": ["Oslo"],
-        "Iran": ["Tehran"],
-        "Poland": ["Warsaw", "Krakow"],
-        "Portugal": ["Lisbon", "Porto"],
-        "Romania": ["Bucharest"],
-        "Russia": ["Moscow", "Saint Petersburg"],
-        "Serbia": ["Belgrade"],
-        "Spain": ["Madrid", "Barcelona"],
-        "Sweden": ["Stockholm"],
-        "Thailand": ["Bangkok"],
-        "Turkey": ["Istanbul", "Ankara", "Izmir"],
-        "Ukraine": ["Kyiv", "Lviv"],
-        "USA": ["New York", "Los Angeles", "Chicago"],
-        "Pakistan": ["Islamabad"]
-    }
-
-    languages_by_country = {
-        "Saudi Arabia": ["Arabic"],
-        "Australia": ["English"],
-        "Armenia": ["Armenian"],
-        "Brazil": ["Portuguese"],
-        "Canada": ["English", "French"],
-        "China": ["Mandarin"],
-        "Czech Republic": ["Czech"],
-        "Denmark": ["Danish"],
-        "Netherlands": ["Dutch"],
-        "United Kingdom": ["English"],
-        "Estonia": ["Estonian"],
-        "Philippines": ["Filipino", "English"],
-        "France": ["French"],
-        "Germany": ["German"],
-        "Greece": ["Greek"],
-        "Israel": ["Hebrew"],
-        "Hungary": ["Hungarian"],
-        "India": ["Hindi", "English"],
-        "Indonesia": ["Indonesian"],
-        "Italy": ["Italian"],
-        "Japan": ["Japanese"],
-        "South Korea": ["Korean"],
-        "Mexico": ["Spanish"],
-        "Norway": ["Norwegian"],
-        "Iran": ["Persian"],
-        "Poland": ["Polish"],
-        "Portugal": ["Portuguese"],
-        "Romania": ["Romanian"],
-        "Russia": ["Russian"],
-        "Serbia": ["Serbian"],
-        "Spain": ["Spanish"],
-        "Sweden": ["Swedish"],
-        "Thailand": ["Thai"],
-        "Turkey": ["Turkish"],
-        "Ukraine": ["Ukrainian"],
-        "USA": ["English"],
-        "Pakistan": ["Urdu", "English"]
-    }
-
-    all_genres = list(GENRE_DISLIKE_PROBS.keys())
+    all_genres = list(GENRE_DISLIKE_PROBS.keys())  # get genres from the keys in genre_dislike_probs
     working_status_options = ["Employed", "Unemployed", "Student", "Retired"]
     marital_status_options = ["Single", "Married", "Divorced", "Widowed"]
     ethnicities = ["Hispanic", "Non-Hispanic White", "Black", "Asian", "Mixed", "Other"]
@@ -117,9 +28,9 @@ def load_static_data():
         "clinical_genders": clinical_genders,
         "age_ranges": age_ranges,
         "lifestyles": lifestyles,
-        "countries": countries,
-        "cities_by_country": cities_by_country,
-        "languages_by_country": languages_by_country,
+        "countries": COUNTRIES,
+        "cities_by_country": CITIES_BY_COUNTRY,
+        "languages_by_country": LANGUAGES_BY_COUNTRY,
         "all_genres": all_genres,
         "working_status_options": working_status_options,
         "marital_status_options": marital_status_options,
@@ -197,7 +108,6 @@ def generate_single_user_record(index, data_structs):
     clinical_genders = data_structs["clinical_genders"]
     age_ranges = data_structs["age_ranges"]
     lifestyles = data_structs["lifestyles"]
-    all_genres = data_structs["all_genres"]
     working_status_options = data_structs["working_status_options"]
     marital_status_options = data_structs["marital_status_options"]
     ethnicities = data_structs["ethnicities"]
