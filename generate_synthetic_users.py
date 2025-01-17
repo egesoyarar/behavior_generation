@@ -2,6 +2,8 @@ import argparse
 import random
 import pandas as pd
 
+from faker import Faker
+
 from person_probabilities import LANGUAGE_PROBS, GENRE_DISLIKE_PROBS
 
 from country_data import (
@@ -19,7 +21,7 @@ def load_static_data():
     age_ranges = ["Under 18", "18-24", "25-34", "35-44", "45-54", "55-64", "65+"]
     lifestyles = ["Active", "Sedentary", "Balanced", "Busy", "Relaxed"]
 
-    all_genres = list(GENRE_DISLIKE_PROBS.keys())  # get genres from the keys in genre_dislike_probs
+    all_genres = list(GENRE_DISLIKE_PROBS.keys())
     working_status_options = ["Employed", "Unemployed", "Student", "Retired"]
     marital_status_options = ["Single", "Married", "Divorced", "Widowed"]
     ethnicities = ["Hispanic", "Non-Hispanic White", "Black", "Asian", "Mixed", "Other"]
@@ -102,6 +104,11 @@ def pick_languages(living_country, data_structs, multiplier=2.0):
 
     return user_langs
 
+def generate_names():
+    fake = Faker()
+
+    return fake.first_name(), fake.last_name()
+
 def generate_single_user_record(index, data_structs):
     """Generate one synthetic user record."""
     countries = data_structs["countries"]
@@ -114,6 +121,8 @@ def generate_single_user_record(index, data_structs):
     cities_by_country = data_structs["cities_by_country"]
 
     user_id = f"U{index+1:04d}"
+
+    name, surname = generate_names()
 
     clinical_gender = random.choice(clinical_genders)
     age_range = random.choice(age_ranges)
@@ -133,6 +142,8 @@ def generate_single_user_record(index, data_structs):
 
     return {
         "userID": user_id,
+        "name": name,
+        "surname": surname,
         "clinical_gender": clinical_gender,
         "age_range": age_range,
         "lifestyle": lifestyle,
