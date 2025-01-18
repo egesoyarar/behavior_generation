@@ -33,6 +33,33 @@ LANGUAGE_PROBS = {
     "Urdu":       0.0157
 }
 
+GENRE_LIKE_PROBS = {
+    "Action":      0.07,
+    "Adventure":   0.07,
+    "Animation":   0.05,
+    "Anime":       0.04,
+    "Biography":   0.04,
+    "Comedy":      0.08,
+    "Crime":       0.06,
+    "Documentary": 0.05,
+    "Drama":       0.10,
+    "Family":      0.04,
+    "Fantasy":     0.05,
+    "Film-Noir":   0.02,
+    "History":     0.03,
+    "Horror":      0.07,
+    "Music":       0.03,
+    "Mystery":     0.06,
+    "Romance":     0.07,
+    "Sci-Fi":      0.06,
+    "Short":       0.02,
+    "Silent":      0.01,
+    "Sport":       0.03,
+    "Thriller":    0.08,
+    "War":         0.03,
+    "Western":     0.03,
+}
+
 GENRE_DISLIKE_PROBS = {
     "Action":     0.05,
     "Adventure":  0.05,

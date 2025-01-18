@@ -13,6 +13,7 @@ def main():
     user_df = generate_users(num_users)
 
     # Format list fields for CSV output
+    user_df["liked_genres"] = user_df["liked_genres"].apply(", ".join)
     user_df["disliked_genres"] = user_df["disliked_genres"].apply(", ".join)
     user_df["language_spoken"] = user_df["language_spoken"].apply(", ".join)
 

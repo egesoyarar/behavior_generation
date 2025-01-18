@@ -1,4 +1,4 @@
-PLACE_PROBABILITIES = {
+LOCATION_PROBS = {
     "Home": 0.4,
     "Outside": 0.1,
     "Cinema": 0.3,
@@ -7,7 +7,7 @@ PLACE_PROBABILITIES = {
     "Community Center": 0.05
 }
 
-DAY_TIME_PROBABILITIES = {
+TIME_OF_DAY_PROBS = {
     "Morning": 0.1,
     "Afternoon": 0.2,
     "Evening": 0.4,
@@ -15,20 +15,20 @@ DAY_TIME_PROBABILITIES = {
     "Late Night": 0.1
 }
 
-DAY_OF_WEEK_PROBABILITIES = {
+DAY_OF_WEEK_PROBS = {
     "Weekday": 0.6,
     "Weekend": 0.3,
     "Public Holiday": 0.1
 }
 
-SEASON_PROBABILITIES = {
+SEASON_PROBS = {
     "Summer": 0.2,
     "Spring": 0.2,
     "Winter": 0.35,
     "Fall": 0.25
 }
 
-COMPANION_PROBABILITIES = {
+COMPANION_PROBS = {
     "Alone": 0.3,
     "Partner": 0.2,
     "Friends": 0.2,

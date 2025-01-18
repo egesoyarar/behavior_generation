@@ -1,4 +1,5 @@
 import random
+import pandas as pd
 from faker import Faker
 from behavior_generation.data.country_data import (
     COUNTRY_PROBS,
@@ -12,6 +13,7 @@ from behavior_generation.data.user_probabilities import (
     WORKING_STATUS_PROBS,
     MARITAL_STATUS_PROBS,
     ETHNICITY_PROBS,
+    GENRE_LIKE_PROBS,
     GENRE_DISLIKE_PROBS,
     LANGUAGE_PROBS,
 )
@@ -38,7 +40,8 @@ def generate_single_user(index):
     country_of_origin = pick_from_probabilities(COUNTRY_PROBS)
     living_country = pick_living_country(country_of_origin)
     current_location = pick_city(living_country)
-    disliked_genres = pick_disliked_genres()
+    liked_genres = pick_liked_genres()
+    disliked_genres = pick_disliked_genres(liked_genres)
     language_spoken = pick_languages(living_country)
 
     return {
@@ -51,6 +54,7 @@ def generate_single_user(index):
         "country_of_origin": country_of_origin,
         "living_country": living_country,
         "current_location": current_location,
+        "liked_genres": liked_genres,
         "disliked_genres": disliked_genres,
         "current_working_status": current_working_status,
         "marital_status": marital_status,
@@ -63,8 +67,6 @@ def generate_users(num_users):
     """
     Generate a DataFrame containing synthetic user data.
     """
-    import pandas as pd
-
     return pd.DataFrame([generate_single_user(i) for i in range(num_users)])
 
 
@@ -106,12 +108,21 @@ def pick_city(living_country):
     return random.choice(CITIES_BY_COUNTRY.get(living_country, ["Unknown City"]))
 
 
-def pick_disliked_genres():
+def pick_liked_genres():
     """
-    Randomly determine which genres a user dislikes, capped at 3 genres.
+    Randomly determine which genres a user likes, capped at 3 genres.
     """
-    disliked = [genre for genre, prob in GENRE_DISLIKE_PROBS.items() if random.random() < prob]
-    return random.sample(disliked, min(len(disliked), 3))
+    liked = [genre for genre, prob in GENRE_LIKE_PROBS.items() if random.random() < prob]
+    return random.sample(liked, min(len(liked), 3))
+
+
+def pick_disliked_genres(liked_genres):
+    """
+    Randomly determine which genres a user dislikes, ensuring no overlap with liked genres,
+    capped at 3 genres.
+    """
+    disliked_candidates = [genre for genre, prob in GENRE_DISLIKE_PROBS.items() if genre not in liked_genres and random.random() < prob]
+    return random.sample(disliked_candidates, min(len(disliked_candidates), 3))
 
 
 def pick_languages(living_country):
