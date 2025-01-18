@@ -1,6 +1,3 @@
-# country_data.py
-
-# 1) Master list of countries
 COUNTRY_PROBS = {
     "Saudi Arabia": 0.02,
     "Australia": 0.03,
@@ -41,7 +38,6 @@ COUNTRY_PROBS = {
     "Pakistan": 0.03,
 }
 
-# 2) Cities by country
 CITIES_BY_COUNTRY = {
     "Saudi Arabia": ["Riyadh"],
     "Australia": ["Sydney", "Melbourne"],
@@ -82,7 +78,6 @@ CITIES_BY_COUNTRY = {
     "Pakistan": ["Islamabad"]
 }
 
-# 3) Official/Widely Spoken Languages by Country
 LANGUAGES_BY_COUNTRY = {
     "Saudi Arabia": ["Arabic"],
     "Australia": ["English"],

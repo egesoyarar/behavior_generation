@@ -1,6 +1,3 @@
-# data/context_probabilities.py
-
-# Probabilities for "Place"
 PLACE_PROBABILITIES = {
     "Home": 0.4,
     "Outside": 0.1,
@@ -10,7 +7,6 @@ PLACE_PROBABILITIES = {
     "Community Center": 0.05
 }
 
-# Probabilities for "Day Time"
 DAY_TIME_PROBABILITIES = {
     "Morning": 0.1,
     "Afternoon": 0.2,
@@ -19,14 +15,12 @@ DAY_TIME_PROBABILITIES = {
     "Late Night": 0.1
 }
 
-# Probabilities for "Day of Week"
 DAY_OF_WEEK_PROBABILITIES = {
     "Weekday": 0.6,
     "Weekend": 0.3,
     "Public Holiday": 0.1
 }
 
-# Probabilities for "Season"
 SEASON_PROBABILITIES = {
     "Summer": 0.2,
     "Spring": 0.2,
@@ -34,7 +28,6 @@ SEASON_PROBABILITIES = {
     "Fall": 0.25
 }
 
-# Probabilities for "With Whom"
 COMPANION_PROBABILITIES = {
     "Alone": 0.3,
     "Partner": 0.2,

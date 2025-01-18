@@ -1,2 +1,4 @@
-__pycache__/**
+**/__pycache__/**
 outputs/**
+behavior_generation.egg-info
+.DS_Store
