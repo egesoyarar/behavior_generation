@@ -1,6 +1,6 @@
 LANGUAGE_PROBS = {
     "Arabic":     0.0315,
-    "English":    0.2096,
+    "English":    0.5,
     "Armenian":   0.0079,
     "Portuguese": 0.0372,
     "French":     0.0472,
@@ -58,4 +58,51 @@ GENRE_DISLIKE_PROBS = {
     "Thriller":   0.06,
     "War":        0.04,
     "Western":    0.04
+}
+
+GENDER_PROBS = {
+    "Male":           0.45,
+    "Female":         0.45,
+    "Not mentioned":  0.1
+}
+
+AGE_RANGE_PROBS = {
+    "Under 18": 0.1,
+    "18-24": 0.2,
+    "25-34": 0.3,
+    "35-44": 0.2,
+    "45-54": 0.1,
+    "55-64": 0.05,
+    "65+": 0.05
+}
+
+LIFESTYLE_PROBS = {
+    "Active": 0.3,
+    "Sedentary": 0.2,
+    "Balanced": 0.3,
+    "Busy": 0.1,
+    "Relaxed": 0.1
+}
+
+WORKING_STATUS_PROBS = {
+    "Employed": 0.5,
+    "Unemployed": 0.1,
+    "Student": 0.3,
+    "Retired": 0.1
+}
+
+MARITAL_STATUS_PROBS = {
+    "Single": 0.4,
+    "Married": 0.4,
+    "Divorced": 0.1,
+    "Widowed": 0.1
+}
+
+ETHNICITY_PROBS = {
+    "Hispanic": 0.18,
+    "Non-Hispanic White": 0.6,
+    "Black": 0.12,
+    "Asian": 0.08,
+    "Mixed": 0.02,
+    "Other": 0.01
 }

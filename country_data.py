@@ -1,14 +1,45 @@
 # country_data.py
 
 # 1) Master list of countries
-COUNTRIES = [
-    "Saudi Arabia", "Australia", "Armenia", "Brazil", "Canada", "China",
-    "Czech Republic", "Denmark", "Netherlands", "United Kingdom", "Estonia",
-    "Philippines", "France", "Germany", "Greece", "Israel", "Hungary",
-    "India", "Indonesia", "Italy", "Japan", "South Korea", "Mexico",
-    "Norway", "Iran", "Poland", "Portugal", "Romania", "Russia", "Serbia",
-    "Spain", "Sweden", "Thailand", "Turkey", "Ukraine", "USA", "Pakistan"
-]
+COUNTRY_PROBS = {
+    "Saudi Arabia": 0.02,
+    "Australia": 0.03,
+    "Armenia": 0.01,
+    "Brazil": 0.05,
+    "Canada": 0.04,
+    "China": 0.07,
+    "Czech Republic": 0.02,
+    "Denmark": 0.02,
+    "Netherlands": 0.03,
+    "United Kingdom": 0.05,
+    "Estonia": 0.01,
+    "Philippines": 0.03,
+    "France": 0.04,
+    "Germany": 0.05,
+    "Greece": 0.02,
+    "Israel": 0.02,
+    "Hungary": 0.02,
+    "India": 0.07,
+    "Indonesia": 0.05,
+    "Italy": 0.04,
+    "Japan": 0.05,
+    "South Korea": 0.04,
+    "Mexico": 0.05,
+    "Norway": 0.02,
+    "Iran": 0.03,
+    "Poland": 0.03,
+    "Portugal": 0.02,
+    "Romania": 0.02,
+    "Russia": 0.04,
+    "Serbia": 0.01,
+    "Spain": 0.04,
+    "Sweden": 0.03,
+    "Thailand": 0.04,
+    "Turkey": 0.05,
+    "Ukraine": 0.03,
+    "USA": 0.10,
+    "Pakistan": 0.03,
+}
 
 # 2) Cities by country
 CITIES_BY_COUNTRY = {
