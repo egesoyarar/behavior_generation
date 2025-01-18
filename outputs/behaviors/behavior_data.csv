@@ -1,0 +1,1501 @@
+day_number|userId|movieId|location|companions|day_of_week|time_of_movie_watch|user_mood|duration_category|popularity_category
+0|U0048|M00861|Cinema|Family|Weekend|Night|Sad|long|popular
+0|U0090|M03963|Cinema|Friends|Weekday|Night|Sad|short|unpopular
+0|U0063|M01968|Home|Family|Weekday|Evening|Happy|short|average
+0|U0024|M02026|Community Center|Friends|Weekday|Night|Neutral|medium|average
+0|U0007|M04232|Cinema|Family|Public Holiday|Night|Sad|medium|average
+0|U0059|M03242|Cinema|Friends|Weekday|Evening|Neutral|medium|average
+0|U0076|M04511|Outside|Family|Weekday|Evening|Neutral|medium|average
+0|U0054|M04540|Community Center|Partner|Public Holiday|Evening|Neutral|long|average
+0|U0070|M03656|Home|Alone|Weekday|Evening|Sad|short|average
+0|U0054|M04676|Public transportation|Group|Weekday|Night|Sad|short|average
+0|U0031|M05361|Cinema|Alone|Weekday|Night|Happy|medium|popular
+0|U0086|M03004|Home|Alone|Weekday|Late Night|Happy|medium|average
+0|U0060|M02516|Cinema|Group|Weekday|Morning|Sad|medium|average
+0|U0048|M00865|Cinema|Friends|Weekend|Evening|Sad|long|popular
+0|U0078|M03271|Home|Alone|Weekend|Afternoon|Neutral|medium|average
+0|U0050|M02222|Home|Partner|Weekday|Afternoon|Happy|medium|average
+0|U0063|M03203|Home|Friends|Weekend|Evening|Neutral|medium|average
+0|U0092|M03883|Home|Family|Weekday|Afternoon|Sad|medium|average
+0|U0062|M03345|Home|Partner|Weekday|Night|Happy|medium|average
+0|U0069|M05682|Cinema|Group|Weekday|Afternoon|Neutral|medium|average
+0|U0017|M02215|Home|Family|Weekend|Night|Happy|short|unpopular
+0|U0051|M05501|Workplace|Alone|Weekend|Night|Sad|medium|average
+0|U0042|M04019|Home|Family|Weekday|Evening|Happy|medium|unpopular
+0|U0003|M00472|Home|Group|Weekday|Night|Neutral|medium|average
+0|U0018|M02237|Workplace|Friends|Weekday|Evening|Happy|medium|average
+0|U0064|M02326|Workplace|Group|Weekend|Evening|Sad|medium|average
+0|U0013|M05070|Cinema|Partner|Weekday|Evening|Sad|medium|average
+0|U0046|M05428|Outside|Alone|Weekend|Night|Neutral|long|average
+0|U0087|M03404|Cinema|Family|Weekday|Evening|Neutral|long|average
+0|U0040|M02114|Community Center|Family|Public Holiday|Morning|Happy|short|average
+0|U0039|M03655|Home|Partner|Weekend|Late Night|Neutral|medium|average
+0|U0009|M02460|Home|Group|Weekday|Night|Neutral|medium|popular
+0|U0014|M05219|Home|Family|Weekend|Evening|Sad|short|average
+0|U0007|M00717|Home|Family|Public Holiday|Evening|Sad|long|average
+0|U0008|M00434|Home|Friends|Weekday|Evening|Sad|medium|average
+0|U0028|M02872|Workplace|Partner|Public Holiday|Evening|Neutral|medium|average
+0|U0070|M04791|Home|Alone|Weekend|Late Night|Sad|medium|average
+0|U0024|M05117|Home|Partner|Weekday|Late Night|Neutral|medium|popular
+0|U0026|M04532|Outside|Partner|Weekend|Morning|Happy|medium|popular
+0|U0083|M03310|Home|Friends|Weekday|Late Night|Sad|medium|average
+0|U0087|M00768|Cinema|Friends|Weekend|Evening|Happy|short|average
+0|U0048|M04618|Community Center|Alone|Weekday|Morning|Neutral|medium|average
+0|U0070|M00308|Home|Alone|Weekend|Late Night|Happy|long|average
+0|U0079|M03780|Community Center|Alone|Public Holiday|Evening|Sad|medium|average
+0|U0054|M05431|Workplace|Alone|Weekday|Late Night|Neutral|long|popular
+0|U0014|M04517|Home|Alone|Weekday|Morning|Neutral|medium|average
+0|U0088|M02482|Workplace|Family|Weekend|Morning|Neutral|medium|average
+0|U0017|M04908|Outside|Alone|Weekday|Afternoon|Sad|short|popular
+0|U0016|M02980|Home|Group|Weekday|Evening|Neutral|medium|average
+0|U0021|M01576|Cinema|Friends|Weekday|Night|Neutral|medium|popular
+1|U0080|M02739|Cinema|Family|Weekend|Evening|Neutral|medium|average
+1|U0051|M05384|Cinema|Friends|Public Holiday|Evening|Neutral|medium|average
+1|U0096|M02700|Home|Partner|Weekday|Evening|Neutral|long|average
+1|U0096|M03856|Public transportation|Alone|Weekday|Evening|Sad|medium|average
+1|U0070|M04226|Cinema|Family|Weekend|Morning|Happy|medium|average
+1|U0064|M01620|Home|Alone|Weekday|Evening|Sad|long|average
+1|U0063|M05420|Home|Alone|Weekday|Night|Sad|short|average
+1|U0078|M05023|Home|Alone|Weekday|Late Night|Neutral|medium|average
+1|U0059|M01981|Home|Friends|Weekday|Night|Neutral|medium|average
+1|U0095|M00018|Cinema|Alone|Weekday|Morning|Neutral|long|average
+1|U0051|M05238|Cinema|Alone|Weekend|Afternoon|Neutral|medium|popular
+1|U0073|M02224|Cinema|Partner|Weekend|Evening|Sad|medium|average
+1|U0089|M00060|Home|Family|Weekday|Afternoon|Neutral|long|average
+1|U0070|M04595|Cinema|Family|Public Holiday|Evening|Neutral|medium|average
+1|U0001|M01399|Home|Family|Weekday|Night|Happy|medium|unpopular
+1|U0075|M02947|Outside|Family|Weekend|Late Night|Sad|medium|average
+1|U0053|M03832|Home|Partner|Weekday|Night|Sad|medium|unpopular
+1|U0089|M04332|Home|Partner|Weekend|Evening|Sad|medium|average
+1|U0004|M01409|Cinema|Friends|Weekday|Evening|Happy|medium|average
+1|U0090|M01594|Cinema|Friends|Weekend|Afternoon|Sad|long|average
+1|U0043|M05311|Cinema|Friends|Weekday|Evening|Sad|medium|average
+1|U0078|M03197|Cinema|Friends|Weekend|Evening|Sad|short|popular
+1|U0061|M04279|Home|Family|Weekend|Night|Neutral|long|popular
+1|U0097|M04529|Community Center|Alone|Weekday|Afternoon|Happy|short|average
+1|U0072|M03727|Home|Friends|Weekday|Evening|Happy|medium|average
+1|U0070|M01535|Cinema|Alone|Weekend|Evening|Neutral|medium|average
+1|U0062|M04098|Cinema|Group|Weekday|Evening|Happy|long|unpopular
+1|U0034|M00094|Community Center|Alone|Weekend|Late Night|Neutral|medium|average
+1|U0089|M03664|Home|Partner|Weekday|Afternoon|Sad|medium|average
+1|U0016|M00393|Outside|Friends|Weekday|Evening|Neutral|medium|unpopular
+1|U0030|M00305|Cinema|Family|Weekday|Evening|Neutral|medium|average
+1|U0071|M04816|Community Center|Family|Weekday|Afternoon|Neutral|short|average
+1|U0058|M04470|Cinema|Friends|Weekday|Afternoon|Sad|medium|average
+1|U0015|M03078|Cinema|Alone|Weekday|Evening|Happy|medium|average
+1|U0082|M05682|Cinema|Group|Weekday|Evening|Neutral|medium|average
+1|U0027|M03287|Workplace|Alone|Weekday|Evening|Neutral|long|popular
+1|U0015|M00367|Cinema|Partner|Weekday|Evening|Neutral|long|average
+1|U0045|M02143|Home|Partner|Weekday|Evening|Sad|medium|average
+1|U0072|M05560|Home|Alone|Weekend|Afternoon|Neutral|medium|average
+1|U0091|M02838|Home|Alone|Weekday|Night|Happy|medium|average
+1|U0041|M01910|Cinema|Partner|Weekday|Afternoon|Neutral|medium|average
+1|U0090|M02671|Home|Alone|Weekday|Morning|Neutral|short|average
+1|U0056|M05071|Outside|Group|Public Holiday|Late Night|Happy|medium|average
+1|U0057|M02524|Cinema|Friends|Weekday|Evening|Happy|medium|average
+1|U0100|M03654|Cinema|Alone|Weekday|Evening|Neutral|long|average
+1|U0077|M01599|Cinema|Friends|Weekday|Afternoon|Neutral|medium|average
+1|U0055|M01761|Public transportation|Friends|Weekend|Night|Sad|medium|average
+1|U0054|M02646|Outside|Partner|Weekday|Night|Sad|short|average
+1|U0100|M00757|Cinema|Partner|Weekday|Evening|Neutral|medium|average
+1|U0011|M02482|Outside|Alone|Public Holiday|Afternoon|Sad|medium|average
+2|U0087|M01737|Home|Partner|Weekday|Evening|Sad|medium|average
+2|U0055|M04777|Community Center|Group|Weekday|Afternoon|Sad|short|average
+2|U0053|M01157|Cinema|Friends|Weekday|Night|Happy|long|average
+2|U0064|M05123|Cinema|Partner|Weekday|Afternoon|Happy|short|popular
+2|U0079|M00726|Home|Alone|Weekday|Evening|Happy|medium|average
+2|U0050|M04540|Cinema|Partner|Weekday|Night|Neutral|long|average
+2|U0086|M05526|Cinema|Partner|Weekday|Evening|Happy|medium|average
+2|U0042|M00180|Cinema|Group|Weekend|Afternoon|Sad|medium|average
+2|U0010|M00793|Home|Family|Weekend|Late Night|Sad|medium|unpopular
+2|U0067|M04641|Home|Partner|Weekday|Night|Sad|short|average
+2|U0013|M01417|Home|Alone|Weekday|Evening|Neutral|medium|average
+2|U0049|M02981|Cinema|Alone|Weekday|Late Night|Sad|medium|average
+2|U0059|M03349|Home|Partner|Weekday|Night|Sad|short|average
+2|U0094|M02689|Home|Friends|Weekday|Afternoon|Neutral|medium|average
+2|U0047|M01354|Community Center|Partner|Weekday|Evening|Sad|medium|average
+2|U0016|M04120|Home|Friends|Weekend|Afternoon|Happy|short|average
+2|U0022|M04877|Home|Alone|Weekday|Evening|Sad|short|average
+2|U0028|M04908|Public transportation|Alone|Weekday|Night|Neutral|short|popular
+2|U0065|M00191|Workplace|Alone|Weekday|Evening|Sad|long|popular
+2|U0002|M01488|Home|Alone|Weekend|Evening|Sad|medium|average
+2|U0096|M01966|Cinema|Family|Weekend|Morning|Happy|medium|average
+2|U0073|M01318|Community Center|Family|Weekday|Morning|Sad|medium|average
+2|U0002|M05520|Cinema|Friends|Weekend|Afternoon|Neutral|medium|average
+2|U0080|M03607|Home|Alone|Weekday|Evening|Sad|medium|average
+2|U0062|M04885|Home|Alone|Weekend|Night|Neutral|short|average
+2|U0065|M01617|Home|Partner|Weekday|Afternoon|Sad|short|average
+2|U0049|M03793|Outside|Friends|Weekend|Morning|Sad|medium|average
+2|U0049|M03755|Home|Alone|Weekend|Afternoon|Neutral|medium|average
+2|U0006|M00644|Workplace|Alone|Weekend|Late Night|Neutral|medium|average
+2|U0049|M03692|Home|Partner|Weekday|Evening|Sad|long|popular
+2|U0065|M03673|Cinema|Friends|Public Holiday|Evening|Neutral|short|unpopular
+2|U0088|M05056|Home|Family|Weekday|Afternoon|Neutral|medium|average
+2|U0097|M00909|Cinema|Partner|Weekday|Night|Happy|long|average
+2|U0029|M00389|Home|Alone|Public Holiday|Evening|Happy|medium|average
+2|U0045|M03168|Outside|Friends|Weekday|Afternoon|Neutral|short|unpopular
+2|U0039|M04215|Workplace|Friends|Weekend|Night|Neutral|medium|average
+2|U0083|M02882|Cinema|Alone|Weekend|Morning|Neutral|medium|average
+2|U0038|M00450|Cinema|Alone|Weekday|Late Night|Sad|medium|average
+2|U0077|M03071|Cinema|Family|Public Holiday|Afternoon|Sad|medium|unpopular
+2|U0004|M01560|Community Center|Family|Weekday|Evening|Happy|long|average
+2|U0075|M03321|Home|Partner|Public Holiday|Night|Sad|medium|average
+2|U0009|M04544|Outside|Family|Weekday|Evening|Neutral|short|average
+2|U0029|M04920|Cinema|Alone|Weekday|Late Night|Neutral|medium|average
+2|U0084|M02191|Cinema|Group|Weekday|Afternoon|Sad|medium|average
+2|U0038|M04211|Community Center|Friends|Weekend|Morning|Sad|medium|average
+2|U0036|M01279|Workplace|Friends|Weekend|Evening|Sad|medium|average
+2|U0094|M00797|Community Center|Friends|Weekday|Late Night|Happy|medium|unpopular
+2|U0040|M05586|Cinema|Family|Weekend|Evening|Happy|short|popular
+2|U0099|M05338|Home|Family|Weekday|Afternoon|Neutral|medium|average
+2|U0069|M05353|Cinema|Friends|Weekday|Afternoon|Happy|medium|popular
+3|U0038|M02110|Cinema|Friends|Weekday|Morning|Happy|long|average
+3|U0095|M01513|Workplace|Friends|Weekday|Late Night|Sad|long|average
+3|U0010|M05283|Cinema|Friends|Public Holiday|Evening|Sad|medium|average
+3|U0072|M01421|Cinema|Partner|Weekday|Morning|Happy|long|average
+3|U0044|M02834|Home|Friends|Weekday|Afternoon|Happy|medium|average
+3|U0050|M02138|Outside|Alone|Public Holiday|Night|Sad|medium|average
+3|U0040|M01468|Outside|Partner|Weekday|Evening|Happy|medium|popular
+3|U0039|M03952|Outside|Alone|Public Holiday|Morning|Sad|medium|average
+3|U0086|M04496|Cinema|Alone|Weekend|Night|Sad|short|average
+3|U0033|M02684|Cinema|Alone|Weekend|Evening|Happy|medium|average
+3|U0059|M00913|Cinema|Partner|Weekend|Evening|Neutral|medium|average
+3|U0057|M04012|Home|Partner|Weekday|Afternoon|Neutral|medium|average
+3|U0077|M04704|Outside|Family|Weekday|Evening|Sad|short|average
+3|U0014|M01972|Home|Family|Weekend|Evening|Sad|long|average
+3|U0018|M04708|Cinema|Group|Weekday|Afternoon|Sad|short|average
+3|U0033|M04041|Workplace|Friends|Weekend|Late Night|Sad|short|average
+3|U0024|M03230|Home|Family|Weekday|Late Night|Sad|medium|unpopular
+3|U0027|M04147|Community Center|Family|Public Holiday|Evening|Sad|medium|average
+3|U0028|M03746|Home|Family|Weekday|Evening|Neutral|short|unpopular
+3|U0098|M05712|Cinema|Alone|Public Holiday|Afternoon|Neutral|medium|popular
+3|U0062|M04667|Workplace|Partner|Weekday|Night|Neutral|medium|average
+3|U0079|M01033|Home|Alone|Public Holiday|Afternoon|Sad|medium|popular
+3|U0075|M05665|Outside|Group|Weekday|Morning|Happy|short|popular
+3|U0053|M01618|Home|Alone|Weekend|Night|Neutral|short|unpopular
+3|U0048|M04923|Community Center|Family|Public Holiday|Night|Neutral|medium|average
+3|U0006|M02557|Home|Alone|Weekday|Late Night|Happy|long|average
+3|U0051|M03657|Home|Partner|Weekend|Evening|Neutral|short|unpopular
+3|U0023|M04253|Home|Alone|Weekend|Night|Happy|short|unpopular
+3|U0061|M04859|Community Center|Friends|Weekday|Morning|Neutral|short|unpopular
+3|U0023|M05384|Cinema|Family|Weekday|Evening|Happy|medium|average
+3|U0049|M02362|Home|Partner|Weekday|Afternoon|Sad|medium|average
+3|U0021|M02730|Community Center|Alone|Public Holiday|Evening|Happy|medium|average
+3|U0025|M00648|Home|Friends|Weekday|Evening|Neutral|medium|average
+3|U0075|M00684|Cinema|Partner|Weekday|Afternoon|Sad|long|popular
+3|U0096|M04885|Home|Group|Weekend|Evening|Happy|short|average
+3|U0073|M05221|Cinema|Alone|Public Holiday|Afternoon|Happy|medium|average
+3|U0055|M01805|Home|Family|Weekday|Late Night|Happy|long|average
+3|U0007|M01341|Cinema|Alone|Public Holiday|Evening|Sad|medium|average
+3|U0076|M05271|Public transportation|Family|Weekday|Late Night|Neutral|short|average
+3|U0017|M02748|Cinema|Family|Public Holiday|Afternoon|Neutral|medium|average
+3|U0071|M02685|Home|Alone|Weekday|Night|Sad|long|average
+3|U0063|M01070|Cinema|Alone|Weekend|Afternoon|Happy|medium|average
+3|U0097|M04554|Home|Friends|Weekend|Afternoon|Neutral|short|average
+3|U0040|M04502|Outside|Family|Weekend|Afternoon|Neutral|long|popular
+3|U0038|M02290|Cinema|Alone|Weekday|Afternoon|Neutral|short|unpopular
+3|U0076|M04683|Home|Partner|Weekend|Afternoon|Sad|medium|average
+3|U0030|M04340|Public transportation|Alone|Weekday|Night|Neutral|medium|popular
+3|U0056|M04585|Workplace|Family|Weekday|Night|Sad|medium|average
+3|U0024|M00431|Workplace|Alone|Weekday|Afternoon|Sad|medium|average
+3|U0047|M03953|Cinema|Partner|Weekday|Afternoon|Happy|medium|average
+4|U0025|M03377|Home|Group|Weekday|Late Night|Sad|medium|average
+4|U0027|M03795|Home|Alone|Weekday|Evening|Happy|medium|popular
+4|U0045|M04593|Home|Family|Weekend|Evening|Happy|medium|average
+4|U0092|M04577|Home|Partner|Weekend|Evening|Sad|medium|average
+4|U0072|M01175|Home|Alone|Weekend|Afternoon|Neutral|long|popular
+4|U0071|M01532|Workplace|Family|Weekday|Evening|Happy|medium|average
+4|U0032|M04160|Cinema|Partner|Weekday|Evening|Sad|medium|average
+4|U0044|M05009|Cinema|Partner|Weekday|Morning|Happy|medium|popular
+4|U0075|M01106|Home|Partner|Weekend|Afternoon|Neutral|medium|average
+4|U0095|M02348|Cinema|Family|Weekend|Evening|Neutral|long|average
+4|U0070|M02381|Cinema|Family|Weekend|Morning|Happy|long|average
+4|U0012|M03905|Home|Family|Weekday|Afternoon|Happy|medium|average
+4|U0087|M05391|Cinema|Friends|Weekend|Late Night|Neutral|short|popular
+4|U0085|M03813|Home|Partner|Weekday|Night|Happy|medium|average
+4|U0085|M01047|Cinema|Friends|Weekday|Late Night|Neutral|medium|average
+4|U0024|M05509|Home|Alone|Weekday|Evening|Happy|short|average
+4|U0044|M05214|Home|Family|Weekday|Morning|Neutral|short|average
+4|U0084|M02580|Home|Alone|Weekday|Evening|Happy|medium|average
+4|U0046|M01261|Home|Friends|Weekday|Night|Sad|medium|average
+4|U0086|M04871|Home|Friends|Weekend|Late Night|Happy|short|average
+4|U0034|M02101|Cinema|Friends|Weekday|Evening|Neutral|medium|average
+4|U0004|M02214|Home|Family|Weekday|Night|Happy|medium|average
+4|U0095|M00080|Home|Friends|Weekend|Evening|Neutral|long|average
+4|U0030|M01758|Cinema|Friends|Weekend|Evening|Sad|medium|average
+4|U0016|M04648|Home|Alone|Weekend|Evening|Sad|short|average
+4|U0078|M01731|Workplace|Partner|Weekend|Afternoon|Happy|short|average
+4|U0008|M01699|Cinema|Partner|Weekday|Evening|Neutral|long|popular
+4|U0098|M02408|Community Center|Alone|Weekday|Evening|Happy|medium|average
+4|U0016|M02371|Home|Friends|Weekday|Evening|Happy|medium|average
+4|U0027|M05258|Home|Alone|Weekday|Evening|Neutral|medium|popular
+4|U0040|M04987|Cinema|Alone|Weekday|Morning|Neutral|long|average
+4|U0021|M02342|Home|Group|Weekday|Late Night|Happy|long|average
+4|U0044|M00699|Cinema|Partner|Weekday|Afternoon|Neutral|medium|average
+4|U0026|M03623|Cinema|Group|Weekend|Evening|Neutral|medium|average
+4|U0069|M03535|Home|Family|Weekday|Afternoon|Neutral|medium|average
+4|U0055|M02824|Public transportation|Friends|Weekend|Evening|Happy|medium|average
+4|U0086|M03767|Home|Friends|Weekday|Late Night|Sad|medium|average
+4|U0019|M01835|Cinema|Friends|Weekday|Evening|Happy|medium|average
+4|U0001|M02719|Community Center|Family|Weekday|Morning|Neutral|long|average
+4|U0007|M01666|Home|Partner|Public Holiday|Evening|Sad|long|average
+4|U0034|M05354|Home|Family|Weekday|Evening|Happy|medium|average
+4|U0015|M04344|Home|Alone|Weekday|Evening|Neutral|medium|average
+4|U0078|M02105|Workplace|Family|Weekend|Evening|Neutral|medium|average
+4|U0056|M03475|Home|Group|Weekday|Morning|Happy|medium|average
+4|U0093|M04791|Home|Alone|Weekday|Night|Sad|medium|average
+4|U0008|M01371|Home|Friends|Weekday|Evening|Sad|long|popular
+4|U0019|M04540|Outside|Partner|Weekday|Evening|Sad|long|average
+4|U0008|M04102|Cinema|Alone|Weekend|Evening|Sad|long|average
+4|U0004|M05148|Home|Friends|Weekday|Evening|Happy|short|popular
+4|U0037|M01438|Cinema|Family|Weekday|Night|Neutral|medium|average
+5|U0045|M01926|Outside|Alone|Weekday|Evening|Happy|medium|average
+5|U0065|M00057|Home|Friends|Weekend|Night|Happy|long|average
+5|U0056|M05095|Home|Family|Weekday|Afternoon|Happy|medium|popular
+5|U0036|M00200|Home|Friends|Weekday|Afternoon|Sad|long|average
+5|U0062|M00861|Home|Alone|Public Holiday|Late Night|Sad|long|popular
+5|U0083|M05266|Workplace|Alone|Weekend|Evening|Neutral|medium|average
+5|U0053|M00312|Home|Partner|Weekday|Evening|Neutral|medium|average
+5|U0001|M04555|Cinema|Family|Weekday|Evening|Neutral|medium|average
+5|U0039|M04777|Outside|Family|Weekend|Afternoon|Neutral|short|average
+5|U0030|M05026|Community Center|Friends|Weekend|Afternoon|Happy|medium|average
+5|U0048|M02480|Cinema|Friends|Weekday|Afternoon|Neutral|medium|unpopular
+5|U0059|M05184|Home|Friends|Weekday|Night|Happy|long|popular
+5|U0100|M03634|Home|Friends|Weekday|Late Night|Happy|medium|average
+5|U0050|M02935|Cinema|Alone|Weekend|Late Night|Sad|short|average
+5|U0043|M04720|Cinema|Friends|Weekday|Afternoon|Sad|short|average
+5|U0086|M01406|Cinema|Group|Weekend|Late Night|Sad|long|average
+5|U0056|M03345|Cinema|Partner|Weekday|Night|Sad|medium|average
+5|U0033|M03246|Home|Group|Weekday|Morning|Neutral|medium|popular
+5|U0066|M03437|Outside|Group|Weekend|Afternoon|Happy|long|popular
+5|U0005|M04367|Outside|Friends|Weekday|Night|Sad|medium|average
+5|U0040|M02178|Workplace|Partner|Weekend|Evening|Happy|medium|average
+5|U0089|M04648|Home|Alone|Weekday|Late Night|Neutral|short|average
+5|U0019|M02453|Community Center|Partner|Public Holiday|Evening|Neutral|medium|average
+5|U0025|M03438|Cinema|Alone|Weekend|Morning|Sad|long|popular
+5|U0054|M03360|Home|Alone|Weekday|Night|Neutral|medium|unpopular
+5|U0055|M03200|Home|Alone|Weekday|Night|Neutral|medium|average
+5|U0061|M02627|Home|Group|Public Holiday|Evening|Neutral|medium|average
+5|U0079|M00629|Outside|Friends|Weekday|Evening|Sad|long|average
+5|U0057|M02943|Cinema|Family|Weekday|Evening|Sad|medium|average
+5|U0051|M03472|Home|Family|Weekend|Evening|Sad|medium|average
+5|U0098|M05548|Cinema|Partner|Weekend|Evening|Happy|short|average
+5|U0021|M03426|Cinema|Family|Weekend|Evening|Neutral|long|popular
+5|U0027|M01476|Outside|Alone|Weekday|Night|Sad|medium|average
+5|U0012|M01392|Public transportation|Alone|Weekday|Afternoon|Sad|medium|average
+5|U0024|M04213|Home|Partner|Weekend|Afternoon|Happy|medium|average
+5|U0065|M03367|Public transportation|Friends|Weekday|Late Night|Sad|medium|average
+5|U0037|M01769|Home|Family|Weekend|Afternoon|Sad|medium|average
+5|U0072|M02456|Cinema|Alone|Weekday|Evening|Sad|medium|popular
+5|U0093|M02373|Home|Alone|Public Holiday|Afternoon|Happy|long|popular
+5|U0058|M03809|Cinema|Partner|Weekday|Evening|Neutral|short|popular
+5|U0070|M01277|Cinema|Partner|Weekday|Evening|Happy|medium|average
+5|U0006|M03755|Cinema|Alone|Weekend|Afternoon|Happy|medium|average
+5|U0097|M00207|Public transportation|Friends|Weekday|Night|Sad|medium|average
+5|U0075|M03537|Home|Alone|Weekday|Late Night|Sad|medium|average
+5|U0087|M04552|Home|Partner|Weekend|Morning|Sad|short|average
+5|U0037|M03492|Home|Friends|Weekend|Morning|Happy|medium|average
+5|U0080|M01736|Community Center|Alone|Public Holiday|Evening|Happy|medium|average
+5|U0082|M04320|Outside|Friends|Weekend|Night|Neutral|medium|average
+5|U0050|M02038|Outside|Group|Weekday|Night|Sad|medium|average
+5|U0005|M01055|Cinema|Partner|Weekday|Afternoon|Sad|medium|average
+6|U0093|M05555|Home|Friends|Weekday|Night|Happy|medium|average
+6|U0018|M00306|Workplace|Friends|Weekday|Afternoon|Sad|medium|average
+6|U0028|M02423|Workplace|Partner|Public Holiday|Afternoon|Sad|long|average
+6|U0068|M00833|Home|Partner|Weekday|Evening|Sad|medium|average
+6|U0027|M05152|Workplace|Group|Weekend|Night|Neutral|long|popular
+6|U0020|M04591|Cinema|Alone|Public Holiday|Evening|Neutral|medium|average
+6|U0095|M00909|Home|Family|Weekend|Evening|Neutral|long|average
+6|U0060|M03275|Cinema|Friends|Weekend|Evening|Happy|medium|average
+6|U0086|M02792|Community Center|Alone|Weekend|Evening|Sad|long|average
+6|U0007|M04639|Outside|Partner|Weekday|Afternoon|Happy|medium|average
+6|U0086|M00120|Cinema|Partner|Weekday|Evening|Neutral|long|popular
+6|U0061|M04615|Cinema|Family|Weekend|Morning|Neutral|short|average
+6|U0088|M02063|Home|Alone|Weekday|Late Night|Neutral|medium|average
+6|U0003|M00584|Home|Family|Weekday|Afternoon|Sad|long|average
+6|U0062|M01701|Outside|Friends|Weekend|Night|Happy|long|popular
+6|U0087|M04702|Cinema|Friends|Weekday|Evening|Happy|short|unpopular
+6|U0065|M02472|Home|Family|Weekend|Late Night|Neutral|medium|average
+6|U0010|M03766|Outside|Friends|Weekday|Night|Sad|medium|average
+6|U0002|M00160|Home|Family|Weekday|Evening|Neutral|long|average
+6|U0072|M03807|Community Center|Alone|Weekday|Evening|Neutral|medium|popular
+6|U0058|M00056|Home|Friends|Weekday|Afternoon|Happy|medium|average
+6|U0057|M03049|Cinema|Friends|Weekday|Afternoon|Sad|short|average
+6|U0068|M04356|Home|Alone|Weekday|Evening|Neutral|medium|average
+6|U0041|M01080|Outside|Alone|Weekday|Evening|Neutral|medium|average
+6|U0006|M04217|Cinema|Partner|Weekend|Evening|Sad|short|popular
+6|U0072|M04317|Home|Partner|Weekday|Evening|Sad|medium|average
+6|U0012|M04409|Cinema|Friends|Weekday|Night|Happy|medium|average
+6|U0098|M03754|Cinema|Group|Weekday|Morning|Happy|short|average
+6|U0031|M01581|Outside|Friends|Weekday|Morning|Sad|medium|average
+6|U0051|M01060|Community Center|Alone|Weekday|Evening|Sad|long|popular
+6|U0013|M03728|Home|Alone|Weekday|Night|Sad|short|unpopular
+6|U0045|M04317|Cinema|Partner|Weekday|Late Night|Happy|medium|average
+6|U0013|M03532|Home|Friends|Weekday|Morning|Sad|medium|average
+6|U0017|M02458|Home|Alone|Weekday|Late Night|Happy|medium|average
+6|U0051|M05288|Outside|Partner|Weekday|Night|Happy|short|average
+6|U0054|M00249|Home|Partner|Weekday|Evening|Sad|medium|average
+6|U0002|M03914|Public transportation|Group|Weekend|Evening|Sad|short|average
+6|U0007|M01828|Home|Group|Weekday|Afternoon|Neutral|long|average
+6|U0049|M03961|Public transportation|Alone|Weekend|Night|Sad|medium|average
+6|U0071|M01624|Home|Family|Weekend|Afternoon|Happy|medium|average
+6|U0066|M05722|Public transportation|Friends|Public Holiday|Night|Happy|short|average
+6|U0022|M00354|Home|Alone|Weekend|Evening|Happy|long|popular
+6|U0020|M00310|Public transportation|Alone|Weekday|Evening|Sad|long|average
+6|U0029|M05043|Home|Partner|Weekday|Night|Happy|short|average
+6|U0095|M04466|Home|Alone|Weekday|Late Night|Neutral|long|popular
+6|U0059|M02325|Public transportation|Friends|Weekday|Evening|Neutral|medium|average
+6|U0071|M02320|Public transportation|Alone|Public Holiday|Late Night|Happy|medium|average
+6|U0097|M04513|Outside|Group|Weekend|Night|Sad|medium|popular
+6|U0029|M00267|Community Center|Alone|Weekday|Evening|Happy|long|average
+6|U0041|M04115|Home|Friends|Weekday|Evening|Happy|medium|average
+7|U0044|M01176|Outside|Alone|Weekday|Evening|Sad|long|popular
+7|U0039|M03346|Outside|Alone|Weekday|Late Night|Sad|medium|average
+7|U0052|M02144|Home|Family|Weekday|Afternoon|Sad|short|unpopular
+7|U0046|M03700|Outside|Group|Weekday|Evening|Sad|medium|popular
+7|U0071|M02503|Outside|Partner|Weekday|Night|Sad|medium|average
+7|U0030|M04916|Home|Alone|Weekday|Evening|Happy|short|average
+7|U0044|M02775|Home|Friends|Weekday|Evening|Neutral|medium|average
+7|U0016|M03682|Home|Group|Weekday|Evening|Sad|medium|average
+7|U0088|M03276|Home|Alone|Weekday|Night|Happy|medium|average
+7|U0048|M00707|Cinema|Alone|Weekend|Evening|Sad|medium|average
+7|U0011|M04243|Home|Friends|Weekday|Late Night|Sad|medium|average
+7|U0008|M05258|Home|Family|Weekend|Afternoon|Happy|medium|popular
+7|U0093|M05089|Home|Family|Weekday|Evening|Sad|long|popular
+7|U0055|M05409|Home|Friends|Weekend|Afternoon|Neutral|long|average
+7|U0047|M00669|Home|Group|Weekday|Evening|Sad|medium|average
+7|U0041|M03511|Home|Family|Weekday|Afternoon|Neutral|short|average
+7|U0097|M01693|Outside|Partner|Weekend|Afternoon|Neutral|long|popular
+7|U0053|M02308|Home|Alone|Weekend|Afternoon|Neutral|medium|average
+7|U0100|M03855|Workplace|Alone|Weekday|Morning|Neutral|medium|average
+7|U0087|M03116|Cinema|Alone|Weekend|Night|Neutral|medium|average
+7|U0005|M05625|Home|Alone|Weekday|Night|Happy|long|popular
+7|U0062|M01713|Home|Family|Public Holiday|Evening|Sad|short|average
+7|U0073|M02172|Home|Family|Weekday|Night|Sad|long|average
+7|U0099|M03904|Home|Alone|Weekend|Afternoon|Sad|medium|average
+7|U0057|M02255|Community Center|Partner|Weekday|Evening|Neutral|medium|average
+7|U0002|M02018|Outside|Alone|Weekday|Morning|Sad|short|unpopular
+7|U0094|M05153|Public transportation|Partner|Weekday|Evening|Sad|medium|average
+7|U0035|M03518|Public transportation|Alone|Weekday|Afternoon|Sad|medium|average
+7|U0045|M04979|Community Center|Friends|Weekday|Evening|Sad|medium|average
+7|U0009|M04656|Home|Family|Weekend|Afternoon|Sad|short|popular
+7|U0071|M05027|Cinema|Friends|Weekday|Afternoon|Sad|short|average
+7|U0077|M02121|Home|Family|Weekday|Night|Neutral|long|average
+7|U0075|M00287|Community Center|Friends|Weekday|Night|Sad|long|popular
+7|U0028|M01718|Cinema|Friends|Weekday|Evening|Happy|short|average
+7|U0065|M00736|Cinema|Partner|Weekday|Morning|Neutral|medium|average
+7|U0096|M04873|Home|Alone|Weekend|Night|Happy|medium|unpopular
+7|U0012|M05505|Outside|Alone|Weekday|Evening|Happy|medium|popular
+7|U0076|M01157|Outside|Family|Public Holiday|Evening|Happy|long|average
+7|U0066|M02528|Workplace|Friends|Weekend|Night|Neutral|short|average
+7|U0028|M03818|Cinema|Partner|Weekend|Afternoon|Sad|medium|average
+7|U0002|M04185|Home|Alone|Weekday|Night|Sad|medium|average
+7|U0056|M01998|Home|Partner|Weekend|Afternoon|Neutral|medium|unpopular
+7|U0041|M05202|Cinema|Alone|Public Holiday|Night|Neutral|medium|popular
+7|U0005|M02589|Cinema|Partner|Weekend|Night|Neutral|medium|average
+7|U0070|M04633|Home|Family|Weekday|Late Night|Neutral|short|average
+7|U0006|M04911|Cinema|Alone|Weekday|Late Night|Happy|medium|average
+7|U0076|M00017|Home|Partner|Weekday|Evening|Sad|long|popular
+7|U0026|M01173|Home|Friends|Weekday|Night|Sad|medium|average
+7|U0039|M01549|Cinema|Group|Public Holiday|Afternoon|Happy|medium|average
+7|U0099|M04084|Home|Family|Weekday|Evening|Neutral|medium|popular
+8|U0027|M02530|Home|Partner|Weekday|Night|Sad|medium|average
+8|U0081|M04462|Workplace|Family|Weekday|Evening|Neutral|medium|average
+8|U0017|M05254|Cinema|Family|Weekday|Afternoon|Happy|medium|average
+8|U0031|M01711|Cinema|Alone|Weekday|Afternoon|Neutral|medium|average
+8|U0020|M05557|Community Center|Alone|Weekend|Evening|Happy|long|average
+8|U0062|M04589|Cinema|Alone|Weekday|Evening|Neutral|medium|unpopular
+8|U0018|M03303|Home|Partner|Weekday|Morning|Happy|medium|average
+8|U0019|M01666|Home|Group|Weekday|Night|Sad|long|average
+8|U0018|M02218|Home|Friends|Weekday|Afternoon|Neutral|medium|average
+8|U0098|M05294|Home|Partner|Weekday|Night|Neutral|medium|average
+8|U0038|M05504|Workplace|Alone|Weekend|Afternoon|Neutral|medium|average
+8|U0017|M01220|Home|Friends|Weekday|Morning|Happy|medium|average
+8|U0089|M04923|Workplace|Family|Weekend|Morning|Happy|medium|average
+8|U0078|M01371|Workplace|Alone|Weekday|Night|Happy|long|popular
+8|U0092|M00100|Home|Partner|Weekend|Morning|Happy|medium|average
+8|U0068|M02313|Home|Family|Weekday|Afternoon|Happy|medium|average
+8|U0010|M02573|Home|Alone|Weekday|Evening|Sad|medium|average
+8|U0039|M00097|Home|Alone|Weekday|Night|Sad|long|popular
+8|U0024|M03721|Outside|Partner|Weekday|Morning|Neutral|medium|popular
+8|U0019|M01697|Home|Alone|Weekday|Late Night|Neutral|medium|average
+8|U0049|M00802|Home|Family|Weekday|Evening|Sad|medium|average
+8|U0083|M04165|Home|Group|Weekday|Evening|Happy|short|unpopular
+8|U0095|M02071|Cinema|Partner|Weekday|Afternoon|Neutral|medium|unpopular
+8|U0006|M02257|Cinema|Family|Weekday|Evening|Happy|short|average
+8|U0038|M03420|Cinema|Friends|Weekend|Late Night|Neutral|medium|average
+8|U0028|M00024|Workplace|Friends|Weekday|Night|Neutral|medium|average
+8|U0016|M04485|Cinema|Family|Weekday|Morning|Neutral|short|popular
+8|U0002|M03248|Cinema|Family|Weekend|Evening|Happy|medium|average
+8|U0034|M02944|Home|Family|Weekend|Evening|Happy|long|average
+8|U0069|M00823|Home|Partner|Weekday|Night|Sad|medium|average
+8|U0063|M05419|Workplace|Friends|Weekday|Evening|Sad|medium|average
+8|U0030|M03873|Cinema|Friends|Weekday|Afternoon|Neutral|medium|popular
+8|U0080|M04877|Home|Alone|Weekday|Morning|Neutral|short|average
+8|U0068|M00722|Cinema|Partner|Weekday|Late Night|Neutral|medium|popular
+8|U0054|M03821|Home|Family|Weekday|Morning|Happy|medium|average
+8|U0019|M04863|Home|Alone|Weekend|Late Night|Sad|medium|average
+8|U0013|M03323|Cinema|Partner|Weekday|Evening|Sad|medium|average
+8|U0083|M00198|Cinema|Alone|Weekend|Morning|Sad|medium|average
+8|U0048|M02772|Cinema|Group|Weekday|Evening|Sad|medium|unpopular
+8|U0040|M01035|Public transportation|Family|Weekday|Evening|Sad|medium|average
+8|U0059|M02774|Community Center|Family|Public Holiday|Night|Happy|long|unpopular
+8|U0074|M03622|Outside|Group|Weekday|Evening|Happy|medium|popular
+8|U0035|M04496|Outside|Partner|Public Holiday|Afternoon|Happy|short|average
+8|U0043|M02481|Cinema|Family|Weekend|Late Night|Happy|medium|average
+8|U0078|M04460|Home|Alone|Weekend|Afternoon|Happy|medium|average
+8|U0044|M02579|Workplace|Partner|Weekday|Afternoon|Sad|medium|average
+8|U0084|M01176|Cinema|Alone|Weekday|Evening|Happy|long|popular
+8|U0036|M02220|Home|Partner|Public Holiday|Evening|Happy|long|average
+8|U0068|M02909|Cinema|Alone|Weekday|Evening|Neutral|medium|popular
+8|U0030|M01271|Workplace|Alone|Weekday|Afternoon|Neutral|short|average
+9|U0052|M04999|Community Center|Family|Weekday|Night|Neutral|medium|average
+9|U0037|M03923|Home|Alone|Weekend|Night|Neutral|short|average
+9|U0097|M01939|Public transportation|Group|Weekend|Late Night|Neutral|medium|average
+9|U0004|M01891|Community Center|Partner|Weekday|Late Night|Happy|medium|average
+9|U0061|M02805|Workplace|Alone|Weekend|Evening|Neutral|long|average
+9|U0002|M03338|Outside|Family|Weekday|Night|Happy|medium|average
+9|U0009|M02488|Cinema|Alone|Weekday|Evening|Neutral|medium|average
+9|U0099|M04590|Community Center|Alone|Public Holiday|Afternoon|Happy|medium|unpopular
+9|U0054|M03047|Outside|Family|Public Holiday|Late Night|Sad|medium|popular
+9|U0042|M04240|Cinema|Group|Weekend|Night|Happy|medium|average
+9|U0094|M05272|Outside|Friends|Public Holiday|Morning|Sad|medium|average
+9|U0072|M00008|Cinema|Friends|Weekday|Evening|Neutral|long|average
+9|U0080|M05298|Workplace|Friends|Weekday|Night|Sad|medium|average
+9|U0058|M02229|Home|Partner|Weekday|Afternoon|Happy|medium|average
+9|U0091|M00652|Public transportation|Alone|Public Holiday|Night|Neutral|medium|average
+9|U0096|M01240|Home|Partner|Weekday|Evening|Sad|medium|average
+9|U0051|M03033|Home|Friends|Weekday|Late Night|Sad|medium|average
+9|U0064|M00195|Community Center|Alone|Weekday|Afternoon|Happy|medium|average
+9|U0004|M00827|Outside|Group|Weekday|Night|Sad|medium|average
+9|U0070|M00765|Cinema|Friends|Weekend|Evening|Neutral|long|popular
+9|U0088|M00048|Home|Partner|Weekday|Evening|Sad|long|popular
+9|U0091|M04374|Cinema|Partner|Weekend|Evening|Sad|medium|average
+9|U0053|M00584|Cinema|Alone|Weekday|Evening|Happy|long|average
+9|U0024|M03366|Cinema|Group|Weekend|Afternoon|Sad|medium|average
+9|U0049|M02025|Workplace|Family|Weekday|Late Night|Neutral|medium|average
+9|U0017|M01904|Home|Friends|Weekday|Morning|Happy|short|average
+9|U0021|M00525|Community Center|Friends|Weekday|Afternoon|Neutral|medium|average
+9|U0045|M05530|Outside|Friends|Public Holiday|Evening|Neutral|short|average
+9|U0024|M01270|Workplace|Alone|Weekday|Afternoon|Sad|medium|unpopular
+9|U0017|M02895|Cinema|Partner|Weekday|Afternoon|Neutral|medium|popular
+9|U0089|M01372|Home|Partner|Weekday|Afternoon|Sad|medium|average
+9|U0011|M02521|Cinema|Alone|Weekend|Night|Sad|medium|average
+9|U0024|M03257|Home|Friends|Weekday|Late Night|Neutral|short|average
+9|U0012|M02369|Home|Alone|Weekend|Night|Neutral|medium|average
+9|U0022|M04136|Cinema|Alone|Public Holiday|Evening|Sad|short|unpopular
+9|U0070|M03935|Cinema|Alone|Weekend|Evening|Sad|medium|unpopular
+9|U0001|M04362|Cinema|Family|Weekend|Late Night|Sad|medium|average
+9|U0030|M00702|Cinema|Group|Weekday|Evening|Neutral|medium|average
+9|U0010|M04596|Cinema|Friends|Weekend|Night|Neutral|medium|average
+9|U0018|M01741|Workplace|Alone|Weekend|Afternoon|Happy|long|average
+9|U0064|M04188|Home|Alone|Weekday|Morning|Happy|medium|popular
+9|U0077|M01354|Home|Group|Weekday|Night|Neutral|medium|average
+9|U0002|M01293|Cinema|Family|Weekday|Night|Happy|long|average
+9|U0019|M01907|Cinema|Alone|Weekday|Afternoon|Happy|medium|unpopular
+9|U0078|M03577|Home|Family|Weekday|Night|Happy|long|average
+9|U0042|M03554|Cinema|Alone|Weekday|Morning|Neutral|medium|average
+9|U0084|M00095|Cinema|Alone|Weekend|Morning|Happy|long|popular
+9|U0030|M02725|Cinema|Group|Weekday|Evening|Neutral|medium|average
+9|U0029|M04445|Home|Group|Weekday|Afternoon|Happy|medium|popular
+9|U0062|M01546|Home|Friends|Public Holiday|Evening|Sad|medium|average
+10|U0043|M05266|Outside|Alone|Weekend|Late Night|Neutral|medium|average
+10|U0004|M05014|Home|Alone|Weekend|Late Night|Happy|medium|average
+10|U0086|M00261|Cinema|Group|Weekday|Evening|Neutral|long|average
+10|U0068|M00455|Home|Partner|Public Holiday|Morning|Sad|long|average
+10|U0073|M05156|Cinema|Family|Public Holiday|Evening|Sad|long|popular
+10|U0022|M03803|Cinema|Alone|Public Holiday|Night|Sad|medium|average
+10|U0042|M04377|Home|Partner|Weekday|Evening|Neutral|medium|average
+10|U0099|M02269|Home|Partner|Weekend|Night|Sad|medium|average
+10|U0093|M02468|Home|Alone|Weekday|Evening|Happy|medium|average
+10|U0034|M01072|Cinema|Friends|Weekend|Evening|Neutral|medium|average
+10|U0052|M03081|Workplace|Alone|Weekday|Night|Sad|medium|average
+10|U0078|M00410|Home|Family|Weekend|Evening|Sad|medium|average
+10|U0037|M02226|Cinema|Group|Weekday|Evening|Neutral|short|average
+10|U0020|M05165|Home|Alone|Weekday|Evening|Sad|medium|average
+10|U0040|M04440|Cinema|Friends|Weekend|Afternoon|Sad|short|average
+10|U0036|M02350|Cinema|Group|Weekday|Late Night|Sad|medium|average
+10|U0073|M00165|Home|Alone|Weekday|Night|Sad|long|average
+10|U0057|M00884|Home|Group|Weekday|Night|Happy|long|average
+10|U0088|M05581|Cinema|Alone|Public Holiday|Evening|Happy|short|popular
+10|U0058|M03233|Outside|Friends|Weekday|Evening|Neutral|medium|average
+10|U0052|M02860|Cinema|Friends|Weekend|Afternoon|Neutral|short|average
+10|U0063|M02441|Home|Partner|Weekend|Evening|Sad|medium|average
+10|U0034|M02624|Cinema|Friends|Weekday|Evening|Happy|medium|average
+10|U0039|M02196|Home|Friends|Weekend|Afternoon|Sad|medium|average
+10|U0021|M00287|Cinema|Alone|Weekend|Afternoon|Sad|long|popular
+10|U0015|M04329|Outside|Alone|Weekend|Evening|Happy|medium|average
+10|U0072|M03749|Cinema|Friends|Weekday|Evening|Neutral|short|average
+10|U0004|M00142|Home|Alone|Weekday|Morning|Neutral|short|average
+10|U0033|M01673|Home|Friends|Weekday|Night|Neutral|medium|unpopular
+10|U0047|M02228|Home|Alone|Weekend|Late Night|Happy|medium|average
+10|U0047|M04714|Workplace|Alone|Public Holiday|Evening|Sad|short|average
+10|U0100|M04301|Home|Alone|Weekday|Late Night|Sad|medium|popular
+10|U0068|M03576|Public transportation|Friends|Weekday|Afternoon|Neutral|medium|average
+10|U0028|M01949|Cinema|Partner|Weekday|Night|Happy|long|average
+10|U0028|M03154|Home|Family|Weekday|Night|Neutral|long|average
+10|U0069|M01111|Home|Alone|Weekday|Morning|Sad|long|average
+10|U0040|M00950|Cinema|Group|Weekday|Afternoon|Neutral|long|average
+10|U0069|M00517|Workplace|Family|Weekday|Evening|Sad|medium|average
+10|U0046|M05190|Cinema|Alone|Weekday|Evening|Sad|medium|popular
+10|U0073|M02214|Community Center|Friends|Weekday|Night|Happy|medium|average
+10|U0100|M04742|Home|Partner|Weekday|Evening|Sad|short|average
+10|U0063|M03441|Home|Alone|Weekday|Night|Neutral|medium|popular
+10|U0001|M04857|Home|Alone|Weekday|Afternoon|Happy|long|average
+10|U0006|M05553|Community Center|Alone|Weekend|Late Night|Happy|medium|average
+10|U0042|M03034|Home|Alone|Weekday|Evening|Neutral|short|average
+10|U0085|M00451|Workplace|Partner|Weekday|Morning|Happy|medium|average
+10|U0003|M00785|Cinema|Alone|Weekend|Evening|Happy|long|average
+10|U0032|M02137|Cinema|Partner|Weekday|Night|Neutral|medium|average
+10|U0087|M02976|Public transportation|Alone|Public Holiday|Evening|Neutral|long|popular
+10|U0011|M01431|Home|Partner|Weekday|Evening|Sad|medium|average
+11|U0094|M04572|Outside|Partner|Weekday|Evening|Happy|medium|popular
+11|U0069|M02427|Workplace|Group|Weekday|Night|Happy|medium|average
+11|U0024|M04036|Home|Family|Weekday|Evening|Happy|medium|unpopular
+11|U0019|M05350|Public transportation|Alone|Weekday|Late Night|Sad|medium|unpopular
+11|U0085|M00140|Home|Family|Weekday|Afternoon|Sad|long|average
+11|U0015|M05246|Community Center|Partner|Weekday|Evening|Neutral|medium|average
+11|U0033|M00845|Home|Friends|Weekday|Night|Sad|long|average
+11|U0079|M05375|Workplace|Family|Weekday|Evening|Happy|medium|popular
+11|U0030|M02207|Public transportation|Alone|Weekend|Evening|Neutral|medium|average
+11|U0045|M04786|Public transportation|Group|Weekend|Night|Sad|short|average
+11|U0085|M01657|Workplace|Partner|Weekday|Evening|Sad|medium|average
+11|U0064|M05111|Cinema|Alone|Weekday|Late Night|Sad|medium|popular
+11|U0049|M01552|Home|Family|Weekend|Morning|Sad|short|average
+11|U0057|M00869|Cinema|Friends|Weekend|Afternoon|Happy|medium|average
+11|U0095|M00139|Home|Partner|Weekday|Late Night|Neutral|medium|unpopular
+11|U0094|M02412|Public transportation|Family|Weekend|Afternoon|Sad|medium|average
+11|U0012|M04003|Community Center|Friends|Weekday|Evening|Neutral|short|average
+11|U0058|M04106|Home|Alone|Weekend|Afternoon|Happy|medium|average
+11|U0036|M03541|Home|Family|Weekday|Night|Neutral|medium|average
+11|U0097|M01579|Public transportation|Friends|Weekday|Evening|Sad|long|average
+11|U0032|M05000|Public transportation|Alone|Weekend|Night|Neutral|medium|average
+11|U0014|M05545|Home|Partner|Weekday|Afternoon|Happy|medium|average
+11|U0028|M04531|Home|Family|Weekday|Evening|Neutral|medium|average
+11|U0033|M04846|Cinema|Alone|Weekday|Late Night|Happy|medium|unpopular
+11|U0094|M03855|Home|Partner|Weekend|Afternoon|Happy|medium|average
+11|U0065|M02335|Cinema|Alone|Public Holiday|Evening|Neutral|medium|average
+11|U0091|M02490|Home|Alone|Weekday|Evening|Happy|medium|average
+11|U0009|M02499|Home|Family|Weekday|Evening|Happy|medium|average
+11|U0033|M05105|Cinema|Family|Weekday|Late Night|Neutral|long|average
+11|U0080|M02905|Public transportation|Partner|Weekday|Evening|Neutral|medium|average
+11|U0088|M01998|Cinema|Alone|Weekend|Evening|Neutral|medium|unpopular
+11|U0079|M00385|Cinema|Group|Weekday|Afternoon|Sad|medium|average
+11|U0052|M05292|Cinema|Friends|Weekday|Afternoon|Neutral|short|average
+11|U0055|M04516|Home|Family|Weekday|Afternoon|Happy|medium|average
+11|U0002|M03377|Workplace|Alone|Weekday|Night|Sad|medium|average
+11|U0040|M03335|Home|Alone|Weekend|Evening|Sad|medium|average
+11|U0064|M00216|Workplace|Partner|Weekend|Evening|Neutral|long|popular
+11|U0074|M01810|Cinema|Friends|Weekday|Morning|Neutral|long|average
+11|U0044|M04092|Outside|Alone|Weekday|Evening|Happy|medium|average
+11|U0038|M03531|Cinema|Partner|Weekend|Night|Sad|short|average
+11|U0071|M01401|Home|Family|Weekend|Afternoon|Happy|medium|unpopular
+11|U0041|M02857|Home|Friends|Weekend|Evening|Sad|medium|average
+11|U0075|M03842|Home|Partner|Public Holiday|Morning|Sad|medium|unpopular
+11|U0021|M00057|Home|Partner|Weekday|Evening|Neutral|long|average
+11|U0048|M02486|Home|Partner|Weekday|Afternoon|Neutral|medium|average
+11|U0094|M03171|Cinema|Friends|Weekend|Night|Neutral|short|average
+11|U0082|M00838|Home|Partner|Weekend|Morning|Happy|medium|average
+11|U0006|M04589|Community Center|Partner|Weekday|Evening|Sad|medium|unpopular
+11|U0040|M02097|Outside|Partner|Weekday|Night|Neutral|medium|average
+11|U0055|M03746|Home|Partner|Weekday|Morning|Neutral|short|unpopular
+12|U0078|M02671|Home|Partner|Weekday|Afternoon|Happy|short|average
+12|U0088|M02835|Cinema|Friends|Weekday|Evening|Happy|medium|popular
+12|U0004|M05097|Home|Alone|Weekday|Evening|Happy|medium|average
+12|U0007|M05037|Outside|Partner|Weekday|Evening|Sad|medium|popular
+12|U0092|M02827|Cinema|Friends|Weekday|Afternoon|Neutral|short|popular
+12|U0064|M03540|Home|Alone|Weekday|Night|Neutral|long|average
+12|U0032|M03374|Home|Friends|Weekend|Evening|Happy|medium|average
+12|U0028|M05416|Cinema|Alone|Weekend|Night|Sad|short|popular
+12|U0039|M01273|Home|Alone|Weekend|Evening|Neutral|medium|average
+12|U0095|M05538|Home|Friends|Weekday|Evening|Sad|medium|unpopular
+12|U0061|M04581|Home|Alone|Weekday|Evening|Sad|medium|average
+12|U0092|M01684|Home|Group|Weekday|Evening|Sad|long|popular
+12|U0055|M05460|Public transportation|Family|Weekday|Morning|Neutral|long|popular
+12|U0095|M04471|Home|Friends|Weekend|Late Night|Happy|short|popular
+12|U0060|M03465|Cinema|Friends|Weekend|Evening|Neutral|medium|unpopular
+12|U0094|M03699|Outside|Friends|Public Holiday|Evening|Sad|medium|average
+12|U0015|M03597|Cinema|Family|Weekday|Late Night|Sad|medium|average
+12|U0076|M02202|Home|Alone|Public Holiday|Night|Happy|medium|average
+12|U0073|M03078|Home|Alone|Weekday|Afternoon|Sad|medium|average
+12|U0070|M05730|Outside|Friends|Weekday|Morning|Sad|long|popular
+12|U0097|M02845|Home|Family|Weekday|Morning|Sad|short|average
+12|U0017|M02662|Outside|Partner|Weekday|Evening|Neutral|medium|average
+12|U0038|M05156|Cinema|Alone|Weekday|Evening|Neutral|long|popular
+12|U0023|M01638|Cinema|Alone|Weekday|Evening|Happy|medium|average
+12|U0027|M04975|Community Center|Family|Weekday|Night|Sad|medium|popular
+12|U0033|M00304|Outside|Family|Public Holiday|Evening|Happy|medium|average
+12|U0076|M05691|Cinema|Alone|Weekend|Evening|Neutral|long|average
+12|U0022|M01020|Home|Partner|Weekend|Night|Happy|medium|average
+12|U0003|M01862|Home|Alone|Weekday|Afternoon|Happy|medium|average
+12|U0043|M03952|Home|Partner|Weekend|Evening|Neutral|medium|average
+12|U0027|M02300|Public transportation|Group|Weekday|Late Night|Neutral|medium|average
+12|U0054|M03673|Outside|Friends|Weekend|Evening|Neutral|short|unpopular
+12|U0053|M01771|Public transportation|Family|Public Holiday|Evening|Happy|medium|average
+12|U0074|M04329|Cinema|Family|Weekday|Afternoon|Happy|medium|average
+12|U0012|M04216|Home|Friends|Weekday|Night|Neutral|short|average
+12|U0058|M01209|Cinema|Alone|Weekday|Evening|Happy|long|average
+12|U0097|M04735|Cinema|Partner|Weekday|Night|Happy|medium|average
+12|U0064|M02343|Community Center|Friends|Weekend|Evening|Happy|medium|average
+12|U0004|M04483|Cinema|Friends|Weekday|Evening|Neutral|medium|average
+12|U0032|M00091|Home|Alone|Weekend|Evening|Neutral|medium|average
+12|U0007|M04912|Home|Alone|Weekday|Evening|Sad|medium|average
+12|U0054|M00461|Home|Partner|Weekend|Morning|Sad|long|average
+12|U0059|M00359|Cinema|Family|Weekday|Afternoon|Sad|medium|unpopular
+12|U0024|M04493|Workplace|Alone|Weekday|Afternoon|Sad|medium|average
+12|U0032|M03711|Home|Alone|Public Holiday|Evening|Happy|long|average
+12|U0031|M03170|Workplace|Friends|Weekday|Morning|Happy|medium|average
+12|U0023|M00597|Workplace|Partner|Weekday|Night|Happy|short|average
+12|U0058|M01796|Home|Friends|Public Holiday|Night|Happy|medium|average
+12|U0083|M00773|Home|Group|Weekday|Afternoon|Sad|long|average
+12|U0061|M00537|Home|Partner|Weekday|Evening|Neutral|medium|average
+13|U0053|M04894|Home|Alone|Weekday|Morning|Happy|short|average
+13|U0073|M02813|Cinema|Friends|Weekend|Evening|Neutral|short|average
+13|U0066|M03395|Public transportation|Family|Weekday|Afternoon|Neutral|medium|popular
+13|U0093|M02412|Cinema|Alone|Weekday|Afternoon|Happy|medium|average
+13|U0049|M00138|Home|Friends|Weekend|Night|Neutral|medium|average
+13|U0043|M00263|Cinema|Alone|Weekend|Morning|Happy|medium|average
+13|U0058|M03224|Cinema|Friends|Weekday|Evening|Happy|medium|average
+13|U0086|M03293|Home|Alone|Weekday|Evening|Neutral|medium|average
+13|U0071|M05170|Cinema|Partner|Weekday|Evening|Happy|long|popular
+13|U0047|M02026|Community Center|Group|Weekday|Evening|Sad|medium|average
+13|U0016|M03441|Home|Family|Weekend|Evening|Happy|medium|popular
+13|U0100|M01483|Cinema|Partner|Weekend|Late Night|Neutral|long|average
+13|U0046|M00665|Cinema|Alone|Weekday|Evening|Neutral|medium|average
+13|U0064|M05578|Home|Group|Weekend|Evening|Happy|short|average
+13|U0094|M02105|Cinema|Family|Weekday|Night|Sad|medium|average
+13|U0076|M02440|Cinema|Friends|Public Holiday|Evening|Sad|short|unpopular
+13|U0052|M03741|Workplace|Friends|Weekend|Evening|Neutral|medium|average
+13|U0040|M00253|Home|Friends|Weekend|Evening|Neutral|medium|average
+13|U0080|M02611|Public transportation|Friends|Public Holiday|Evening|Neutral|medium|average
+13|U0082|M03081|Outside|Group|Weekday|Morning|Sad|medium|average
+13|U0023|M01669|Home|Family|Public Holiday|Evening|Sad|long|average
+13|U0100|M05480|Outside|Alone|Weekday|Night|Sad|medium|average
+13|U0011|M02667|Cinema|Family|Weekday|Evening|Sad|long|average
+13|U0053|M01606|Outside|Alone|Weekday|Evening|Neutral|medium|average
+13|U0052|M02620|Community Center|Alone|Weekday|Afternoon|Neutral|long|popular
+13|U0069|M02386|Home|Group|Weekday|Morning|Neutral|medium|average
+13|U0075|M03371|Home|Partner|Weekend|Afternoon|Neutral|medium|average
+13|U0088|M03710|Home|Friends|Weekday|Morning|Happy|short|average
+13|U0041|M05276|Workplace|Family|Weekday|Afternoon|Sad|medium|average
+13|U0079|M02722|Home|Family|Weekday|Late Night|Neutral|medium|popular
+13|U0061|M03492|Home|Friends|Weekday|Afternoon|Sad|medium|average
+13|U0084|M04927|Cinema|Partner|Weekday|Evening|Sad|medium|average
+13|U0072|M04751|Public transportation|Friends|Weekday|Late Night|Sad|short|average
+13|U0043|M02101|Cinema|Friends|Weekend|Evening|Neutral|medium|average
+13|U0066|M02190|Outside|Partner|Weekday|Night|Neutral|short|average
+13|U0020|M00934|Cinema|Group|Weekend|Morning|Neutral|short|average
+13|U0092|M03725|Cinema|Partner|Weekend|Late Night|Neutral|medium|average
+13|U0098|M04835|Outside|Alone|Weekend|Evening|Sad|short|popular
+13|U0075|M05051|Cinema|Friends|Weekend|Evening|Sad|medium|average
+13|U0053|M01825|Home|Partner|Weekday|Afternoon|Neutral|long|popular
+13|U0074|M04976|Cinema|Partner|Weekday|Late Night|Neutral|medium|average
+13|U0079|M04682|Public transportation|Family|Weekend|Morning|Happy|medium|average
+13|U0004|M00548|Home|Family|Weekday|Afternoon|Neutral|long|average
+13|U0094|M00334|Home|Alone|Weekend|Evening|Neutral|medium|average
+13|U0082|M01713|Cinema|Group|Weekday|Evening|Sad|short|average
+13|U0066|M00839|Home|Partner|Weekday|Evening|Neutral|long|average
+13|U0063|M01741|Home|Friends|Weekend|Evening|Neutral|long|average
+13|U0049|M02078|Community Center|Friends|Weekend|Afternoon|Neutral|medium|average
+13|U0019|M04695|Cinema|Family|Weekday|Afternoon|Neutral|short|unpopular
+13|U0061|M04351|Cinema|Alone|Weekend|Morning|Happy|medium|average
+14|U0078|M03849|Home|Alone|Weekday|Night|Neutral|long|popular
+14|U0058|M00371|Home|Partner|Weekday|Morning|Neutral|medium|average
+14|U0054|M03129|Cinema|Alone|Weekday|Evening|Sad|medium|average
+14|U0003|M01612|Community Center|Partner|Weekend|Evening|Sad|long|average
+14|U0064|M03575|Home|Alone|Weekend|Night|Neutral|medium|average
+14|U0016|M05240|Home|Family|Public Holiday|Evening|Neutral|medium|average
+14|U0076|M00690|Cinema|Alone|Weekend|Late Night|Sad|long|popular
+14|U0010|M01403|Cinema|Alone|Weekday|Late Night|Sad|medium|average
+14|U0002|M04829|Workplace|Alone|Weekday|Evening|Neutral|medium|average
+14|U0029|M04352|Home|Friends|Weekday|Evening|Sad|short|average
+14|U0055|M01127|Home|Partner|Weekday|Evening|Sad|long|average
+14|U0075|M05484|Cinema|Group|Weekend|Night|Sad|medium|average
+14|U0044|M01528|Outside|Friends|Weekend|Evening|Happy|long|average
+14|U0062|M05366|Home|Partner|Weekday|Evening|Sad|long|popular
+14|U0092|M05500|Home|Alone|Weekend|Morning|Happy|medium|average
+14|U0015|M02273|Cinema|Group|Weekend|Evening|Neutral|long|popular
+14|U0011|M00669|Home|Group|Weekend|Evening|Neutral|medium|average
+14|U0078|M00178|Outside|Family|Weekday|Evening|Happy|medium|average
+14|U0024|M03560|Public transportation|Friends|Weekend|Morning|Happy|medium|popular
+14|U0066|M04171|Workplace|Family|Weekday|Afternoon|Happy|medium|average
+14|U0011|M03370|Cinema|Friends|Weekday|Evening|Sad|medium|average
+14|U0019|M02922|Cinema|Family|Weekday|Night|Sad|medium|average
+14|U0024|M03528|Home|Friends|Weekend|Night|Happy|medium|average
+14|U0097|M02377|Workplace|Friends|Weekend|Morning|Neutral|medium|average
+14|U0044|M05369|Community Center|Alone|Weekday|Evening|Happy|short|popular
+14|U0088|M02074|Home|Partner|Weekday|Afternoon|Happy|medium|average
+14|U0034|M02119|Cinema|Partner|Weekday|Evening|Neutral|medium|average
+14|U0012|M05384|Home|Partner|Public Holiday|Afternoon|Neutral|medium|average
+14|U0008|M00270|Home|Family|Public Holiday|Evening|Neutral|long|popular
+14|U0046|M03343|Cinema|Group|Weekend|Night|Sad|short|average
+14|U0026|M05480|Workplace|Friends|Weekday|Late Night|Sad|medium|average
+14|U0088|M00873|Cinema|Alone|Weekday|Afternoon|Neutral|medium|average
+14|U0046|M01709|Home|Family|Weekend|Afternoon|Sad|medium|average
+14|U0006|M02455|Home|Family|Weekend|Evening|Happy|short|unpopular
+14|U0030|M00260|Home|Family|Weekend|Afternoon|Happy|medium|average
+14|U0064|M01697|Cinema|Partner|Weekend|Evening|Neutral|medium|average
+14|U0050|M04321|Cinema|Family|Weekday|Evening|Neutral|short|unpopular
+14|U0065|M00685|Home|Family|Weekday|Evening|Sad|medium|average
+14|U0039|M01870|Outside|Friends|Weekday|Afternoon|Happy|medium|average
+14|U0029|M04275|Home|Alone|Weekend|Evening|Happy|short|average
+14|U0061|M01416|Home|Family|Weekend|Late Night|Sad|medium|average
+14|U0093|M05273|Outside|Family|Weekday|Afternoon|Happy|medium|average
+14|U0013|M04367|Cinema|Family|Weekday|Afternoon|Happy|medium|average
+14|U0065|M04717|Home|Friends|Weekend|Night|Sad|medium|average
+14|U0024|M00949|Home|Friends|Weekend|Morning|Neutral|medium|average
+14|U0087|M04236|Home|Alone|Weekend|Evening|Happy|medium|unpopular
+14|U0003|M00967|Home|Friends|Weekday|Evening|Happy|long|average
+14|U0018|M05634|Community Center|Friends|Weekend|Afternoon|Sad|medium|average
+14|U0065|M05482|Home|Alone|Public Holiday|Morning|Sad|medium|average
+14|U0099|M05180|Home|Alone|Public Holiday|Afternoon|Happy|medium|unpopular
+15|U0028|M00127|Home|Partner|Weekday|Evening|Sad|medium|average
+15|U0017|M02331|Workplace|Alone|Weekday|Evening|Neutral|medium|popular
+15|U0042|M02734|Home|Alone|Weekend|Night|Sad|short|average
+15|U0031|M03387|Community Center|Alone|Weekday|Evening|Happy|medium|average
+15|U0047|M05357|Cinema|Family|Weekend|Morning|Happy|medium|popular
+15|U0059|M04139|Home|Partner|Weekday|Evening|Happy|medium|average
+15|U0046|M04820|Cinema|Family|Weekday|Night|Sad|short|popular
+15|U0060|M02419|Outside|Family|Weekend|Late Night|Happy|long|average
+15|U0038|M05440|Cinema|Alone|Weekday|Night|Sad|medium|average
+15|U0073|M03089|Outside|Family|Weekday|Afternoon|Neutral|medium|average
+15|U0060|M01184|Outside|Alone|Weekend|Late Night|Sad|medium|average
+15|U0046|M00048|Outside|Partner|Weekday|Evening|Happy|long|popular
+15|U0055|M00926|Home|Alone|Weekend|Evening|Sad|short|average
+15|U0030|M00069|Cinema|Partner|Weekday|Evening|Happy|long|popular
+15|U0057|M05172|Home|Family|Weekday|Evening|Sad|short|average
+15|U0097|M02402|Outside|Partner|Weekday|Night|Sad|long|average
+15|U0077|M03665|Home|Alone|Weekday|Afternoon|Sad|medium|average
+15|U0043|M05572|Cinema|Alone|Public Holiday|Afternoon|Happy|medium|popular
+15|U0024|M00377|Cinema|Friends|Weekend|Evening|Neutral|medium|average
+15|U0029|M02994|Home|Group|Weekday|Night|Neutral|long|average
+15|U0088|M01430|Outside|Partner|Weekday|Morning|Neutral|long|average
+15|U0031|M01661|Public transportation|Alone|Weekday|Evening|Neutral|medium|average
+15|U0052|M03225|Cinema|Alone|Weekend|Evening|Happy|long|popular
+15|U0061|M03490|Cinema|Alone|Weekend|Morning|Sad|long|popular
+15|U0072|M02902|Outside|Friends|Weekday|Night|Happy|long|popular
+15|U0005|M04263|Home|Partner|Weekend|Night|Neutral|short|unpopular
+15|U0018|M00548|Home|Alone|Weekday|Evening|Happy|long|average
+15|U0045|M03134|Cinema|Alone|Weekend|Evening|Sad|long|popular
+15|U0071|M03910|Cinema|Group|Weekday|Night|Happy|medium|average
+15|U0009|M04205|Home|Alone|Weekday|Evening|Happy|medium|popular
+15|U0030|M04338|Cinema|Friends|Weekday|Morning|Sad|short|average
+15|U0003|M04085|Home|Group|Weekday|Late Night|Neutral|medium|unpopular
+15|U0069|M04290|Home|Partner|Weekend|Night|Neutral|short|unpopular
+15|U0023|M03697|Home|Family|Weekday|Evening|Sad|medium|average
+15|U0080|M03789|Home|Alone|Weekend|Evening|Happy|medium|average
+15|U0033|M03804|Home|Alone|Weekday|Evening|Neutral|medium|average
+15|U0035|M02088|Cinema|Partner|Weekend|Night|Happy|medium|average
+15|U0054|M04276|Home|Partner|Weekday|Night|Neutral|medium|average
+15|U0042|M02096|Cinema|Alone|Weekend|Night|Sad|medium|average
+15|U0020|M05379|Cinema|Family|Weekday|Afternoon|Happy|medium|popular
+15|U0035|M01426|Cinema|Family|Weekend|Evening|Happy|medium|average
+15|U0019|M02650|Home|Partner|Weekday|Morning|Neutral|medium|average
+15|U0042|M03587|Cinema|Alone|Weekday|Night|Neutral|short|average
+15|U0010|M04353|Home|Group|Weekday|Morning|Neutral|medium|average
+15|U0100|M01844|Home|Family|Weekday|Afternoon|Happy|medium|average
+15|U0053|M00553|Outside|Family|Weekday|Evening|Sad|medium|average
+15|U0020|M00716|Cinema|Family|Weekend|Afternoon|Neutral|medium|average
+15|U0030|M03002|Home|Partner|Weekday|Afternoon|Happy|medium|average
+15|U0039|M02737|Workplace|Alone|Weekday|Morning|Sad|medium|average
+15|U0027|M03431|Home|Alone|Weekday|Evening|Happy|medium|average
+16|U0065|M00950|Cinema|Partner|Weekday|Afternoon|Sad|long|average
+16|U0100|M03089|Cinema|Friends|Weekday|Evening|Neutral|medium|average
+16|U0034|M05542|Community Center|Group|Weekday|Morning|Neutral|medium|average
+16|U0011|M03436|Cinema|Alone|Weekday|Morning|Neutral|long|popular
+16|U0008|M00825|Home|Alone|Weekend|Evening|Sad|medium|average
+16|U0073|M02058|Cinema|Group|Weekend|Evening|Happy|medium|average
+16|U0092|M05409|Outside|Family|Weekday|Night|Neutral|long|average
+16|U0014|M00705|Outside|Family|Weekday|Afternoon|Neutral|medium|average
+16|U0034|M03536|Cinema|Friends|Weekend|Evening|Happy|medium|average
+16|U0036|M01214|Outside|Alone|Weekend|Morning|Happy|medium|average
+16|U0043|M02273|Workplace|Partner|Weekday|Evening|Happy|long|popular
+16|U0041|M02027|Cinema|Friends|Weekend|Evening|Sad|long|average
+16|U0066|M02602|Outside|Friends|Public Holiday|Afternoon|Sad|medium|average
+16|U0061|M03889|Home|Alone|Public Holiday|Night|Neutral|short|unpopular
+16|U0068|M04375|Home|Partner|Weekend|Evening|Happy|medium|unpopular
+16|U0045|M02885|Home|Friends|Weekday|Night|Neutral|medium|unpopular
+16|U0076|M03485|Cinema|Alone|Weekday|Evening|Sad|medium|average
+16|U0022|M00855|Outside|Alone|Weekday|Late Night|Sad|long|average
+16|U0029|M04305|Cinema|Partner|Weekday|Night|Happy|short|average
+16|U0079|M02342|Cinema|Family|Weekday|Evening|Neutral|long|average
+16|U0060|M04157|Cinema|Friends|Weekday|Afternoon|Sad|medium|average
+16|U0025|M04672|Public transportation|Alone|Weekend|Evening|Happy|short|average
+16|U0073|M04368|Home|Family|Weekday|Night|Neutral|medium|average
+16|U0008|M02701|Home|Partner|Weekday|Late Night|Neutral|long|average
+16|U0084|M00430|Home|Partner|Weekday|Night|Neutral|short|average
+16|U0020|M05566|Community Center|Partner|Weekend|Afternoon|Happy|short|popular
+16|U0014|M00783|Community Center|Family|Weekend|Evening|Happy|medium|average
+16|U0080|M03890|Community Center|Family|Weekend|Evening|Sad|long|average
+16|U0005|M01390|Home|Alone|Weekend|Evening|Neutral|medium|average
+16|U0029|M03979|Cinema|Alone|Weekday|Evening|Happy|medium|average
+16|U0028|M03751|Cinema|Friends|Weekday|Evening|Neutral|medium|average
+16|U0057|M02595|Home|Family|Weekday|Evening|Sad|medium|average
+16|U0035|M02232|Home|Alone|Weekend|Morning|Neutral|medium|unpopular
+16|U0048|M02562|Community Center|Family|Weekday|Late Night|Sad|long|popular
+16|U0014|M04582|Cinema|Alone|Weekend|Evening|Sad|medium|average
+16|U0098|M01265|Home|Group|Weekend|Evening|Happy|medium|average
+16|U0051|M01932|Home|Friends|Weekend|Afternoon|Happy|medium|average
+16|U0015|M02319|Community Center|Friends|Public Holiday|Afternoon|Happy|medium|average
+16|U0034|M02835|Public transportation|Alone|Weekday|Evening|Neutral|medium|popular
+16|U0021|M02726|Workplace|Alone|Weekday|Afternoon|Neutral|medium|average
+16|U0062|M05727|Cinema|Friends|Weekday|Evening|Sad|medium|popular
+16|U0062|M00089|Cinema|Alone|Weekend|Morning|Neutral|medium|popular
+16|U0049|M03491|Community Center|Friends|Weekday|Afternoon|Happy|short|average
+16|U0003|M04418|Cinema|Friends|Weekday|Night|Happy|medium|average
+16|U0027|M04607|Community Center|Family|Weekday|Night|Happy|short|average
+16|U0069|M01487|Workplace|Partner|Weekday|Night|Happy|long|popular
+16|U0054|M04145|Public transportation|Alone|Weekday|Afternoon|Sad|long|average
+16|U0063|M04185|Public transportation|Friends|Weekend|Late Night|Sad|medium|average
+16|U0005|M04792|Home|Group|Public Holiday|Late Night|Sad|medium|average
+16|U0068|M04970|Home|Group|Weekend|Evening|Happy|medium|average
+17|U0041|M05405|Home|Partner|Weekday|Night|Sad|long|average
+17|U0089|M05071|Cinema|Partner|Weekday|Evening|Happy|medium|average
+17|U0054|M05341|Outside|Family|Public Holiday|Evening|Sad|medium|average
+17|U0077|M02948|Outside|Alone|Weekday|Evening|Neutral|medium|average
+17|U0034|M05063|Home|Family|Weekday|Night|Happy|medium|average
+17|U0090|M00594|Workplace|Group|Weekday|Morning|Happy|medium|average
+17|U0053|M03757|Home|Family|Weekday|Evening|Happy|medium|average
+17|U0030|M03135|Cinema|Group|Weekday|Night|Happy|medium|unpopular
+17|U0071|M03468|Home|Friends|Weekday|Evening|Sad|short|average
+17|U0085|M00749|Public transportation|Alone|Weekday|Night|Sad|long|average
+17|U0090|M02464|Cinema|Partner|Weekend|Night|Neutral|medium|average
+17|U0053|M05108|Outside|Friends|Weekday|Night|Happy|long|popular
+17|U0044|M02352|Outside|Partner|Weekday|Afternoon|Happy|medium|unpopular
+17|U0039|M03778|Cinema|Partner|Weekday|Evening|Sad|medium|average
+17|U0019|M02905|Public transportation|Alone|Weekday|Evening|Neutral|medium|average
+17|U0013|M00142|Home|Alone|Weekday|Evening|Happy|short|average
+17|U0085|M05597|Outside|Group|Weekday|Evening|Sad|short|popular
+17|U0036|M04253|Home|Family|Weekend|Morning|Neutral|short|unpopular
+17|U0014|M01275|Home|Group|Weekday|Late Night|Happy|medium|average
+17|U0071|M04611|Cinema|Partner|Public Holiday|Evening|Sad|medium|unpopular
+17|U0018|M02128|Cinema|Friends|Weekday|Afternoon|Happy|long|average
+17|U0094|M04118|Cinema|Alone|Weekday|Afternoon|Sad|short|average
+17|U0052|M02975|Home|Group|Weekend|Late Night|Sad|medium|average
+17|U0031|M01296|Cinema|Alone|Weekend|Afternoon|Happy|medium|average
+17|U0061|M01672|Home|Group|Weekday|Evening|Neutral|long|average
+17|U0087|M00073|Cinema|Family|Weekday|Afternoon|Happy|long|average
+17|U0039|M04580|Community Center|Friends|Weekday|Evening|Neutral|short|average
+17|U0066|M04038|Home|Alone|Weekday|Evening|Neutral|medium|average
+17|U0029|M05116|Workplace|Friends|Weekend|Afternoon|Sad|long|popular
+17|U0066|M00050|Outside|Group|Weekend|Morning|Sad|long|average
+17|U0082|M04837|Outside|Partner|Weekday|Night|Sad|medium|average
+17|U0054|M02934|Cinema|Friends|Weekday|Afternoon|Happy|short|average
+17|U0091|M03225|Home|Friends|Weekday|Late Night|Neutral|long|popular
+17|U0051|M04986|Cinema|Friends|Weekday|Night|Neutral|medium|unpopular
+17|U0013|M03885|Home|Partner|Weekday|Afternoon|Happy|long|popular
+17|U0024|M00936|Home|Partner|Weekday|Night|Happy|medium|average
+17|U0040|M05667|Home|Friends|Weekday|Night|Happy|long|popular
+17|U0023|M05263|Cinema|Alone|Weekday|Evening|Sad|medium|average
+17|U0075|M05567|Home|Alone|Weekend|Night|Happy|medium|popular
+17|U0008|M04607|Cinema|Friends|Public Holiday|Night|Sad|short|average
+17|U0043|M00873|Home|Group|Weekday|Afternoon|Happy|medium|average
+17|U0077|M02888|Outside|Partner|Weekday|Afternoon|Sad|long|popular
+17|U0052|M03376|Cinema|Family|Weekend|Night|Happy|medium|average
+17|U0056|M05464|Home|Alone|Weekday|Evening|Sad|long|popular
+17|U0004|M03514|Home|Friends|Weekday|Morning|Happy|long|average
+17|U0098|M03166|Workplace|Friends|Weekday|Evening|Sad|long|average
+17|U0006|M02307|Cinema|Family|Weekday|Morning|Happy|medium|average
+17|U0026|M04987|Community Center|Partner|Weekday|Late Night|Sad|long|average
+17|U0066|M03738|Community Center|Partner|Weekend|Morning|Neutral|medium|average
+17|U0013|M00648|Community Center|Partner|Weekend|Evening|Neutral|medium|average
+18|U0019|M01212|Home|Friends|Weekday|Night|Sad|medium|average
+18|U0093|M02925|Cinema|Alone|Weekday|Late Night|Neutral|medium|average
+18|U0013|M00294|Workplace|Partner|Weekend|Evening|Neutral|medium|average
+18|U0002|M01958|Cinema|Partner|Weekday|Evening|Happy|medium|average
+18|U0044|M00024|Cinema|Friends|Weekday|Evening|Neutral|medium|average
+18|U0080|M03695|Cinema|Group|Weekday|Night|Sad|medium|average
+18|U0062|M03176|Public transportation|Alone|Public Holiday|Late Night|Sad|medium|average
+18|U0028|M02969|Public transportation|Partner|Weekday|Afternoon|Neutral|medium|average
+18|U0076|M02898|Cinema|Partner|Weekend|Night|Happy|long|average
+18|U0039|M01202|Home|Friends|Weekday|Afternoon|Neutral|medium|average
+18|U0033|M03263|Cinema|Friends|Weekday|Night|Neutral|short|average
+18|U0028|M00280|Outside|Partner|Public Holiday|Evening|Sad|long|average
+18|U0097|M05323|Home|Family|Weekday|Late Night|Neutral|medium|average
+18|U0090|M02073|Cinema|Alone|Weekday|Night|Sad|medium|average
+18|U0073|M04519|Cinema|Partner|Weekday|Late Night|Neutral|medium|unpopular
+18|U0068|M01748|Home|Alone|Weekday|Night|Sad|medium|average
+18|U0033|M00399|Cinema|Alone|Weekend|Evening|Neutral|short|average
+18|U0096|M04773|Home|Family|Weekday|Evening|Happy|long|average
+18|U0006|M01868|Workplace|Group|Weekday|Morning|Sad|medium|unpopular
+18|U0029|M04238|Cinema|Friends|Weekend|Evening|Happy|short|popular
+18|U0085|M00611|Cinema|Partner|Weekday|Night|Neutral|long|average
+18|U0080|M02227|Home|Group|Weekday|Night|Sad|long|average
+18|U0091|M04842|Cinema|Friends|Public Holiday|Afternoon|Sad|medium|average
+18|U0097|M03941|Outside|Friends|Weekday|Afternoon|Neutral|medium|unpopular
+18|U0089|M05652|Home|Friends|Weekday|Evening|Sad|medium|average
+18|U0002|M02801|Cinema|Alone|Weekday|Morning|Happy|long|popular
+18|U0056|M00822|Public transportation|Group|Weekend|Morning|Happy|medium|average
+18|U0054|M03551|Public transportation|Family|Weekday|Evening|Neutral|long|average
+18|U0027|M00171|Home|Family|Weekday|Night|Happy|long|average
+18|U0023|M03849|Cinema|Friends|Weekend|Night|Neutral|long|popular
+18|U0028|M00634|Community Center|Alone|Public Holiday|Evening|Neutral|long|popular
+18|U0046|M02704|Cinema|Alone|Weekday|Evening|Neutral|medium|average
+18|U0059|M00091|Home|Alone|Weekend|Evening|Sad|medium|average
+18|U0028|M00557|Cinema|Family|Weekday|Evening|Neutral|long|average
+18|U0099|M03383|Workplace|Partner|Weekend|Morning|Sad|medium|average
+18|U0018|M02901|Public transportation|Group|Weekday|Night|Sad|medium|average
+18|U0015|M00623|Home|Group|Weekday|Afternoon|Neutral|medium|average
+18|U0096|M04109|Home|Partner|Weekend|Afternoon|Happy|medium|average
+18|U0043|M02275|Home|Friends|Weekday|Night|Sad|medium|average
+18|U0024|M04079|Cinema|Partner|Weekday|Night|Neutral|medium|average
+18|U0018|M02088|Home|Alone|Weekday|Afternoon|Sad|medium|average
+18|U0099|M05315|Home|Alone|Weekday|Morning|Neutral|medium|average
+18|U0066|M05059|Home|Partner|Weekday|Night|Neutral|medium|popular
+18|U0012|M03327|Community Center|Alone|Weekend|Afternoon|Sad|medium|average
+18|U0049|M01472|Home|Alone|Weekend|Evening|Happy|medium|average
+18|U0080|M05572|Workplace|Partner|Weekend|Afternoon|Neutral|medium|popular
+18|U0025|M01483|Cinema|Alone|Weekend|Evening|Neutral|long|average
+18|U0100|M02439|Workplace|Alone|Weekday|Night|Neutral|medium|average
+18|U0052|M04098|Home|Partner|Weekday|Evening|Neutral|long|unpopular
+18|U0058|M00866|Public transportation|Partner|Weekday|Night|Happy|medium|average
+19|U0050|M03695|Outside|Alone|Weekday|Afternoon|Neutral|medium|average
+19|U0029|M01454|Home|Alone|Weekday|Afternoon|Sad|long|average
+19|U0092|M01819|Home|Alone|Public Holiday|Night|Happy|medium|average
+19|U0083|M02301|Community Center|Alone|Weekend|Night|Neutral|medium|average
+19|U0004|M02195|Cinema|Friends|Weekday|Late Night|Happy|medium|average
+19|U0094|M00784|Cinema|Family|Weekend|Evening|Sad|long|unpopular
+19|U0030|M04561|Home|Friends|Public Holiday|Evening|Sad|short|average
+19|U0057|M03680|Home|Family|Weekend|Afternoon|Happy|medium|average
+19|U0094|M01409|Outside|Partner|Weekday|Afternoon|Sad|medium|average
+19|U0099|M05204|Outside|Friends|Weekday|Afternoon|Happy|medium|popular
+19|U0090|M00167|Home|Family|Weekday|Afternoon|Sad|medium|average
+19|U0078|M05154|Home|Partner|Public Holiday|Night|Sad|short|average
+19|U0068|M03267|Home|Friends|Weekend|Night|Neutral|medium|average
+19|U0032|M02058|Cinema|Friends|Weekend|Night|Happy|medium|average
+19|U0024|M01115|Home|Friends|Weekday|Morning|Neutral|long|average
+19|U0039|M02676|Cinema|Friends|Weekday|Evening|Sad|medium|unpopular
+19|U0054|M04288|Home|Family|Weekday|Evening|Neutral|long|average
+19|U0021|M04047|Home|Partner|Weekday|Late Night|Neutral|short|average
+19|U0063|M00921|Outside|Partner|Weekend|Evening|Sad|long|average
+19|U0073|M04417|Workplace|Friends|Weekend|Evening|Neutral|short|average
+19|U0008|M01856|Cinema|Family|Weekday|Night|Neutral|medium|average
+19|U0043|M00913|Cinema|Alone|Weekday|Evening|Happy|medium|average
+19|U0088|M02504|Cinema|Alone|Weekday|Evening|Sad|medium|average
+19|U0075|M01929|Outside|Alone|Weekday|Morning|Sad|medium|unpopular
+19|U0099|M02278|Home|Family|Weekday|Evening|Happy|medium|average
+19|U0073|M05568|Home|Alone|Weekday|Afternoon|Neutral|medium|popular
+19|U0058|M01109|Cinema|Family|Weekday|Evening|Sad|medium|average
+19|U0073|M01514|Home|Partner|Weekend|Evening|Sad|medium|average
+19|U0090|M01397|Cinema|Partner|Weekday|Night|Neutral|medium|average
+19|U0006|M02843|Outside|Alone|Public Holiday|Afternoon|Neutral|short|average
+19|U0083|M02746|Cinema|Group|Weekday|Afternoon|Neutral|medium|average
+19|U0023|M03663|Cinema|Partner|Weekend|Evening|Neutral|medium|average
+19|U0042|M04520|Workplace|Friends|Weekend|Morning|Neutral|short|average
+19|U0024|M04341|Cinema|Family|Weekday|Late Night|Sad|medium|average
+19|U0034|M05206|Cinema|Partner|Weekday|Night|Happy|medium|average
+19|U0086|M00926|Home|Partner|Weekday|Late Night|Sad|short|average
+19|U0096|M03590|Cinema|Friends|Weekday|Afternoon|Happy|medium|average
+19|U0024|M04977|Home|Friends|Public Holiday|Evening|Happy|long|popular
+19|U0058|M00087|Outside|Alone|Weekday|Afternoon|Sad|medium|average
+19|U0019|M01414|Home|Friends|Weekday|Evening|Sad|medium|average
+19|U0017|M02810|Cinema|Partner|Weekday|Afternoon|Sad|medium|average
+19|U0024|M00061|Public transportation|Family|Weekend|Afternoon|Happy|medium|average
+19|U0079|M03604|Home|Partner|Weekday|Evening|Happy|medium|average
+19|U0007|M01414|Cinema|Family|Weekend|Evening|Neutral|medium|average
+19|U0082|M02862|Public transportation|Friends|Weekend|Night|Sad|medium|average
+19|U0022|M00739|Home|Partner|Public Holiday|Morning|Neutral|medium|average
+19|U0062|M02732|Home|Friends|Weekday|Evening|Happy|short|average
+19|U0072|M04761|Outside|Family|Weekday|Afternoon|Happy|short|average
+19|U0027|M00724|Workplace|Alone|Public Holiday|Evening|Sad|long|popular
+19|U0089|M03868|Outside|Friends|Weekday|Night|Happy|long|popular
+20|U0025|M01092|Home|Group|Weekday|Evening|Sad|medium|average
+20|U0063|M00481|Public transportation|Group|Weekday|Evening|Happy|medium|average
+20|U0054|M02284|Home|Alone|Weekday|Evening|Happy|medium|average
+20|U0051|M01797|Home|Group|Weekday|Late Night|Sad|medium|average
+20|U0083|M03354|Home|Friends|Weekday|Evening|Happy|medium|average
+20|U0072|M04599|Outside|Friends|Weekday|Night|Neutral|medium|average
+20|U0094|M03183|Home|Family|Weekend|Evening|Neutral|long|average
+20|U0018|M00336|Home|Alone|Weekend|Evening|Happy|medium|average
+20|U0058|M00333|Home|Alone|Public Holiday|Morning|Neutral|medium|average
+20|U0092|M01469|Home|Friends|Weekday|Morning|Happy|long|average
+20|U0006|M02850|Home|Partner|Weekday|Evening|Neutral|medium|average
+20|U0065|M02087|Workplace|Alone|Weekday|Afternoon|Neutral|medium|average
+20|U0081|M05057|Cinema|Friends|Weekday|Evening|Happy|short|average
+20|U0085|M01859|Home|Alone|Weekday|Afternoon|Happy|long|average
+20|U0008|M05337|Home|Alone|Weekend|Night|Sad|short|popular
+20|U0047|M02881|Home|Friends|Public Holiday|Afternoon|Sad|medium|average
+20|U0020|M00451|Cinema|Friends|Weekday|Night|Neutral|medium|average
+20|U0075|M02007|Cinema|Alone|Weekday|Evening|Happy|long|average
+20|U0063|M02463|Cinema|Partner|Weekday|Evening|Happy|medium|unpopular
+20|U0075|M05307|Home|Alone|Public Holiday|Evening|Sad|short|popular
+20|U0012|M00904|Home|Group|Weekday|Afternoon|Happy|long|popular
+20|U0033|M03357|Cinema|Partner|Public Holiday|Night|Happy|medium|average
+20|U0085|M00037|Cinema|Alone|Weekend|Late Night|Happy|long|average
+20|U0016|M04766|Cinema|Partner|Weekday|Evening|Happy|short|popular
+20|U0081|M02412|Home|Partner|Weekday|Afternoon|Happy|medium|average
+20|U0099|M00139|Outside|Friends|Weekday|Evening|Neutral|medium|unpopular
+20|U0034|M00685|Cinema|Group|Weekday|Evening|Neutral|medium|average
+20|U0041|M01215|Home|Alone|Weekday|Evening|Sad|medium|average
+20|U0023|M01488|Cinema|Friends|Weekend|Evening|Neutral|medium|average
+20|U0030|M00557|Home|Alone|Weekend|Afternoon|Sad|long|average
+20|U0092|M03449|Outside|Alone|Public Holiday|Afternoon|Happy|medium|unpopular
+20|U0076|M02282|Outside|Alone|Weekday|Evening|Happy|medium|unpopular
+20|U0055|M02022|Home|Alone|Weekday|Afternoon|Neutral|long|popular
+20|U0034|M03903|Outside|Alone|Weekday|Evening|Neutral|medium|average
+20|U0010|M02381|Cinema|Alone|Weekday|Evening|Neutral|long|average
+20|U0030|M03379|Workplace|Friends|Weekday|Afternoon|Neutral|medium|average
+20|U0060|M04390|Home|Alone|Weekday|Night|Happy|medium|average
+20|U0047|M05070|Cinema|Friends|Weekday|Afternoon|Sad|medium|average
+20|U0073|M03192|Cinema|Family|Weekday|Evening|Neutral|short|average
+20|U0050|M03089|Cinema|Alone|Weekday|Late Night|Neutral|medium|average
+20|U0027|M00983|Cinema|Partner|Weekday|Evening|Neutral|medium|popular
+20|U0010|M05184|Outside|Family|Public Holiday|Late Night|Neutral|long|popular
+20|U0035|M01816|Workplace|Alone|Weekday|Afternoon|Happy|long|average
+20|U0074|M03159|Cinema|Alone|Weekday|Evening|Happy|medium|average
+20|U0074|M01364|Cinema|Family|Weekday|Late Night|Sad|long|average
+20|U0048|M01425|Outside|Family|Weekday|Late Night|Neutral|short|unpopular
+20|U0036|M04676|Cinema|Group|Weekend|Evening|Sad|short|average
+20|U0094|M03004|Public transportation|Alone|Weekday|Evening|Happy|medium|average
+20|U0078|M02417|Outside|Partner|Weekday|Afternoon|Neutral|medium|average
+20|U0088|M01232|Cinema|Friends|Weekday|Night|Sad|medium|average
+21|U0040|M03650|Cinema|Group|Weekday|Evening|Neutral|medium|average
+21|U0049|M05467|Community Center|Family|Public Holiday|Late Night|Happy|medium|average
+21|U0049|M00864|Home|Partner|Weekend|Night|Sad|medium|average
+21|U0088|M04342|Community Center|Partner|Weekday|Afternoon|Neutral|medium|average
+21|U0082|M05237|Cinema|Alone|Weekday|Late Night|Neutral|long|average
+21|U0074|M04635|Home|Family|Weekend|Afternoon|Neutral|medium|popular
+21|U0006|M05367|Cinema|Group|Weekday|Evening|Sad|long|popular
+21|U0020|M02415|Outside|Family|Weekday|Night|Neutral|medium|average
+21|U0049|M02512|Home|Alone|Weekend|Evening|Happy|medium|average
+21|U0047|M00986|Home|Friends|Weekend|Late Night|Happy|medium|average
+21|U0033|M02435|Workplace|Alone|Weekday|Late Night|Sad|medium|average
+21|U0068|M03066|Community Center|Family|Weekday|Late Night|Happy|long|average
+21|U0093|M01983|Home|Friends|Weekend|Night|Neutral|short|average
+21|U0071|M04546|Home|Friends|Weekday|Evening|Sad|medium|popular
+21|U0015|M03489|Cinema|Partner|Weekend|Evening|Neutral|short|unpopular
+21|U0005|M03318|Cinema|Family|Weekday|Morning|Happy|medium|average
+21|U0050|M05706|Home|Alone|Weekend|Evening|Happy|medium|popular
+21|U0089|M02995|Home|Alone|Weekday|Evening|Neutral|medium|average
+21|U0005|M01051|Home|Family|Weekend|Night|Sad|long|popular
+21|U0019|M02559|Workplace|Friends|Weekday|Afternoon|Sad|medium|unpopular
+21|U0017|M02351|Home|Friends|Weekend|Evening|Happy|medium|average
+21|U0048|M03300|Public transportation|Family|Weekday|Evening|Sad|medium|average
+21|U0057|M03061|Home|Friends|Weekday|Evening|Happy|medium|average
+21|U0079|M05178|Cinema|Friends|Weekend|Afternoon|Happy|short|popular
+21|U0090|M05658|Cinema|Alone|Weekend|Morning|Sad|medium|popular
+21|U0049|M01586|Cinema|Family|Weekend|Afternoon|Sad|medium|average
+21|U0085|M04335|Home|Family|Weekend|Night|Sad|short|average
+21|U0052|M02869|Home|Partner|Weekday|Late Night|Happy|medium|average
+21|U0037|M04623|Home|Alone|Weekday|Evening|Neutral|medium|average
+21|U0083|M02490|Workplace|Alone|Weekday|Evening|Neutral|medium|average
+21|U0048|M04009|Cinema|Alone|Weekday|Evening|Sad|medium|average
+21|U0036|M05185|Home|Family|Weekend|Evening|Happy|short|popular
+21|U0020|M03231|Workplace|Group|Weekend|Evening|Neutral|medium|popular
+21|U0097|M03676|Outside|Friends|Weekend|Evening|Neutral|medium|average
+21|U0049|M03241|Home|Friends|Weekday|Late Night|Sad|medium|average
+21|U0089|M03589|Home|Group|Weekday|Morning|Sad|medium|average
+21|U0040|M01035|Cinema|Alone|Weekday|Morning|Neutral|medium|average
+21|U0033|M02064|Cinema|Friends|Weekend|Night|Sad|medium|unpopular
+21|U0019|M00775|Cinema|Friends|Weekday|Late Night|Happy|medium|average
+21|U0032|M04782|Outside|Partner|Weekday|Night|Happy|short|popular
+21|U0076|M02570|Home|Friends|Weekday|Morning|Sad|medium|average
+21|U0036|M03195|Home|Partner|Weekday|Morning|Happy|long|average
+21|U0050|M01466|Workplace|Alone|Weekday|Afternoon|Neutral|medium|average
+21|U0092|M02668|Outside|Partner|Weekday|Evening|Happy|medium|average
+21|U0005|M01494|Home|Friends|Weekday|Evening|Sad|medium|average
+21|U0070|M01135|Outside|Friends|Weekend|Evening|Neutral|medium|popular
+21|U0064|M02417|Cinema|Family|Weekend|Afternoon|Neutral|medium|average
+21|U0007|M05212|Cinema|Alone|Weekend|Evening|Happy|medium|average
+21|U0032|M01047|Cinema|Friends|Public Holiday|Afternoon|Sad|medium|average
+21|U0035|M03389|Home|Partner|Weekend|Afternoon|Sad|medium|average
+22|U0050|M03961|Public transportation|Friends|Weekday|Afternoon|Happy|medium|average
+22|U0081|M05231|Home|Family|Weekday|Late Night|Happy|medium|popular
+22|U0065|M05069|Home|Partner|Weekday|Night|Happy|short|average
+22|U0027|M04990|Home|Partner|Weekend|Evening|Happy|medium|average
+22|U0053|M01325|Home|Partner|Weekday|Evening|Happy|long|average
+22|U0097|M03516|Outside|Alone|Weekday|Late Night|Neutral|medium|popular
+22|U0043|M03264|Cinema|Alone|Weekday|Evening|Sad|medium|average
+22|U0087|M03142|Cinema|Alone|Weekday|Afternoon|Neutral|medium|average
+22|U0037|M05250|Cinema|Friends|Weekday|Afternoon|Sad|medium|popular
+22|U0006|M03611|Home|Group|Weekend|Morning|Neutral|medium|popular
+22|U0036|M04718|Cinema|Partner|Weekday|Evening|Sad|short|average
+22|U0012|M03591|Public transportation|Group|Weekday|Evening|Sad|short|average
+22|U0044|M00747|Cinema|Group|Weekday|Afternoon|Sad|medium|average
+22|U0049|M02226|Home|Group|Public Holiday|Evening|Happy|short|average
+22|U0036|M04534|Outside|Family|Weekend|Evening|Happy|short|average
+22|U0026|M02204|Community Center|Alone|Weekend|Evening|Neutral|medium|unpopular
+22|U0001|M02244|Cinema|Partner|Weekday|Afternoon|Happy|long|unpopular
+22|U0083|M03914|Cinema|Alone|Weekend|Evening|Neutral|short|average
+22|U0088|M04512|Home|Alone|Public Holiday|Evening|Neutral|short|unpopular
+22|U0070|M00123|Home|Friends|Weekday|Afternoon|Sad|medium|average
+22|U0070|M02619|Outside|Alone|Weekday|Evening|Happy|medium|average
+22|U0089|M00655|Cinema|Friends|Weekday|Evening|Happy|medium|average
+22|U0087|M03890|Cinema|Family|Weekday|Morning|Happy|long|average
+22|U0097|M01454|Outside|Group|Weekend|Evening|Happy|long|average
+22|U0092|M00665|Community Center|Family|Weekend|Morning|Sad|medium|average
+22|U0005|M04530|Home|Alone|Weekday|Evening|Happy|short|average
+22|U0030|M01029|Outside|Alone|Public Holiday|Late Night|Sad|medium|average
+22|U0013|M01061|Cinema|Group|Weekday|Late Night|Sad|medium|average
+22|U0061|M01774|Cinema|Alone|Weekend|Night|Neutral|medium|average
+22|U0006|M04437|Home|Partner|Weekend|Late Night|Sad|short|popular
+22|U0090|M01759|Cinema|Friends|Weekday|Evening|Happy|medium|popular
+22|U0086|M03145|Cinema|Alone|Public Holiday|Evening|Sad|medium|average
+22|U0052|M00634|Home|Family|Weekend|Late Night|Neutral|long|popular
+22|U0048|M01219|Cinema|Partner|Weekday|Afternoon|Happy|long|average
+22|U0035|M03221|Home|Alone|Weekday|Evening|Sad|long|popular
+22|U0018|M04796|Home|Group|Weekday|Afternoon|Happy|short|popular
+22|U0042|M04276|Cinema|Friends|Weekday|Evening|Happy|medium|average
+22|U0025|M02418|Home|Group|Weekend|Afternoon|Happy|medium|average
+22|U0069|M03178|Cinema|Partner|Weekend|Evening|Sad|long|average
+22|U0032|M00415|Home|Friends|Weekday|Evening|Neutral|medium|average
+22|U0009|M04869|Outside|Partner|Weekday|Evening|Neutral|short|popular
+22|U0086|M01346|Outside|Family|Weekend|Afternoon|Sad|long|average
+22|U0099|M00122|Home|Family|Weekday|Late Night|Neutral|medium|average
+22|U0005|M02054|Community Center|Alone|Public Holiday|Evening|Sad|medium|average
+22|U0075|M02252|Workplace|Partner|Weekend|Morning|Happy|long|average
+22|U0091|M03780|Cinema|Alone|Weekday|Late Night|Happy|medium|average
+22|U0035|M03947|Home|Alone|Weekday|Night|Sad|short|average
+22|U0068|M03240|Home|Friends|Public Holiday|Evening|Happy|long|average
+22|U0011|M05038|Workplace|Family|Public Holiday|Night|Neutral|medium|average
+22|U0011|M01519|Workplace|Friends|Weekday|Morning|Happy|long|average
+23|U0094|M05659|Cinema|Partner|Weekday|Morning|Neutral|medium|popular
+23|U0098|M00283|Outside|Friends|Weekday|Night|Neutral|medium|average
+23|U0096|M02217|Cinema|Family|Weekday|Night|Sad|short|unpopular
+23|U0076|M04870|Cinema|Alone|Weekend|Afternoon|Neutral|medium|popular
+23|U0017|M03118|Public transportation|Alone|Weekend|Afternoon|Neutral|medium|average
+23|U0018|M02976|Workplace|Friends|Weekday|Night|Neutral|long|popular
+23|U0060|M01392|Home|Partner|Weekday|Night|Neutral|medium|average
+23|U0087|M02634|Home|Alone|Weekday|Evening|Happy|medium|average
+23|U0091|M05706|Cinema|Alone|Public Holiday|Evening|Happy|medium|popular
+23|U0076|M00604|Home|Alone|Weekend|Morning|Happy|medium|average
+23|U0070|M00792|Cinema|Alone|Weekday|Evening|Neutral|medium|average
+23|U0093|M05364|Workplace|Alone|Weekday|Late Night|Happy|short|popular
+23|U0013|M05527|Home|Group|Weekday|Morning|Neutral|short|popular
+23|U0064|M02198|Cinema|Friends|Weekday|Late Night|Sad|medium|average
+23|U0026|M00456|Home|Group|Weekday|Late Night|Neutral|long|popular
+23|U0028|M01853|Cinema|Alone|Public Holiday|Night|Neutral|short|average
+23|U0098|M05037|Cinema|Alone|Weekday|Morning|Neutral|medium|popular
+23|U0099|M00532|Public transportation|Partner|Weekday|Late Night|Happy|long|average
+23|U0071|M05526|Home|Alone|Weekday|Evening|Neutral|medium|average
+23|U0038|M03894|Cinema|Friends|Weekend|Evening|Sad|short|average
+23|U0065|M00823|Public transportation|Alone|Weekday|Evening|Neutral|medium|average
+23|U0045|M05539|Outside|Partner|Weekend|Late Night|Neutral|medium|average
+23|U0039|M03571|Cinema|Alone|Weekday|Afternoon|Neutral|long|average
+23|U0011|M04526|Cinema|Family|Public Holiday|Afternoon|Happy|medium|average
+23|U0043|M04731|Community Center|Alone|Weekday|Afternoon|Happy|short|average
+23|U0009|M03061|Workplace|Group|Weekday|Afternoon|Neutral|medium|average
+23|U0050|M04321|Community Center|Group|Weekday|Night|Neutral|short|unpopular
+23|U0001|M02831|Home|Partner|Weekday|Evening|Happy|long|average
+23|U0097|M00859|Cinema|Alone|Weekend|Afternoon|Neutral|medium|unpopular
+23|U0016|M04014|Cinema|Alone|Weekday|Evening|Neutral|medium|average
+23|U0012|M03660|Cinema|Alone|Weekday|Afternoon|Neutral|medium|average
+23|U0089|M03397|Outside|Alone|Weekday|Night|Neutral|medium|average
+23|U0055|M04981|Outside|Family|Weekend|Evening|Neutral|medium|average
+23|U0095|M02314|Home|Alone|Weekday|Morning|Sad|short|average
+23|U0006|M02587|Community Center|Partner|Weekday|Night|Happy|medium|average
+23|U0011|M05377|Home|Family|Weekday|Evening|Happy|medium|popular
+23|U0057|M00151|Cinema|Partner|Weekday|Night|Happy|short|average
+23|U0031|M00385|Public transportation|Friends|Weekday|Morning|Sad|medium|average
+23|U0095|M05169|Home|Alone|Weekend|Morning|Sad|long|average
+23|U0053|M01892|Home|Group|Public Holiday|Late Night|Happy|medium|average
+23|U0087|M04679|Home|Family|Weekday|Evening|Happy|short|average
+23|U0034|M04317|Cinema|Friends|Weekday|Night|Happy|medium|average
+23|U0088|M00074|Home|Group|Weekday|Evening|Neutral|medium|average
+23|U0015|M04931|Home|Group|Weekend|Evening|Happy|short|average
+23|U0043|M01869|Cinema|Alone|Weekday|Evening|Neutral|long|average
+23|U0027|M02344|Home|Friends|Weekend|Evening|Happy|medium|average
+23|U0020|M01686|Home|Partner|Weekday|Evening|Neutral|medium|average
+23|U0071|M03396|Home|Partner|Weekend|Evening|Sad|medium|average
+23|U0057|M01888|Home|Friends|Weekend|Morning|Sad|medium|average
+23|U0068|M02216|Home|Alone|Weekday|Evening|Happy|short|average
+24|U0064|M05084|Home|Partner|Weekend|Afternoon|Neutral|short|average
+24|U0067|M00436|Cinema|Friends|Public Holiday|Afternoon|Sad|medium|average
+24|U0072|M02998|Cinema|Family|Weekday|Afternoon|Sad|medium|average
+24|U0099|M03014|Cinema|Friends|Weekend|Evening|Sad|medium|unpopular
+24|U0035|M01874|Cinema|Family|Weekday|Evening|Neutral|medium|unpopular
+24|U0087|M00504|Workplace|Partner|Public Holiday|Afternoon|Happy|short|average
+24|U0036|M00825|Home|Friends|Weekend|Evening|Sad|medium|average
+24|U0012|M04406|Home|Group|Weekday|Afternoon|Neutral|medium|popular
+24|U0058|M04031|Outside|Group|Weekend|Evening|Happy|long|popular
+24|U0023|M04524|Cinema|Friends|Weekday|Night|Neutral|medium|unpopular
+24|U0092|M02029|Cinema|Alone|Public Holiday|Evening|Sad|medium|average
+24|U0045|M03508|Home|Family|Weekday|Night|Sad|long|average
+24|U0034|M00414|Home|Partner|Weekday|Evening|Sad|short|average
+24|U0005|M02464|Cinema|Friends|Weekday|Night|Neutral|medium|average
+24|U0099|M00966|Home|Family|Weekday|Evening|Neutral|short|unpopular
+24|U0011|M03634|Cinema|Alone|Weekend|Afternoon|Sad|medium|average
+24|U0090|M04405|Cinema|Alone|Weekday|Afternoon|Neutral|medium|average
+24|U0086|M03457|Outside|Group|Weekend|Afternoon|Neutral|medium|average
+24|U0043|M04384|Home|Friends|Weekday|Evening|Neutral|medium|average
+24|U0008|M05172|Workplace|Alone|Weekday|Evening|Sad|short|average
+24|U0007|M02111|Cinema|Alone|Weekend|Evening|Neutral|short|average
+24|U0071|M02521|Home|Family|Weekday|Evening|Neutral|medium|average
+24|U0020|M05645|Outside|Friends|Weekday|Evening|Sad|medium|popular
+24|U0017|M01461|Cinema|Alone|Weekend|Afternoon|Happy|medium|average
+24|U0091|M01729|Workplace|Partner|Weekend|Morning|Sad|medium|average
+24|U0084|M01257|Home|Family|Weekday|Evening|Neutral|long|popular
+24|U0035|M03804|Community Center|Family|Weekday|Late Night|Neutral|medium|average
+24|U0041|M04995|Home|Alone|Weekday|Afternoon|Neutral|short|average
+24|U0043|M02745|Outside|Friends|Weekday|Afternoon|Happy|medium|popular
+24|U0069|M02248|Community Center|Family|Weekend|Afternoon|Sad|medium|average
+24|U0092|M05262|Home|Alone|Weekday|Late Night|Sad|long|average
+24|U0025|M00103|Home|Alone|Weekend|Evening|Neutral|long|average
+24|U0003|M00401|Cinema|Alone|Weekday|Evening|Neutral|long|average
+24|U0042|M00755|Workplace|Alone|Public Holiday|Evening|Neutral|medium|average
+24|U0049|M02953|Outside|Alone|Weekday|Evening|Happy|medium|average
+24|U0023|M03330|Home|Alone|Weekday|Night|Neutral|medium|average
+24|U0071|M00242|Workplace|Family|Weekday|Evening|Sad|medium|unpopular
+24|U0084|M04129|Home|Partner|Weekday|Afternoon|Happy|medium|average
+24|U0036|M00594|Outside|Friends|Weekday|Evening|Neutral|medium|average
+24|U0025|M03354|Home|Family|Weekday|Night|Neutral|medium|average
+24|U0039|M00677|Home|Partner|Weekday|Night|Sad|long|average
+24|U0003|M02961|Home|Alone|Weekend|Night|Neutral|long|average
+24|U0016|M04746|Public transportation|Alone|Weekday|Evening|Sad|medium|average
+24|U0096|M02380|Public transportation|Friends|Weekday|Evening|Neutral|medium|average
+24|U0015|M02366|Cinema|Friends|Weekday|Afternoon|Neutral|medium|average
+24|U0039|M04177|Cinema|Family|Weekday|Evening|Sad|medium|popular
+24|U0078|M03245|Cinema|Alone|Weekday|Afternoon|Neutral|medium|average
+24|U0005|M00736|Cinema|Partner|Weekday|Late Night|Neutral|medium|average
+24|U0065|M03772|Cinema|Friends|Public Holiday|Afternoon|Happy|medium|popular
+24|U0097|M01233|Cinema|Partner|Weekday|Night|Neutral|long|average
+25|U0097|M05503|Cinema|Family|Weekend|Evening|Sad|medium|popular
+25|U0009|M01561|Outside|Partner|Weekend|Night|Neutral|long|average
+25|U0019|M01735|Home|Family|Public Holiday|Night|Neutral|long|average
+25|U0083|M03817|Home|Partner|Weekend|Evening|Neutral|long|average
+25|U0060|M00253|Workplace|Alone|Weekend|Late Night|Neutral|medium|average
+25|U0052|M02980|Outside|Friends|Public Holiday|Evening|Neutral|medium|average
+25|U0029|M02547|Home|Friends|Weekend|Afternoon|Sad|medium|average
+25|U0002|M01768|Home|Friends|Weekday|Late Night|Happy|medium|average
+25|U0092|M01810|Outside|Alone|Weekday|Night|Happy|long|average
+25|U0009|M01993|Home|Partner|Public Holiday|Evening|Neutral|medium|average
+25|U0081|M04271|Cinema|Family|Weekend|Evening|Neutral|medium|average
+25|U0018|M02357|Cinema|Friends|Weekday|Evening|Happy|medium|average
+25|U0069|M00271|Cinema|Friends|Weekday|Night|Neutral|long|average
+25|U0033|M05409|Cinema|Family|Weekday|Night|Neutral|long|average
+25|U0034|M05264|Cinema|Partner|Weekday|Evening|Neutral|short|average
+25|U0018|M00422|Cinema|Family|Weekday|Evening|Neutral|long|average
+25|U0022|M02411|Public transportation|Group|Weekend|Evening|Neutral|short|average
+25|U0001|M01255|Home|Partner|Weekday|Afternoon|Neutral|medium|average
+25|U0017|M02121|Home|Partner|Weekday|Evening|Neutral|long|average
+25|U0031|M01411|Cinema|Friends|Weekend|Afternoon|Happy|medium|average
+25|U0090|M02690|Home|Family|Weekend|Afternoon|Happy|short|average
+25|U0100|M01496|Home|Group|Weekday|Evening|Neutral|long|average
+25|U0018|M02496|Public transportation|Family|Weekend|Evening|Neutral|medium|average
+25|U0095|M01115|Cinema|Family|Weekday|Evening|Sad|long|average
+25|U0064|M02498|Home|Alone|Weekday|Night|Sad|medium|unpopular
+25|U0044|M01823|Cinema|Group|Weekday|Evening|Happy|short|average
+25|U0047|M03898|Cinema|Partner|Weekend|Late Night|Sad|long|popular
+25|U0003|M01718|Home|Group|Weekday|Morning|Sad|short|average
+25|U0079|M00378|Cinema|Alone|Public Holiday|Evening|Neutral|long|average
+25|U0075|M05615|Workplace|Alone|Public Holiday|Evening|Sad|long|popular
+25|U0005|M01357|Home|Partner|Weekend|Night|Happy|long|average
+25|U0044|M00347|Public transportation|Group|Weekend|Afternoon|Sad|medium|average
+25|U0008|M04972|Cinema|Alone|Weekend|Evening|Happy|medium|average
+25|U0049|M01106|Public transportation|Friends|Weekday|Night|Sad|medium|average
+25|U0014|M05443|Cinema|Group|Public Holiday|Evening|Happy|short|popular
+25|U0060|M00590|Workplace|Group|Weekday|Evening|Neutral|medium|average
+25|U0067|M04581|Home|Partner|Weekday|Evening|Sad|medium|average
+25|U0057|M04345|Home|Group|Weekday|Late Night|Sad|long|average
+25|U0018|M03774|Community Center|Group|Weekday|Evening|Sad|medium|average
+25|U0042|M01396|Home|Family|Weekday|Evening|Sad|medium|average
+25|U0023|M03151|Cinema|Family|Weekday|Night|Neutral|long|average
+25|U0063|M02774|Outside|Alone|Weekend|Afternoon|Happy|long|unpopular
+25|U0013|M04763|Home|Group|Weekend|Late Night|Happy|medium|average
+25|U0032|M01102|Home|Partner|Weekend|Evening|Happy|long|popular
+25|U0023|M03452|Home|Family|Weekday|Evening|Happy|medium|average
+25|U0013|M01884|Home|Group|Weekend|Afternoon|Happy|medium|average
+25|U0021|M00824|Home|Friends|Weekday|Night|Happy|medium|popular
+25|U0016|M03983|Home|Alone|Public Holiday|Evening|Neutral|medium|popular
+25|U0022|M03763|Home|Partner|Weekday|Late Night|Happy|medium|average
+25|U0049|M05335|Public transportation|Partner|Weekend|Night|Sad|medium|average
+26|U0004|M05197|Home|Family|Weekday|Evening|Happy|short|average
+26|U0011|M03859|Outside|Partner|Weekday|Evening|Neutral|long|average
+26|U0079|M01401|Home|Friends|Weekday|Evening|Sad|medium|unpopular
+26|U0070|M03163|Cinema|Group|Weekday|Evening|Neutral|medium|average
+26|U0016|M05144|Cinema|Partner|Weekday|Evening|Happy|medium|average
+26|U0011|M02670|Home|Family|Weekday|Evening|Sad|medium|average
+26|U0009|M01458|Home|Family|Weekday|Evening|Happy|long|average
+26|U0034|M00959|Workplace|Group|Weekday|Morning|Happy|medium|unpopular
+26|U0086|M02934|Home|Family|Public Holiday|Morning|Happy|short|average
+26|U0044|M04252|Public transportation|Friends|Weekend|Morning|Happy|medium|average
+26|U0078|M02575|Home|Alone|Weekday|Late Night|Sad|long|average
+26|U0073|M01741|Workplace|Family|Weekday|Morning|Sad|long|average
+26|U0068|M01792|Home|Friends|Weekend|Evening|Neutral|long|average
+26|U0046|M00375|Outside|Family|Weekday|Night|Happy|long|average
+26|U0050|M04828|Cinema|Alone|Weekday|Evening|Sad|medium|average
+26|U0012|M03254|Community Center|Group|Weekend|Evening|Happy|medium|average
+26|U0052|M01595|Home|Family|Weekend|Afternoon|Neutral|medium|average
+26|U0075|M03504|Home|Partner|Weekday|Evening|Sad|short|average
+26|U0100|M00700|Outside|Partner|Weekend|Late Night|Sad|medium|average
+26|U0019|M03373|Outside|Friends|Weekend|Afternoon|Sad|long|average
+26|U0006|M04179|Workplace|Alone|Weekday|Afternoon|Sad|long|popular
+26|U0031|M01161|Home|Alone|Weekday|Afternoon|Sad|long|average
+26|U0066|M03110|Home|Family|Weekday|Evening|Sad|medium|average
+26|U0001|M04432|Outside|Alone|Public Holiday|Afternoon|Happy|medium|average
+26|U0025|M01944|Cinema|Friends|Weekend|Evening|Happy|long|average
+26|U0007|M04188|Cinema|Friends|Weekend|Night|Neutral|medium|popular
+26|U0061|M02968|Cinema|Group|Weekday|Evening|Neutral|medium|average
+26|U0021|M03743|Cinema|Partner|Weekday|Evening|Sad|medium|average
+26|U0042|M02545|Home|Alone|Weekday|Night|Happy|medium|average
+26|U0089|M02188|Public transportation|Partner|Weekday|Late Night|Sad|medium|average
+26|U0005|M00936|Cinema|Group|Weekend|Night|Neutral|medium|average
+26|U0030|M04990|Home|Partner|Weekday|Evening|Neutral|medium|average
+26|U0095|M00915|Outside|Partner|Weekday|Afternoon|Happy|long|average
+26|U0040|M01474|Home|Group|Weekend|Evening|Sad|long|average
+26|U0088|M03202|Home|Alone|Weekday|Evening|Happy|medium|average
+26|U0050|M01499|Home|Partner|Weekday|Late Night|Happy|long|average
+26|U0024|M01651|Cinema|Group|Weekday|Late Night|Happy|medium|unpopular
+26|U0096|M05657|Home|Alone|Weekday|Late Night|Happy|short|popular
+26|U0035|M02626|Home|Partner|Weekday|Afternoon|Neutral|medium|average
+26|U0037|M02953|Public transportation|Alone|Weekend|Late Night|Sad|medium|average
+26|U0011|M00246|Cinema|Friends|Weekday|Night|Sad|long|average
+26|U0003|M00370|Cinema|Friends|Weekday|Night|Happy|long|average
+26|U0021|M00397|Cinema|Group|Weekday|Night|Happy|medium|average
+26|U0044|M03195|Home|Alone|Weekday|Evening|Happy|long|average
+26|U0098|M02784|Home|Group|Weekday|Evening|Sad|medium|popular
+26|U0072|M00054|Community Center|Family|Weekday|Evening|Neutral|long|average
+26|U0021|M00260|Home|Partner|Weekday|Night|Sad|medium|average
+26|U0049|M05046|Cinema|Family|Weekend|Morning|Neutral|short|popular
+26|U0051|M01993|Cinema|Family|Weekend|Afternoon|Sad|medium|average
+26|U0095|M04046|Community Center|Partner|Weekday|Morning|Happy|short|average
+27|U0072|M04394|Home|Alone|Weekday|Evening|Neutral|medium|average
+27|U0003|M01456|Home|Alone|Weekday|Afternoon|Happy|long|popular
+27|U0057|M02930|Cinema|Alone|Weekend|Afternoon|Sad|medium|average
+27|U0070|M02228|Cinema|Alone|Weekday|Evening|Neutral|medium|average
+27|U0063|M03597|Workplace|Friends|Weekday|Evening|Sad|medium|average
+27|U0096|M00114|Workplace|Family|Weekday|Night|Neutral|long|average
+27|U0007|M02436|Cinema|Partner|Weekend|Afternoon|Happy|medium|average
+27|U0029|M00682|Home|Partner|Weekend|Afternoon|Neutral|short|unpopular
+27|U0001|M00781|Cinema|Family|Weekend|Evening|Happy|medium|average
+27|U0005|M00152|Home|Friends|Weekday|Evening|Happy|medium|average
+27|U0089|M05333|Cinema|Partner|Weekend|Evening|Happy|medium|average
+27|U0019|M05387|Public transportation|Alone|Weekday|Morning|Neutral|medium|popular
+27|U0004|M04454|Home|Alone|Weekday|Evening|Neutral|medium|average
+27|U0031|M01021|Workplace|Group|Weekday|Morning|Sad|long|average
+27|U0030|M02552|Cinema|Friends|Weekend|Evening|Sad|short|unpopular
+27|U0016|M00105|Cinema|Friends|Weekend|Evening|Happy|medium|average
+27|U0019|M03813|Outside|Alone|Weekend|Evening|Sad|medium|average
+27|U0022|M05134|Home|Friends|Weekday|Evening|Sad|short|average
+27|U0054|M04591|Community Center|Partner|Weekend|Evening|Sad|medium|average
+27|U0056|M03801|Home|Alone|Weekend|Night|Sad|medium|average
+27|U0058|M00742|Public transportation|Family|Weekend|Late Night|Neutral|medium|average
+27|U0038|M05273|Cinema|Friends|Weekday|Evening|Neutral|medium|average
+27|U0010|M02400|Cinema|Partner|Weekend|Evening|Happy|medium|average
+27|U0088|M03773|Home|Group|Weekday|Late Night|Neutral|medium|average
+27|U0081|M02854|Workplace|Alone|Weekend|Night|Sad|long|popular
+27|U0008|M03106|Home|Alone|Weekend|Late Night|Sad|medium|average
+27|U0098|M01809|Cinema|Friends|Weekday|Afternoon|Neutral|medium|popular
+27|U0059|M04017|Cinema|Family|Weekend|Late Night|Sad|medium|unpopular
+27|U0015|M03106|Home|Family|Weekend|Evening|Happy|medium|average
+27|U0090|M00467|Cinema|Friends|Weekday|Morning|Sad|medium|average
+27|U0085|M02712|Home|Alone|Weekday|Morning|Sad|medium|average
+27|U0046|M03062|Home|Friends|Weekday|Evening|Sad|medium|average
+27|U0050|M04699|Home|Alone|Weekday|Afternoon|Neutral|short|average
+27|U0013|M05699|Home|Partner|Weekend|Evening|Sad|long|average
+27|U0070|M05709|Community Center|Family|Public Holiday|Afternoon|Sad|long|average
+27|U0042|M03294|Home|Alone|Weekend|Evening|Sad|medium|average
+27|U0089|M03092|Home|Alone|Weekend|Evening|Neutral|medium|average
+27|U0083|M03429|Public transportation|Family|Weekday|Evening|Sad|medium|average
+27|U0041|M02040|Cinema|Partner|Weekend|Night|Sad|medium|average
+27|U0010|M00133|Cinema|Alone|Weekday|Morning|Neutral|medium|average
+27|U0006|M01428|Home|Alone|Weekday|Night|Neutral|medium|average
+27|U0077|M03031|Outside|Family|Weekend|Night|Neutral|medium|average
+27|U0053|M00988|Home|Alone|Weekend|Afternoon|Sad|medium|average
+27|U0010|M03148|Home|Family|Public Holiday|Afternoon|Sad|short|average
+27|U0047|M03699|Home|Family|Weekday|Morning|Sad|medium|average
+27|U0043|M00607|Cinema|Family|Weekend|Afternoon|Happy|medium|average
+27|U0032|M00896|Outside|Alone|Weekend|Evening|Neutral|medium|average
+27|U0066|M01864|Cinema|Friends|Weekday|Evening|Neutral|medium|average
+27|U0040|M04704|Home|Alone|Weekday|Evening|Neutral|short|average
+27|U0037|M00836|Cinema|Alone|Weekend|Afternoon|Neutral|medium|average
+28|U0009|M02988|Home|Partner|Weekday|Evening|Neutral|short|average
+28|U0026|M00730|Cinema|Alone|Weekday|Morning|Sad|medium|average
+28|U0053|M02620|Outside|Alone|Public Holiday|Late Night|Neutral|long|popular
+28|U0077|M05305|Outside|Alone|Weekend|Night|Sad|medium|average
+28|U0064|M05093|Cinema|Alone|Weekday|Evening|Happy|long|popular
+28|U0017|M02352|Workplace|Family|Weekend|Night|Sad|medium|unpopular
+28|U0073|M05535|Cinema|Friends|Weekend|Evening|Neutral|medium|average
+28|U0004|M02852|Outside|Alone|Weekday|Night|Neutral|long|popular
+28|U0038|M02104|Cinema|Group|Weekday|Night|Happy|medium|average
+28|U0039|M01209|Cinema|Family|Weekend|Evening|Neutral|long|average
+28|U0081|M01366|Outside|Family|Weekend|Afternoon|Happy|long|average
+28|U0022|M01062|Cinema|Group|Weekday|Evening|Happy|long|average
+28|U0024|M01572|Cinema|Partner|Weekend|Evening|Happy|medium|average
+28|U0083|M03494|Cinema|Friends|Weekend|Morning|Happy|medium|average
+28|U0006|M00984|Public transportation|Partner|Weekday|Afternoon|Happy|medium|average
+28|U0003|M02107|Outside|Family|Weekend|Afternoon|Happy|medium|average
+28|U0089|M00448|Workplace|Partner|Weekday|Night|Happy|long|average
+28|U0018|M04504|Cinema|Friends|Weekend|Morning|Sad|medium|average
+28|U0061|M02226|Home|Group|Weekday|Evening|Sad|short|average
+28|U0086|M03637|Cinema|Partner|Weekday|Night|Happy|long|average
+28|U0092|M02033|Home|Group|Weekend|Morning|Sad|long|average
+28|U0013|M05344|Cinema|Partner|Weekend|Evening|Neutral|medium|popular
+28|U0001|M02476|Cinema|Friends|Weekday|Evening|Neutral|medium|average
+28|U0082|M04383|Home|Group|Weekday|Night|Sad|medium|unpopular
+28|U0037|M04086|Home|Family|Weekday|Morning|Sad|medium|popular
+28|U0069|M00708|Outside|Alone|Weekday|Late Night|Happy|long|average
+28|U0100|M04798|Home|Family|Weekday|Night|Happy|medium|popular
+28|U0057|M05421|Cinema|Alone|Weekday|Afternoon|Neutral|long|popular
+28|U0092|M05030|Cinema|Family|Weekday|Late Night|Sad|medium|average
+28|U0033|M05154|Home|Group|Public Holiday|Afternoon|Neutral|short|average
+28|U0051|M00299|Cinema|Friends|Weekend|Late Night|Neutral|long|average
+28|U0034|M01072|Home|Partner|Weekday|Late Night|Neutral|medium|average
+28|U0085|M02632|Outside|Alone|Weekday|Late Night|Neutral|short|average
+28|U0051|M00851|Outside|Group|Weekday|Afternoon|Happy|medium|average
+28|U0037|M02450|Home|Partner|Weekday|Evening|Sad|medium|popular
+28|U0063|M05013|Outside|Partner|Weekday|Morning|Happy|medium|average
+28|U0078|M00678|Workplace|Group|Weekday|Afternoon|Happy|long|average
+28|U0081|M02671|Home|Family|Weekend|Evening|Happy|short|average
+28|U0071|M02344|Home|Alone|Weekday|Afternoon|Neutral|medium|average
+28|U0048|M00949|Cinema|Alone|Weekend|Late Night|Neutral|medium|average
+28|U0057|M01132|Cinema|Friends|Weekday|Morning|Sad|medium|average
+28|U0011|M00673|Community Center|Alone|Public Holiday|Evening|Sad|medium|average
+28|U0068|M05618|Outside|Group|Weekday|Evening|Happy|medium|popular
+28|U0073|M05302|Cinema|Alone|Weekday|Evening|Happy|short|popular
+28|U0097|M00661|Outside|Partner|Weekend|Night|Happy|medium|average
+28|U0082|M04738|Home|Alone|Weekday|Afternoon|Neutral|medium|unpopular
+28|U0082|M02954|Outside|Alone|Weekday|Evening|Neutral|medium|average
+28|U0027|M05444|Home|Family|Weekday|Evening|Sad|medium|popular
+28|U0042|M04699|Cinema|Alone|Weekday|Afternoon|Sad|short|average
+28|U0073|M04537|Outside|Family|Weekend|Afternoon|Happy|short|average
+29|U0096|M02458|Cinema|Group|Weekday|Evening|Happy|medium|average
+29|U0023|M00261|Home|Alone|Weekend|Night|Neutral|long|average
+29|U0036|M02519|Home|Alone|Public Holiday|Afternoon|Happy|medium|average
+29|U0057|M05581|Home|Partner|Weekend|Late Night|Neutral|short|popular
+29|U0094|M03142|Cinema|Alone|Weekend|Evening|Happy|medium|average
+29|U0095|M04674|Cinema|Friends|Weekend|Night|Happy|medium|average
+29|U0091|M02111|Home|Alone|Weekend|Night|Neutral|short|average
+29|U0005|M00375|Home|Family|Weekday|Evening|Happy|long|average
+29|U0092|M02788|Home|Alone|Weekend|Afternoon|Sad|medium|popular
+29|U0012|M00784|Home|Partner|Weekend|Late Night|Happy|long|unpopular
+29|U0083|M01327|Cinema|Family|Weekday|Afternoon|Happy|medium|average
+29|U0048|M03130|Cinema|Family|Public Holiday|Morning|Happy|medium|average
+29|U0009|M00048|Home|Family|Weekend|Afternoon|Sad|long|popular
+29|U0051|M04930|Home|Alone|Weekday|Late Night|Neutral|short|popular
+29|U0018|M00168|Cinema|Alone|Weekday|Evening|Happy|long|average
+29|U0015|M02046|Home|Alone|Weekday|Afternoon|Sad|medium|average
+29|U0096|M01521|Public transportation|Alone|Weekday|Afternoon|Neutral|medium|average
+29|U0022|M00527|Home|Partner|Weekday|Late Night|Happy|medium|average
+29|U0026|M01090|Cinema|Friends|Weekend|Evening|Sad|long|average
+29|U0060|M01377|Outside|Alone|Weekend|Evening|Neutral|long|average
+29|U0046|M04369|Home|Group|Weekday|Night|Happy|short|average
+29|U0069|M05565|Community Center|Group|Weekday|Evening|Neutral|medium|average
+29|U0054|M02541|Cinema|Family|Weekday|Late Night|Neutral|short|average
+29|U0019|M02707|Workplace|Partner|Public Holiday|Late Night|Sad|medium|unpopular
+29|U0081|M05071|Cinema|Friends|Weekend|Night|Neutral|medium|average
+29|U0060|M04879|Outside|Family|Weekday|Late Night|Neutral|short|average
+29|U0100|M00648|Cinema|Family|Weekday|Evening|Neutral|medium|average
+29|U0067|M04361|Outside|Friends|Weekday|Evening|Happy|medium|average
+29|U0096|M00441|Public transportation|Group|Weekday|Evening|Neutral|medium|average
+29|U0090|M01547|Cinema|Family|Weekend|Afternoon|Sad|medium|average
+29|U0019|M04993|Cinema|Friends|Public Holiday|Evening|Sad|long|popular
+29|U0060|M00322|Home|Partner|Weekend|Evening|Neutral|long|popular
+29|U0066|M05667|Workplace|Group|Weekend|Afternoon|Sad|long|popular
+29|U0079|M03633|Workplace|Friends|Weekday|Evening|Happy|medium|average
+29|U0023|M04894|Workplace|Alone|Weekday|Afternoon|Happy|short|average
+29|U0009|M05106|Home|Friends|Weekday|Evening|Neutral|short|popular
+29|U0065|M05299|Cinema|Partner|Weekday|Late Night|Happy|medium|average
+29|U0051|M00107|Workplace|Alone|Weekday|Morning|Neutral|medium|average
+29|U0041|M01801|Home|Partner|Weekday|Night|Neutral|medium|average
+29|U0006|M01302|Workplace|Partner|Weekday|Night|Neutral|medium|average
+29|U0078|M05356|Home|Friends|Weekday|Night|Sad|medium|average
+29|U0042|M03551|Home|Friends|Public Holiday|Evening|Neutral|long|average
+29|U0096|M00262|Home|Partner|Weekday|Late Night|Sad|long|popular
+29|U0057|M01586|Outside|Partner|Weekday|Morning|Sad|medium|average
+29|U0032|M01900|Cinema|Group|Weekend|Late Night|Neutral|medium|unpopular
+29|U0054|M00218|Community Center|Friends|Weekday|Night|Neutral|long|average
+29|U0090|M00425|Cinema|Alone|Weekday|Evening|Sad|medium|average
+29|U0044|M04240|Cinema|Alone|Weekend|Evening|Happy|medium|average
+29|U0079|M01937|Home|Alone|Weekend|Afternoon|Sad|medium|average
+29|U0088|M03510|Cinema|Friends|Public Holiday|Afternoon|Sad|long|unpopular

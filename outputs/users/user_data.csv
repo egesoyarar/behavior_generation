@@ -1,0 +1,101 @@
+userID|name|surname|clinical_gender|age_range|lifestyle|country_of_origin|living_country|current_location|liked_genres|disliked_genres|current_working_status|marital_status|ethnicity|language_spoken
+U0001|Brittney|Thompson|Female|18-24|Balanced|Russia|Russia|Moscow|Short|Romance|Student|Married|Hispanic|English, Persian, Russian
+U0002|Diana|Henson|Not mentioned|35-44|Active|Czech Republic|Czech Republic|Prague|Biography|Action, Sci-Fi|Employed|Married|Non-Hispanic White|Czech
+U0003|Vincent|Cole|Male|Under 18|Sedentary|USA|USA|Chicago|Western||Student|Single|Non-Hispanic White|English
+U0004|Terri|Nichols|Male|18-24|Busy|Spain|Spain|Barcelona|Drama, Comedy, Horror||Student|Married|Non-Hispanic White|English, Japanese, Spanish
+U0005|Matthew|Wood|Female|18-24|Sedentary|United Kingdom|United Kingdom|Birmingham|Action, Adventure||Student|Single|Non-Hispanic White|English, French
+U0006|Amanda|Carlson|Female|35-44|Balanced|Netherlands|Australia|Melbourne||Family|Student|Single|Non-Hispanic White|English
+U0007|Edward|Hall|Male|35-44|Active|Portugal|Portugal|Porto|Music|Animation|Employed|Married|Hispanic|English, Portuguese
+U0008|Bryan|White|Male|65+|Balanced|Spain|USA|Los Angeles||Comedy, Mystery, Fantasy|Retired|Married|Non-Hispanic White|English
+U0009|Barbara|Alexander|Female|18-24|Relaxed|Italy|Italy|Milan||Mystery, Short|Student|Married|Non-Hispanic White|Hindi, Italian
+U0010|Steven|Tran|Male|55-64|Active|Russia|Russia|Moscow|Comedy||Retired|Single|Mixed|French, Danish, Russian
+U0011|Edward|Lee|Not mentioned|Under 18|Busy|Sweden|Philippines|Manila||Drama, Biography|Student|Single|Non-Hispanic White|English
+U0012|Nicole|King|Female|35-44|Balanced|USA|USA|Chicago|Animation|Action|Employed|Single|Non-Hispanic White|English, Estonian
+U0013|Cynthia|Dennis|Male|35-44|Sedentary|Ukraine|Brazil|Sao Paulo|Western, Documentary|Adventure|Student|Divorced|Asian|English, Portuguese, Greek
+U0014|Rebecca|Richard|Male|65+|Active|India|Denmark|Copenhagen|Documentary, Thriller, Family|Short|Retired|Married|Non-Hispanic White|Romanian, Danish
+U0015|Samantha|Ramos|Female|35-44|Balanced|Brazil|Brazil|Sao Paulo|Drama||Student|Single|Asian|English, Portuguese
+U0016|Michelle|Barrera|Male|45-54|Sedentary|Italy|Italy|Milan|||Unemployed|Single|Black|English, German, Italian
+U0017|Christopher|Gonzalez|Male|18-24|Balanced|Saudi Arabia|Saudi Arabia|Riyadh|Animation, Adventure|Drama|Student|Single|Hispanic|Arabic
+U0018|Christopher|Morrison|Not mentioned|35-44|Busy|South Korea|South Korea|Seoul||Biography|Unemployed|Single|Non-Hispanic White|English, Korean
+U0019|Christina|Myers|Female|35-44|Active|Thailand|Thailand|Bangkok|Music, Action|Family|Employed|Married|Hispanic|Thai
+U0020|Randy|Mcintyre|Male|25-34|Active|India|India|Mumbai|Adventure|Mystery, Film-Noir|Student|Single|Black|English
+U0021|Dana|Rose|Male|45-54|Relaxed|Mexico|Mexico|Mexico City|Adventure||Employed|Married|Non-Hispanic White|English, Mandarin, Spanish
+U0022|Shannon|Adams|Not mentioned|Under 18|Sedentary|Philippines|Philippines|Manila|Biography, Short|Drama|Student|Single|Non-Hispanic White|English, Swedish
+U0023|Kristen|Harris|Male|35-44|Balanced|Brazil|Brazil|Rio de Janeiro|Documentary||Employed|Married|Hispanic|English, French, German, Portuguese
+U0024|Kimberly|Harrington|Female|35-44|Balanced|India|India|Mumbai||Drama, Romance|Employed|Married|Non-Hispanic White|English, Hindi, Spanish, Serbian
+U0025|Amanda|Clark|Female|25-34|Active|South Korea|Armenia|Yerevan|Music||Student|Single|Mixed|English, Armenian
+U0026|Mark|Bryant|Female|Under 18|Balanced|India|India|Mumbai|Fantasy, Horror||Student|Single|Non-Hispanic White|English
+U0027|Michael|Lewis|Male|35-44|Busy|South Korea|South Korea|Busan|History, Comedy|Music, Mystery, Drama|Student|Widowed|Non-Hispanic White|Korean
+U0028|Kimberly|Deleon|Female|18-24|Active|Spain|Spain|Barcelona|||Student|Single|Non-Hispanic White|Swedish, Spanish
+U0029|Jesse|Martinez|Male|25-34|Balanced|Estonia|Estonia|Tallinn|Mystery|Thriller, Drama|Student|Married|Hispanic|Korean, Estonian
+U0030|Brenda|Massey|Male|Under 18|Active|Japan|Japan|Kyoto|Horror|Animation|Student|Single|Non-Hispanic White|English, Japanese
+U0031|Matthew|Warren|Female|25-34|Relaxed|Philippines|Netherlands|Amsterdam|Sci-Fi, Documentary|Action, Thriller|Student|Married|Asian|Danish, Dutch
+U0032|Shawn|Wilson|Female|25-34|Active|France|France|Marseille|Animation, Thriller, Crime||Employed|Single|Non-Hispanic White|English, French
+U0033|Sarah|Mitchell|Male|35-44|Balanced|Thailand|Thailand|Bangkok|||Employed|Married|Non-Hispanic White|English, German, Thai
+U0034|Amanda|Sanders|Not mentioned|25-34|Busy|India|India|Delhi|Documentary, Fantasy, Western|Comedy|Employed|Married|Non-Hispanic White|English
+U0035|Rhonda|Bennett|Male|25-34|Active|Canada|Canada|Toronto|War, Biography, Adventure|Music|Student|Single|Non-Hispanic White|English
+U0036|Jessica|Gomez|Male|18-24|Balanced|Sweden|Sweden|Stockholm|Crime, Anime||Unemployed|Single|Non-Hispanic White|Mandarin, Swedish
+U0037|Roger|Newton|Female|25-34|Sedentary|Russia|Russia|Saint Petersburg|Romance|Mystery|Student|Single|Non-Hispanic White|Russian
+U0038|Renee|Zimmerman|Male|25-34|Active|United Kingdom|United Kingdom|London|Thriller, Sci-Fi, Comedy||Student|Single|Non-Hispanic White|English, Portuguese, German
+U0039|Jenna|Johnson|Male|55-64|Relaxed|Poland|Poland|Warsaw|Thriller, Sci-Fi||Employed|Single|Non-Hispanic White|English, German, Polish
+U0040|Nathan|Clark|Female|25-34|Busy|United Kingdom|United Kingdom|Birmingham|Action, Biography||Student|Single|Black|English
+U0041|Harold|Phillips|Male|35-44|Balanced|Germany|Germany|Berlin|Drama||Student|Single|Hispanic|English, German
+U0042|Carol|Curtis|Male|25-34|Active|Spain|Czech Republic|Prague|Romance, Mystery|Sci-Fi|Student|Widowed|Non-Hispanic White|English, Urdu, Czech
+U0043|Matthew|Williams|Male|18-24|Balanced|China|Australia|Sydney|Fantasy, Horror|Adventure, War|Student|Single|Non-Hispanic White|English
+U0044|Joseph|Harrell|Female|35-44|Active|Thailand|Thailand|Bangkok|Romance, Music, Horror|War|Employed|Married|Non-Hispanic White|Portuguese, Thai
+U0045|Michael|Montes|Female|35-44|Balanced|Indonesia|Indonesia|Jakarta||Fantasy|Employed|Married|Hispanic|Indonesian
+U0046|David|Snyder|Male|25-34|Active|Brazil|Brazil|Sao Paulo|Documentary||Student|Single|Non-Hispanic White|English, French, Portuguese
+U0047|Daniel|Morris|Male|25-34|Busy|USA|USA|Los Angeles|Adventure|Family, Drama|Student|Single|Black|English
+U0048|Lisa|Foster|Male|18-24|Balanced|Netherlands|Netherlands|Rotterdam|Thriller|Mystery|Student|Married|Non-Hispanic White|English, Dutch
+U0049|Belinda|Rogers|Male|18-24|Relaxed|USA|USA|Los Angeles|Drama, Thriller||Employed|Single|Black|English, Greek
+U0050|Frances|Stevens|Not mentioned|35-44|Active|Mexico|Mexico|Mexico City|Sport, Action, Comedy||Student|Single|Non-Hispanic White|English, Greek, Spanish
+U0051|Jennifer|Hernandez|Female|18-24|Balanced|India|India|Mumbai|Documentary||Student|Single|Other|English, Mandarin
+U0052|Paige|Richards|Female|35-44|Balanced|Japan|Japan|Kyoto|Drama||Employed|Married|Asian|Hungarian, Japanese
+U0053|Erika|Collier|Male|65+|Balanced|Russia|Russia|Saint Petersburg||Mystery|Retired|Divorced|Asian|Greek, Russian
+U0054|Brett|Davis|Not mentioned|35-44|Sedentary|Sweden|Brazil|Rio de Janeiro|Sport||Employed|Single|Non-Hispanic White|English, Portuguese
+U0055|Darrell|Smith|Female|18-24|Active|Japan|Japan|Osaka|Fantasy|Biography, Mystery, Animation|Student|Married|Non-Hispanic White|English, Russian, Japanese
+U0056|Christina|Rodriguez|Female|18-24|Balanced|Russia|Russia|Saint Petersburg|||Employed|Married|Non-Hispanic White|English, Russian
+U0057|Ricky|Wong|Male|35-44|Active|Spain|Portugal|Porto||Silent, Western|Employed|Single|Hispanic|English, Mandarin, Indonesian, Portuguese
+U0058|Scott|Long|Female|18-24|Active|USA|USA|New York|Mystery|Silent|Employed|Married|Non-Hispanic White|English, Portuguese
+U0059|Scott|Holmes|Male|25-34|Active|China|Australia|Melbourne|Mystery|Animation|Employed|Married|Non-Hispanic White|English
+U0060|Stephen|Lara|Female|18-24|Active|Netherlands|Netherlands|Amsterdam|Drama|Film-Noir|Student|Married|Non-Hispanic White|English, German, Dutch
+U0061|George|Mcguire|Female|25-34|Sedentary|Norway|Norway|Oslo|||Student|Married|Non-Hispanic White|English, Spanish, Norwegian
+U0062|Danielle|Kirk|Female|18-24|Balanced|Australia|Australia|Melbourne|Thriller||Student|Married|Hispanic|English
+U0063|Elizabeth|Johnson|Not mentioned|25-34|Balanced|India|Israel|Tel Aviv|||Employed|Married|Non-Hispanic White|English, Hebrew
+U0064|Keith|Ferguson|Male|25-34|Active|Netherlands|Netherlands|Rotterdam|Film-Noir, Fantasy|Animation|Employed|Single|Hispanic|Korean, Dutch
+U0065|Madeline|Rhodes|Female|18-24|Balanced|France|Italy|Rome|Animation|Crime|Student|Divorced|Black|English, Italian
+U0066|Bruce|Martinez|Female|18-24|Balanced|China|China|Shanghai|||Unemployed|Widowed|Black|Mandarin
+U0067|Andrea|Murray|Male|35-44|Active|South Korea|South Korea|Seoul|Western||Student|Divorced|Non-Hispanic White|French, Serbian, Korean
+U0068|Eric|Jackson|Female|25-34|Sedentary|Pakistan|Pakistan|Islamabad|Comedy|Horror, History|Student|Married|Non-Hispanic White|English
+U0069|Michael|Smith|Female|25-34|Sedentary|United Kingdom|United Kingdom|Birmingham|Fantasy||Retired|Divorced|Hispanic|English
+U0070|Stanley|Shaw|Male|25-34|Active|Brazil|Brazil|Rio de Janeiro|Action, Thriller||Student|Single|Hispanic|Mandarin, Japanese, Portuguese
+U0071|Stephanie|Patrick|Male|18-24|Sedentary|Poland|Poland|Warsaw|Comedy||Student|Widowed|Non-Hispanic White|English, Polish
+U0072|Monica|Medina|Male|18-24|Sedentary|Poland|Poland|Krakow|||Student|Single|Hispanic|Arabic, Polish
+U0073|Anthony|Cox|Female|25-34|Balanced|Serbia|Serbia|Belgrade|Western, Romance|Anime|Unemployed|Widowed|Non-Hispanic White|Korean, Spanish, Serbian
+U0074|Nicholas|Lara|Male|18-24|Sedentary|Indonesia|Indonesia|Jakarta|Comedy, Sci-Fi|Romance, Horror|Student|Married|Non-Hispanic White|Serbian, Indonesian
+U0075|Natalie|Hubbard|Female|25-34|Active|USA|USA|Los Angeles|||Student|Single|Hispanic|Arabic, English
+U0076|Daniel|Williams|Female|45-54|Sedentary|Poland|Poland|Warsaw|War, Sci-Fi|Animation|Retired|Married|Hispanic|English, Hebrew, Polish
+U0077|Russell|Cook|Female|35-44|Balanced|Indonesia|Indonesia|Jakarta|Thriller||Student|Married|Non-Hispanic White|Hindi, Japanese, Indonesian
+U0078|Claudia|Martin|Female|Under 18|Balanced|China|China|Beijing|Family|Horror|Student|Single|Hispanic|English, Mandarin
+U0079|Gregory|Mann|Male|25-34|Balanced|USA|Norway|Oslo|Animation|Thriller|Student|Married|Hispanic|English, Indonesian, Turkish, Norwegian
+U0080|Walter|Williams|Male|35-44|Busy|Mexico|Mexico|Mexico City||Thriller|Student|Married|Non-Hispanic White|German, Spanish
+U0081|Michelle|Ortiz|Female|35-44|Relaxed|India|India|Mumbai|||Student|Single|Asian|English
+U0082|April|Powell|Male|18-24|Balanced|United Kingdom|United Kingdom|Manchester|Adventure, Thriller||Employed|Single|Non-Hispanic White|English, Mandarin, Filipino
+U0083|Terri|Brown|Male|18-24|Balanced|Canada|Canada|Montreal||War, Fantasy|Student|Single|Non-Hispanic White|English
+U0084|Tammy|Monroe|Female|18-24|Busy|USA|USA|Chicago|Adventure, Drama|Horror|Employed|Married|Asian|English, Korean, Spanish
+U0085|Jordan|Howard|Female|25-34|Balanced|Spain|Spain|Madrid|||Student|Married|Non-Hispanic White|Spanish
+U0086|Marilyn|Fox|Male|18-24|Balanced|South Korea|South Korea|Seoul||War, Action, Film-Noir|Student|Married|Non-Hispanic White|English, Korean
+U0087|Justin|Vega|Male|35-44|Sedentary|Norway|Norway|Oslo|Thriller||Employed|Married|Black|English, Indonesian, Norwegian
+U0088|Sara|Chapman|Male|18-24|Relaxed|Indonesia|Indonesia|Jakarta|||Student|Widowed|Black|Mandarin, Indonesian
+U0089|Donna|Brown|Male|45-54|Balanced|Mexico|Mexico|Mexico City|Romance, Biography|Drama, Fantasy|Retired|Single|Other|English, Ukrainian, Spanish
+U0090|Sheri|Long|Male|25-34|Active|Greece|Greece|Athens|Adventure|Animation|Employed|Married|Non-Hispanic White|English, Portuguese, Greek
+U0091|Juan|Cox|Female|18-24|Active|Turkey|Turkey|Izmir|Sport, Sci-Fi, Animation||Student|Single|Hispanic|English, Japanese, Persian, Turkish
+U0092|Richard|Berry|Female|Under 18|Active|Pakistan|Pakistan|Islamabad|Sci-Fi, Romance, War||Student|Single|Non-Hispanic White|English, Thai
+U0093|Monica|Medina|Male|55-64|Balanced|China|China|Shanghai|||Employed|Married|Asian|English, Mandarin
+U0094|Mark|Cortez|Male|Under 18|Active|Italy|Italy|Milan|||Student|Single|Non-Hispanic White|Spanish, Italian
+U0095|Tina|Wilson|Male|25-34|Balanced|Russia|Russia|Moscow||Anime, Fantasy|Student|Single|Non-Hispanic White|English, Russian
+U0096|Jorge|Stevenson|Not mentioned|25-34|Active|Hungary|Hungary|Budapest|Romance, Crime, Animation|Comedy|Unemployed|Married|Non-Hispanic White|Korean, Hungarian
+U0097|Margaret|Clayton|Female|18-24|Sedentary|Thailand|Thailand|Bangkok|Horror, Adventure, Action||Student|Single|Non-Hispanic White|English, Korean, Thai
+U0098|Anthony|Webb|Male|35-44|Balanced|Denmark|Denmark|Copenhagen|Adventure||Employed|Married|Non-Hispanic White|English, Hindi, Persian, Russian, Danish
+U0099|Robert|Griffin|Female|25-34|Sedentary|Greece|Greece|Athens|Documentary||Student|Single|Non-Hispanic White|English, Estonian, Turkish, Greek
+U0100|Randy|Russo|Female|25-34|Sedentary|China|China|Beijing|Documentary, Action, Romance||Unemployed|Widowed|Non-Hispanic White|English, Norwegian, Mandarin
