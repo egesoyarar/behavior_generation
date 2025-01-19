@@ -16,16 +16,20 @@ TIME_OF_DAY_PROBS = {
 }
 
 DAY_OF_WEEK_PROBS = {
-    "Weekday": 0.6,
-    "Weekend": 0.3,
-    "Public Holiday": 0.1
+    "Monday": 0.8,
+    "Tuesday": 0.9,
+    "Wednesday": 0.9,
+    "Thursday": 1.0,
+    "Friday": 1.2,
+    "Saturday": 1.5,
+    "Sunday": 1.3
 }
 
 SEASON_PROBS = {
-    "Summer": 0.2,
-    "Spring": 0.2,
-    "Winter": 0.35,
-    "Fall": 0.25
+    "Winter": 1.5,
+    "Autumn": 1.3,
+    "Spring": 1.0,
+    "Summer": 0.8
 }
 
 COMPANION_PROBS = {
@@ -34,4 +38,11 @@ COMPANION_PROBS = {
     "Friends": 0.2,
     "Family": 0.2,
     "Group": 0.1
+}
+
+SEASON_BY_MONTH = {
+    1: "Winter", 2: "Winter", 3: "Spring",
+    4: "Spring", 5: "Spring", 6: "Summer",
+    7: "Summer", 8: "Summer", 9: "Autumn",
+    10: "Autumn", 11: "Autumn", 12: "Winter"
 }
