@@ -1,4 +1,4 @@
-import pandas as pd
+import argparse
 from behavior_generation.generators.user_generator import generate_users
 
 
@@ -6,9 +6,13 @@ def main():
     """
     Generate synthetic user data and save it as a CSV file.
     """
-    num_users = 100  # Number of users to generate
-    output_file = "outputs/users/user_data.csv"
+    parser = argparse.ArgumentParser(description="Generate synthetic user data.")
+    parser.add_argument("--num_users", type=int, default=100, help="Number of users to generate.")
+    parser.add_argument("--user_output_file", type=str, default="outputs/users/user_data.csv", help="Output file for user data.")
+    args = parser.parse_args()
 
+    num_users = args.num_users
+    user_output_file = args.user_output_file
     # Generate user data
     user_df = generate_users(num_users)
 
@@ -18,8 +22,8 @@ def main():
     user_df["language_spoken"] = user_df["language_spoken"].apply(", ".join)
 
     # Save to CSV
-    user_df.to_csv(output_file, index=False, sep="|", encoding="utf-8")
-    print(f"Generated {num_users} users and saved to '{output_file}'.")
+    user_df.to_csv(user_output_file, index=False, sep="|", encoding="utf-8")
+    print(f"Generated {num_users} users and saved to '{user_output_file}'.")
 
 
 if __name__ == "__main__":
