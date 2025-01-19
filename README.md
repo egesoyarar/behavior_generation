@@ -89,9 +89,9 @@ Weights and factors can be modified in `calculate_satisfaction_score.py`.
 | U0012  | Christopher | Fox     | Female | 35-44     | Active    | Italy             | Italy          | Milan            | ['Crime']     | []              | Student        | Single         | Hispanic  | ['English', 'Italian'] |
 
 ### Generated Behavior Example
-| day_number | date       | userId | movieId | location | companions | user_mood | satisfaction |
-|------------|------------|--------|---------|----------|------------|-----------|--------------|
-| 0          | 2025-01-01 | U0012  | M001    | Home     | Partner    | Happy     | 0.92         |
+| day_number | date       | season  | day_of_week | time_of_day | userId | movieId | location | companions | user_mood | satisfaction |
+|------------|------------|---------|-------------|-------------|--------|---------|----------|------------|-----------|--------------|
+| 11         | 2025-01-12 | Winter  | Sunday      | Night       | U0083  | M03459  | Home     | Partner    | Sad       | 0.48         |
 
 
 
