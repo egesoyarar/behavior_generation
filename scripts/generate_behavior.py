@@ -1,7 +1,9 @@
 import argparse
 import pandas as pd
+import json
 from behavior_generation.generators.behavior_generator import generate_behavior_data
 from behavior_generation.generators.user_generator import generate_users
+from behavior_generation.generators.preference_generator import generate_multiple_user_preferences
 
 
 def main():
@@ -14,6 +16,7 @@ def main():
     parser.add_argument("--total_behaviors", type=int, default=1000, help="Number of total behaviors.")
     parser.add_argument("--start_date", type=str, default="2025-01-01", help="Start date of simulation.")
     parser.add_argument("--user_output_file", type=str, default="outputs/users/user_data.csv", help="Output file for user data.")
+    parser.add_argument("--preference_output_file", type=str, default="outputs/users/preferences.json", help="Output file for preference probabilities.")
     parser.add_argument("--behavior_output_file", type=str, default="outputs/behaviors/behavior_data.csv", help="Output file for behavior data.")
     parser.add_argument("--movie_data_file", type=str, default="behavior_generation/data/movie_data.csv", help="Path to movie data file.")
     args = parser.parse_args()
@@ -23,6 +26,7 @@ def main():
     total_behaviors = args.total_behaviors
     start_date= args.start_date
     user_output_file = args.user_output_file
+    preference_output_file = args.preference_output_file
     behavior_output_file = args.behavior_output_file
     movie_data_file = args.movie_data_file
 
@@ -31,6 +35,11 @@ def main():
     user_df.to_csv(user_output_file, index=False, sep="|")
     print(f"User data saved to '{user_output_file}'.")
 
+    user_preferences = generate_multiple_user_preferences(user_df["userID"])
+    with open(preference_output_file, "w", encoding="utf-8") as f:
+        json.dump(user_preferences, f, indent=4)
+    print(f"Preference data saved to '{preference_output_file}'.")
+
     print("Loading movie data...")
     movie_df = pd.read_csv(movie_data_file, sep="|")
 
@@ -38,8 +47,8 @@ def main():
     behavior_df = generate_behavior_data(
         user_df,
         movie_df,
+        user_preferences,
         num_days=num_days,
-        total_behaviors=total_behaviors,
         start_date=start_date
     )
     behavior_df.to_csv(behavior_output_file, index=False, sep="|")

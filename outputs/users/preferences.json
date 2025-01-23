@@ -1,3187 +1,2552 @@
 {
     "U0001": {
+        "WATCH_TENDENCY_PROBS": 0.65,
         "COMPANION_PROBS": {
-            "Alone": 0.18,
+            "Alone": 0.54,
             "Partner": 0.15,
             "Friends": 0.08,
-            "Family": 0.06,
-            "Group": 0.53
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.15,
-            "Spring": 0.57,
-            "Summer": 0.2,
-            "Autumn": 0.08
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.09,
-            "Tuesday": 0.1,
-            "Wednesday": 0.06,
-            "Thursday": 0.08,
-            "Friday": 0.43,
-            "Saturday": 0.16,
-            "Sunday": 0.08
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.13,
-            "Afternoon": 0.69,
-            "Evening": 0.09,
-            "Night": 0.09
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.46,
-            "Cinema": 0.12,
-            "Public Transportation": 0.2,
-            "Workplace": 0.12,
-            "Community Center": 0.1
-        }
-    },
-    "U0002": {
-        "COMPANION_PROBS": {
-            "Alone": 0.11,
-            "Partner": 0.17,
-            "Friends": 0.14,
             "Family": 0.18,
-            "Group": 0.4
+            "Group": 0.05
         },
         "SEASON_PROBS": {
-            "Winter": 0.24,
-            "Spring": 0.09,
-            "Summer": 0.58,
-            "Autumn": 0.09
+            "Winter": 0.97,
+            "Spring": 0.75,
+            "Summer": 0.42,
+            "Autumn": 0.37
         },
         "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.17,
-            "Tuesday": 0.11,
-            "Wednesday": 0.04,
-            "Thursday": 0.15,
-            "Friday": 0.43,
-            "Saturday": 0.05,
-            "Sunday": 0.05
+            "Monday": 0.2,
+            "Tuesday": 0.55,
+            "Wednesday": 0.32,
+            "Thursday": 0.06,
+            "Friday": 0.36,
+            "Saturday": 0.73,
+            "Sunday": 0.55
         },
         "TIME_OF_DAY_PROBS": {
-            "Morning": 0.54,
-            "Afternoon": 0.25,
-            "Evening": 0.14,
-            "Night": 0.07
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.08,
-            "Cinema": 0.09,
-            "Public Transportation": 0.19,
-            "Workplace": 0.44,
-            "Community Center": 0.2
-        }
-    },
-    "U0003": {
-        "COMPANION_PROBS": {
-            "Alone": 0.08,
-            "Partner": 0.07,
-            "Friends": 0.12,
-            "Family": 0.54,
-            "Group": 0.19
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.62,
-            "Spring": 0.17,
-            "Summer": 0.07,
-            "Autumn": 0.14
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.37,
-            "Tuesday": 0.16,
-            "Wednesday": 0.13,
-            "Thursday": 0.15,
-            "Friday": 0.04,
-            "Saturday": 0.03,
-            "Sunday": 0.12
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.07,
-            "Afternoon": 0.22,
-            "Evening": 0.16,
-            "Night": 0.55
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.16,
-            "Cinema": 0.16,
-            "Public Transportation": 0.05,
-            "Workplace": 0.44,
-            "Community Center": 0.19
-        }
-    },
-    "U0004": {
-        "COMPANION_PROBS": {
-            "Alone": 0.13,
-            "Partner": 0.5,
-            "Friends": 0.21,
-            "Family": 0.05,
-            "Group": 0.11
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.57,
-            "Spring": 0.09,
-            "Summer": 0.15,
-            "Autumn": 0.19
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.12,
-            "Tuesday": 0.3,
-            "Wednesday": 0.09,
-            "Thursday": 0.12,
-            "Friday": 0.13,
-            "Saturday": 0.12,
-            "Sunday": 0.12
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.2,
-            "Afternoon": 0.51,
-            "Evening": 0.18,
-            "Night": 0.11
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.19,
-            "Cinema": 0.05,
-            "Public Transportation": 0.14,
-            "Workplace": 0.51,
-            "Community Center": 0.11
-        }
-    },
-    "U0005": {
-        "COMPANION_PROBS": {
-            "Alone": 0.51,
-            "Partner": 0.11,
-            "Friends": 0.15,
-            "Family": 0.17,
-            "Group": 0.06
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.2,
-            "Spring": 0.13,
-            "Summer": 0.51,
-            "Autumn": 0.16
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.03,
-            "Tuesday": 0.36,
-            "Wednesday": 0.14,
-            "Thursday": 0.14,
-            "Friday": 0.12,
-            "Saturday": 0.07,
-            "Sunday": 0.14
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.26,
-            "Afternoon": 0.12,
-            "Evening": 0.56,
+            "Morning": 0.24,
+            "Afternoon": 0.58,
+            "Evening": 0.12,
             "Night": 0.06
         },
         "LOCATION_PROBS": {
-            "Home": 0.19,
-            "Cinema": 0.18,
-            "Public Transportation": 0.5,
-            "Workplace": 0.06,
-            "Community Center": 0.07
+            "Home": 0.49,
+            "Cinema": 0.1,
+            "Public Transportation": 0.05,
+            "Workplace": 0.15,
+            "Community Center": 0.21
         }
     },
-    "U0006": {
+    "U0002": {
+        "WATCH_TENDENCY_PROBS": 0.52,
         "COMPANION_PROBS": {
-            "Alone": 0.06,
-            "Partner": 0.19,
-            "Friends": 0.18,
-            "Family": 0.17,
-            "Group": 0.4
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.16,
-            "Spring": 0.57,
-            "Summer": 0.15,
-            "Autumn": 0.12
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.08,
-            "Tuesday": 0.15,
-            "Wednesday": 0.05,
-            "Thursday": 0.15,
-            "Friday": 0.06,
-            "Saturday": 0.36,
-            "Sunday": 0.15
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.47,
-            "Afternoon": 0.21,
-            "Evening": 0.16,
-            "Night": 0.16
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.15,
-            "Cinema": 0.53,
-            "Public Transportation": 0.19,
-            "Workplace": 0.08,
-            "Community Center": 0.05
-        }
-    },
-    "U0007": {
-        "COMPANION_PROBS": {
-            "Alone": 0.19,
-            "Partner": 0.07,
-            "Friends": 0.19,
-            "Family": 0.1,
-            "Group": 0.45
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.23,
-            "Spring": 0.08,
-            "Summer": 0.58,
-            "Autumn": 0.11
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.08,
-            "Tuesday": 0.03,
-            "Wednesday": 0.05,
-            "Thursday": 0.4,
-            "Friday": 0.15,
-            "Saturday": 0.17,
-            "Sunday": 0.12
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.52,
-            "Afternoon": 0.21,
-            "Evening": 0.06,
-            "Night": 0.21
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.45,
-            "Cinema": 0.2,
-            "Public Transportation": 0.17,
-            "Workplace": 0.06,
-            "Community Center": 0.12
-        }
-    },
-    "U0008": {
-        "COMPANION_PROBS": {
-            "Alone": 0.08,
-            "Partner": 0.15,
-            "Friends": 0.5,
-            "Family": 0.06,
-            "Group": 0.21
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.57,
-            "Spring": 0.21,
-            "Summer": 0.09,
-            "Autumn": 0.13
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.15,
-            "Tuesday": 0.36,
-            "Wednesday": 0.09,
-            "Thursday": 0.15,
-            "Friday": 0.07,
-            "Saturday": 0.06,
-            "Sunday": 0.12
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.15,
-            "Afternoon": 0.09,
-            "Evening": 0.54,
-            "Night": 0.22
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.22,
-            "Cinema": 0.06,
-            "Public Transportation": 0.52,
-            "Workplace": 0.12,
-            "Community Center": 0.08
-        }
-    },
-    "U0009": {
-        "COMPANION_PROBS": {
-            "Alone": 0.09,
-            "Partner": 0.07,
-            "Friends": 0.57,
-            "Family": 0.21,
-            "Group": 0.06
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.16,
-            "Spring": 0.5,
-            "Summer": 0.18,
-            "Autumn": 0.16
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.08,
-            "Tuesday": 0.39,
-            "Wednesday": 0.03,
-            "Thursday": 0.14,
-            "Friday": 0.13,
-            "Saturday": 0.17,
-            "Sunday": 0.06
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.18,
-            "Afternoon": 0.57,
-            "Evening": 0.11,
-            "Night": 0.14
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.17,
-            "Cinema": 0.42,
-            "Public Transportation": 0.16,
-            "Workplace": 0.07,
-            "Community Center": 0.18
-        }
-    },
-    "U0010": {
-        "COMPANION_PROBS": {
-            "Alone": 0.07,
-            "Partner": 0.09,
+            "Alone": 0.16,
+            "Partner": 0.48,
             "Friends": 0.21,
-            "Family": 0.11,
-            "Group": 0.52
+            "Family": 0.1,
+            "Group": 0.05
         },
         "SEASON_PROBS": {
-            "Winter": 0.2,
-            "Spring": 0.21,
-            "Summer": 0.48,
-            "Autumn": 0.11
+            "Winter": 0.39,
+            "Spring": 0.67,
+            "Summer": 0.94,
+            "Autumn": 0.36
         },
         "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.15,
-            "Tuesday": 0.12,
-            "Wednesday": 0.1,
-            "Thursday": 0.12,
-            "Friday": 0.4,
-            "Saturday": 0.06,
-            "Sunday": 0.05
+            "Monday": 0.58,
+            "Tuesday": 0.64,
+            "Wednesday": 0.66,
+            "Thursday": 0.92,
+            "Friday": 0.08,
+            "Saturday": 0.23,
+            "Sunday": 0.79
         },
         "TIME_OF_DAY_PROBS": {
-            "Morning": 0.2,
-            "Afternoon": 0.2,
-            "Evening": 0.09,
-            "Night": 0.51
+            "Morning": 0.09,
+            "Afternoon": 0.19,
+            "Evening": 0.22,
+            "Night": 0.5
         },
         "LOCATION_PROBS": {
             "Home": 0.15,
-            "Cinema": 0.15,
-            "Public Transportation": 0.17,
-            "Workplace": 0.14,
-            "Community Center": 0.39
+            "Cinema": 0.11,
+            "Public Transportation": 0.09,
+            "Workplace": 0.15,
+            "Community Center": 0.5
         }
     },
-    "U0011": {
+    "U0003": {
+        "WATCH_TENDENCY_PROBS": 0.65,
         "COMPANION_PROBS": {
-            "Alone": 0.08,
-            "Partner": 0.44,
-            "Friends": 0.14,
-            "Family": 0.18,
+            "Alone": 0.05,
+            "Partner": 0.18,
+            "Friends": 0.13,
+            "Family": 0.48,
             "Group": 0.16
         },
         "SEASON_PROBS": {
-            "Winter": 0.24,
-            "Spring": 0.07,
-            "Summer": 0.11,
-            "Autumn": 0.58
+            "Winter": 0.57,
+            "Spring": 0.28,
+            "Summer": 0.29,
+            "Autumn": 0.48
         },
         "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.09,
-            "Tuesday": 0.07,
-            "Wednesday": 0.11,
-            "Thursday": 0.15,
-            "Friday": 0.05,
-            "Saturday": 0.38,
-            "Sunday": 0.15
+            "Monday": 0.21,
+            "Tuesday": 0.29,
+            "Wednesday": 0.87,
+            "Thursday": 0.66,
+            "Friday": 0.38,
+            "Saturday": 0.36,
+            "Sunday": 0.2
         },
         "TIME_OF_DAY_PROBS": {
-            "Morning": 0.58,
-            "Afternoon": 0.16,
-            "Evening": 0.09,
-            "Night": 0.17
+            "Morning": 0.47,
+            "Afternoon": 0.19,
+            "Evening": 0.19,
+            "Night": 0.15
         },
         "LOCATION_PROBS": {
-            "Home": 0.16,
-            "Cinema": 0.21,
-            "Public Transportation": 0.12,
-            "Workplace": 0.45,
-            "Community Center": 0.06
+            "Home": 0.4,
+            "Cinema": 0.17,
+            "Public Transportation": 0.16,
+            "Workplace": 0.17,
+            "Community Center": 0.1
         }
     },
-    "U0012": {
+    "U0004": {
+        "WATCH_TENDENCY_PROBS": 0.68,
         "COMPANION_PROBS": {
-            "Alone": 0.11,
+            "Alone": 0.53,
             "Partner": 0.05,
-            "Friends": 0.16,
-            "Family": 0.21,
-            "Group": 0.47
+            "Friends": 0.1,
+            "Family": 0.12,
+            "Group": 0.2
         },
         "SEASON_PROBS": {
-            "Winter": 0.16,
-            "Spring": 0.11,
-            "Summer": 0.2,
-            "Autumn": 0.53
+            "Winter": 0.96,
+            "Spring": 0.87,
+            "Summer": 0.56,
+            "Autumn": 0.61
         },
         "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.17,
-            "Tuesday": 0.07,
-            "Wednesday": 0.1,
-            "Thursday": 0.04,
-            "Friday": 0.12,
-            "Saturday": 0.4,
-            "Sunday": 0.1
+            "Monday": 0.78,
+            "Tuesday": 0.24,
+            "Wednesday": 0.04,
+            "Thursday": 0.59,
+            "Friday": 0.06,
+            "Saturday": 0.89,
+            "Sunday": 0.65
         },
         "TIME_OF_DAY_PROBS": {
-            "Morning": 0.19,
-            "Afternoon": 0.17,
+            "Morning": 0.06,
+            "Afternoon": 0.22,
+            "Evening": 0.49,
+            "Night": 0.23
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.11,
+            "Cinema": 0.18,
+            "Public Transportation": 0.08,
+            "Workplace": 0.47,
+            "Community Center": 0.16
+        }
+    },
+    "U0005": {
+        "WATCH_TENDENCY_PROBS": 0.65,
+        "COMPANION_PROBS": {
+            "Alone": 0.17,
+            "Partner": 0.58,
+            "Friends": 0.07,
+            "Family": 0.08,
+            "Group": 0.1
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.17,
+            "Spring": 0.79,
+            "Summer": 0.48,
+            "Autumn": 0.72
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.35,
+            "Tuesday": 0.57,
+            "Wednesday": 0.4,
+            "Thursday": 0.28,
+            "Friday": 0.8,
+            "Saturday": 0.84,
+            "Sunday": 0.55
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.2,
+            "Afternoon": 0.16,
             "Evening": 0.11,
             "Night": 0.53
         },
         "LOCATION_PROBS": {
-            "Home": 0.16,
-            "Cinema": 0.09,
-            "Public Transportation": 0.16,
-            "Workplace": 0.19,
-            "Community Center": 0.4
-        }
-    },
-    "U0013": {
-        "COMPANION_PROBS": {
-            "Alone": 0.09,
-            "Partner": 0.46,
-            "Friends": 0.15,
-            "Family": 0.1,
-            "Group": 0.2
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.07,
-            "Spring": 0.2,
-            "Summer": 0.5,
-            "Autumn": 0.23
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.05,
-            "Tuesday": 0.06,
-            "Wednesday": 0.42,
-            "Thursday": 0.13,
-            "Friday": 0.13,
-            "Saturday": 0.04,
-            "Sunday": 0.17
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.19,
-            "Afternoon": 0.17,
-            "Evening": 0.51,
-            "Night": 0.13
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.12,
-            "Cinema": 0.46,
-            "Public Transportation": 0.17,
-            "Workplace": 0.17,
-            "Community Center": 0.08
-        }
-    },
-    "U0014": {
-        "COMPANION_PROBS": {
-            "Alone": 0.55,
-            "Partner": 0.12,
-            "Friends": 0.09,
-            "Family": 0.08,
-            "Group": 0.16
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.7,
-            "Spring": 0.07,
-            "Summer": 0.16,
-            "Autumn": 0.07
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.06,
-            "Tuesday": 0.38,
-            "Wednesday": 0.05,
-            "Thursday": 0.14,
-            "Friday": 0.15,
-            "Saturday": 0.07,
-            "Sunday": 0.15
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.16,
-            "Afternoon": 0.2,
-            "Evening": 0.44,
-            "Night": 0.2
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.22,
-            "Cinema": 0.07,
-            "Public Transportation": 0.08,
-            "Workplace": 0.12,
-            "Community Center": 0.51
-        }
-    },
-    "U0015": {
-        "COMPANION_PROBS": {
-            "Alone": 0.07,
-            "Partner": 0.55,
-            "Friends": 0.06,
-            "Family": 0.14,
-            "Group": 0.18
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.14,
-            "Spring": 0.2,
-            "Summer": 0.16,
-            "Autumn": 0.5
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.04,
-            "Tuesday": 0.09,
-            "Wednesday": 0.15,
-            "Thursday": 0.04,
-            "Friday": 0.12,
-            "Saturday": 0.09,
-            "Sunday": 0.47
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.66,
-            "Afternoon": 0.14,
-            "Evening": 0.08,
-            "Night": 0.12
-        },
-        "LOCATION_PROBS": {
             "Home": 0.07,
-            "Cinema": 0.21,
-            "Public Transportation": 0.16,
-            "Workplace": 0.48,
-            "Community Center": 0.08
-        }
-    },
-    "U0016": {
-        "COMPANION_PROBS": {
-            "Alone": 0.46,
-            "Partner": 0.18,
-            "Friends": 0.07,
-            "Family": 0.08,
-            "Group": 0.21
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.16,
-            "Spring": 0.56,
-            "Summer": 0.12,
-            "Autumn": 0.16
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.08,
-            "Tuesday": 0.04,
-            "Wednesday": 0.1,
-            "Thursday": 0.05,
-            "Friday": 0.48,
-            "Saturday": 0.13,
-            "Sunday": 0.12
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.12,
-            "Afternoon": 0.18,
-            "Evening": 0.1,
-            "Night": 0.6
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.1,
-            "Cinema": 0.11,
-            "Public Transportation": 0.56,
-            "Workplace": 0.17,
-            "Community Center": 0.06
-        }
-    },
-    "U0017": {
-        "COMPANION_PROBS": {
-            "Alone": 0.13,
-            "Partner": 0.43,
-            "Friends": 0.13,
-            "Family": 0.11,
-            "Group": 0.2
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.18,
-            "Spring": 0.59,
-            "Summer": 0.09,
-            "Autumn": 0.14
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.15,
-            "Tuesday": 0.12,
-            "Wednesday": 0.13,
-            "Thursday": 0.11,
-            "Friday": 0.05,
-            "Saturday": 0.1,
-            "Sunday": 0.34
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.5,
-            "Afternoon": 0.06,
-            "Evening": 0.23,
-            "Night": 0.21
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.46,
-            "Cinema": 0.21,
-            "Public Transportation": 0.19,
-            "Workplace": 0.05,
-            "Community Center": 0.09
-        }
-    },
-    "U0018": {
-        "COMPANION_PROBS": {
-            "Alone": 0.13,
-            "Partner": 0.07,
-            "Friends": 0.59,
-            "Family": 0.06,
-            "Group": 0.15
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.08,
-            "Spring": 0.73,
-            "Summer": 0.09,
-            "Autumn": 0.1
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.46,
-            "Tuesday": 0.09,
-            "Wednesday": 0.08,
-            "Thursday": 0.04,
-            "Friday": 0.11,
-            "Saturday": 0.11,
-            "Sunday": 0.11
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.08,
-            "Afternoon": 0.14,
-            "Evening": 0.65,
-            "Night": 0.13
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.54,
-            "Cinema": 0.12,
-            "Public Transportation": 0.1,
-            "Workplace": 0.08,
-            "Community Center": 0.16
-        }
-    },
-    "U0019": {
-        "COMPANION_PROBS": {
-            "Alone": 0.44,
-            "Partner": 0.14,
-            "Friends": 0.16,
-            "Family": 0.13,
-            "Group": 0.13
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.19,
-            "Spring": 0.09,
-            "Summer": 0.21,
-            "Autumn": 0.51
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.11,
-            "Tuesday": 0.07,
-            "Wednesday": 0.1,
-            "Thursday": 0.06,
-            "Friday": 0.4,
-            "Saturday": 0.17,
-            "Sunday": 0.09
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.13,
-            "Afternoon": 0.09,
-            "Evening": 0.22,
-            "Night": 0.56
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.14,
-            "Cinema": 0.13,
-            "Public Transportation": 0.11,
-            "Workplace": 0.43,
-            "Community Center": 0.19
-        }
-    },
-    "U0020": {
-        "COMPANION_PROBS": {
-            "Alone": 0.43,
-            "Partner": 0.14,
-            "Friends": 0.1,
-            "Family": 0.16,
-            "Group": 0.17
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.05,
-            "Spring": 0.18,
-            "Summer": 0.54,
-            "Autumn": 0.23
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.1,
-            "Tuesday": 0.1,
-            "Wednesday": 0.08,
-            "Thursday": 0.11,
-            "Friday": 0.06,
-            "Saturday": 0.12,
-            "Sunday": 0.43
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.05,
-            "Afternoon": 0.22,
-            "Evening": 0.22,
-            "Night": 0.51
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.45,
-            "Cinema": 0.21,
-            "Public Transportation": 0.11,
-            "Workplace": 0.07,
-            "Community Center": 0.16
-        }
-    },
-    "U0021": {
-        "COMPANION_PROBS": {
-            "Alone": 0.5,
-            "Partner": 0.22,
-            "Friends": 0.09,
-            "Family": 0.06,
-            "Group": 0.13
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.1,
-            "Spring": 0.13,
-            "Summer": 0.53,
-            "Autumn": 0.24
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.13,
-            "Tuesday": 0.06,
-            "Wednesday": 0.14,
-            "Thursday": 0.34,
-            "Friday": 0.15,
-            "Saturday": 0.1,
-            "Sunday": 0.08
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.15,
-            "Afternoon": 0.2,
-            "Evening": 0.15,
-            "Night": 0.5
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.18,
-            "Cinema": 0.04,
-            "Public Transportation": 0.22,
-            "Workplace": 0.09,
+            "Cinema": 0.05,
+            "Public Transportation": 0.21,
+            "Workplace": 0.2,
             "Community Center": 0.47
         }
     },
-    "U0022": {
+    "U0006": {
+        "WATCH_TENDENCY_PROBS": 0.4,
         "COMPANION_PROBS": {
-            "Alone": 0.13,
-            "Partner": 0.15,
-            "Friends": 0.08,
+            "Alone": 0.17,
+            "Partner": 0.4,
+            "Friends": 0.17,
+            "Family": 0.16,
+            "Group": 0.1
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.07,
+            "Spring": 0.67,
+            "Summer": 0.44,
+            "Autumn": 0.82
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.06,
+            "Tuesday": 0.59,
+            "Wednesday": 0.48,
+            "Thursday": 0.95,
+            "Friday": 0.55,
+            "Saturday": 0.56,
+            "Sunday": 0.48
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.19,
+            "Afternoon": 0.09,
+            "Evening": 0.51,
+            "Night": 0.21
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.18,
+            "Cinema": 0.06,
+            "Public Transportation": 0.53,
+            "Workplace": 0.18,
+            "Community Center": 0.05
+        }
+    },
+    "U0007": {
+        "WATCH_TENDENCY_PROBS": 0.89,
+        "COMPANION_PROBS": {
+            "Alone": 0.11,
+            "Partner": 0.2,
+            "Friends": 0.15,
+            "Family": 0.46,
+            "Group": 0.08
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.91,
+            "Spring": 0.09,
+            "Summer": 0.18,
+            "Autumn": 0.77
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.01,
+            "Tuesday": 0.42,
+            "Wednesday": 0.15,
+            "Thursday": 0.32,
+            "Friday": 0.1,
+            "Saturday": 0.24,
+            "Sunday": 0.57
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.23,
+            "Afternoon": 0.52,
+            "Evening": 0.13,
+            "Night": 0.12
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.08,
+            "Cinema": 0.23,
+            "Public Transportation": 0.05,
+            "Workplace": 0.13,
+            "Community Center": 0.51
+        }
+    },
+    "U0008": {
+        "WATCH_TENDENCY_PROBS": 0.54,
+        "COMPANION_PROBS": {
+            "Alone": 0.14,
+            "Partner": 0.16,
+            "Friends": 0.16,
+            "Family": 0.08,
+            "Group": 0.46
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.62,
+            "Spring": 0.39,
+            "Summer": 0.63,
+            "Autumn": 0.29
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.79,
+            "Tuesday": 0.18,
+            "Wednesday": 0.59,
+            "Thursday": 0.08,
+            "Friday": 0.04,
+            "Saturday": 0.34,
+            "Sunday": 0.3
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.13,
+            "Afternoon": 0.16,
+            "Evening": 0.62,
+            "Night": 0.09
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.22,
+            "Cinema": 0.11,
+            "Public Transportation": 0.5,
+            "Workplace": 0.11,
+            "Community Center": 0.06
+        }
+    },
+    "U0009": {
+        "WATCH_TENDENCY_PROBS": 0.85,
+        "COMPANION_PROBS": {
+            "Alone": 0.16,
+            "Partner": 0.47,
+            "Friends": 0.17,
+            "Family": 0.16,
+            "Group": 0.04
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.95,
+            "Spring": 0.77,
+            "Summer": 0.18,
+            "Autumn": 0.7
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.08,
+            "Tuesday": 0.94,
+            "Wednesday": 0.72,
+            "Thursday": 0.01,
+            "Friday": 0.16,
+            "Saturday": 0.74,
+            "Sunday": 0.43
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.14,
+            "Afternoon": 0.55,
+            "Evening": 0.26,
+            "Night": 0.05
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.17,
+            "Cinema": 0.15,
+            "Public Transportation": 0.07,
+            "Workplace": 0.42,
+            "Community Center": 0.19
+        }
+    },
+    "U0010": {
+        "WATCH_TENDENCY_PROBS": 0.28,
+        "COMPANION_PROBS": {
+            "Alone": 0.1,
+            "Partner": 0.45,
+            "Friends": 0.18,
+            "Family": 0.13,
+            "Group": 0.14
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.84,
+            "Spring": 0.09,
+            "Summer": 0.33,
+            "Autumn": 0.52
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.26,
+            "Tuesday": 0.21,
+            "Wednesday": 0.82,
+            "Thursday": 0.89,
+            "Friday": 0.59,
+            "Saturday": 0.0,
+            "Sunday": 0.85
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.07,
+            "Afternoon": 0.19,
+            "Evening": 0.62,
+            "Night": 0.12
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.08,
+            "Cinema": 0.08,
+            "Public Transportation": 0.25,
+            "Workplace": 0.54,
+            "Community Center": 0.05
+        }
+    },
+    "U0011": {
+        "WATCH_TENDENCY_PROBS": 0.7,
+        "COMPANION_PROBS": {
+            "Alone": 0.45,
+            "Partner": 0.19,
+            "Friends": 0.05,
             "Family": 0.15,
+            "Group": 0.16
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.68,
+            "Spring": 0.39,
+            "Summer": 0.45,
+            "Autumn": 0.14
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.19,
+            "Tuesday": 0.26,
+            "Wednesday": 0.41,
+            "Thursday": 0.3,
+            "Friday": 0.74,
+            "Saturday": 0.49,
+            "Sunday": 0.33
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.13,
+            "Afternoon": 0.64,
+            "Evening": 0.17,
+            "Night": 0.06
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.05,
+            "Cinema": 0.09,
+            "Public Transportation": 0.11,
+            "Workplace": 0.17,
+            "Community Center": 0.58
+        }
+    },
+    "U0012": {
+        "WATCH_TENDENCY_PROBS": 0.67,
+        "COMPANION_PROBS": {
+            "Alone": 0.18,
+            "Partner": 0.13,
+            "Friends": 0.46,
+            "Family": 0.08,
+            "Group": 0.15
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.19,
+            "Spring": 0.41,
+            "Summer": 0.97,
+            "Autumn": 0.46
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.53,
+            "Tuesday": 0.06,
+            "Wednesday": 0.51,
+            "Thursday": 0.56,
+            "Friday": 0.83,
+            "Saturday": 0.75,
+            "Sunday": 0.86
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.24,
+            "Afternoon": 0.59,
+            "Evening": 0.11,
+            "Night": 0.06
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.1,
+            "Cinema": 0.06,
+            "Public Transportation": 0.2,
+            "Workplace": 0.11,
+            "Community Center": 0.53
+        }
+    },
+    "U0013": {
+        "WATCH_TENDENCY_PROBS": 0.86,
+        "COMPANION_PROBS": {
+            "Alone": 0.09,
+            "Partner": 0.2,
+            "Friends": 0.48,
+            "Family": 0.13,
+            "Group": 0.1
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.37,
+            "Spring": 0.27,
+            "Summer": 0.08,
+            "Autumn": 0.49
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.84,
+            "Tuesday": 0.64,
+            "Wednesday": 0.28,
+            "Thursday": 0.12,
+            "Friday": 0.06,
+            "Saturday": 0.14,
+            "Sunday": 0.59
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.19,
+            "Afternoon": 0.56,
+            "Evening": 0.09,
+            "Night": 0.16
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.18,
+            "Cinema": 0.07,
+            "Public Transportation": 0.47,
+            "Workplace": 0.15,
+            "Community Center": 0.13
+        }
+    },
+    "U0014": {
+        "WATCH_TENDENCY_PROBS": 0.18,
+        "COMPANION_PROBS": {
+            "Alone": 0.49,
+            "Partner": 0.17,
+            "Friends": 0.07,
+            "Family": 0.13,
+            "Group": 0.14
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.53,
+            "Spring": 0.25,
+            "Summer": 0.61,
+            "Autumn": 0.15
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.74,
+            "Tuesday": 0.66,
+            "Wednesday": 0.76,
+            "Thursday": 0.61,
+            "Friday": 0.7,
+            "Saturday": 0.32,
+            "Sunday": 0.2
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.1,
+            "Afternoon": 0.11,
+            "Evening": 0.1,
+            "Night": 0.69
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.18,
+            "Cinema": 0.19,
+            "Public Transportation": 0.44,
+            "Workplace": 0.08,
+            "Community Center": 0.11
+        }
+    },
+    "U0015": {
+        "WATCH_TENDENCY_PROBS": 0.17,
+        "COMPANION_PROBS": {
+            "Alone": 0.14,
+            "Partner": 0.42,
+            "Friends": 0.19,
+            "Family": 0.2,
+            "Group": 0.05
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.89,
+            "Spring": 0.74,
+            "Summer": 0.26,
+            "Autumn": 0.47
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.87,
+            "Tuesday": 0.64,
+            "Wednesday": 0.94,
+            "Thursday": 0.29,
+            "Friday": 0.75,
+            "Saturday": 0.73,
+            "Sunday": 0.03
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.09,
+            "Afternoon": 0.07,
+            "Evening": 0.25,
+            "Night": 0.59
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.51,
+            "Cinema": 0.18,
+            "Public Transportation": 0.17,
+            "Workplace": 0.07,
+            "Community Center": 0.07
+        }
+    },
+    "U0016": {
+        "WATCH_TENDENCY_PROBS": 0.54,
+        "COMPANION_PROBS": {
+            "Alone": 0.12,
+            "Partner": 0.15,
+            "Friends": 0.11,
+            "Family": 0.13,
             "Group": 0.49
         },
         "SEASON_PROBS": {
-            "Winter": 0.17,
-            "Spring": 0.56,
-            "Summer": 0.1,
-            "Autumn": 0.17
+            "Winter": 0.46,
+            "Spring": 0.78,
+            "Summer": 0.51,
+            "Autumn": 0.43
         },
         "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.13,
-            "Tuesday": 0.1,
-            "Wednesday": 0.11,
-            "Thursday": 0.12,
-            "Friday": 0.1,
-            "Saturday": 0.34,
-            "Sunday": 0.1
+            "Monday": 0.28,
+            "Tuesday": 0.88,
+            "Wednesday": 0.87,
+            "Thursday": 0.47,
+            "Friday": 0.67,
+            "Saturday": 0.84,
+            "Sunday": 0.95
         },
         "TIME_OF_DAY_PROBS": {
-            "Morning": 0.52,
-            "Afternoon": 0.19,
-            "Evening": 0.12,
-            "Night": 0.17
+            "Morning": 0.11,
+            "Afternoon": 0.21,
+            "Evening": 0.56,
+            "Night": 0.12
         },
         "LOCATION_PROBS": {
-            "Home": 0.43,
-            "Cinema": 0.14,
-            "Public Transportation": 0.15,
-            "Workplace": 0.17,
+            "Home": 0.15,
+            "Cinema": 0.11,
+            "Public Transportation": 0.17,
+            "Workplace": 0.39,
+            "Community Center": 0.18
+        }
+    },
+    "U0017": {
+        "WATCH_TENDENCY_PROBS": 0.6,
+        "COMPANION_PROBS": {
+            "Alone": 0.5,
+            "Partner": 0.14,
+            "Friends": 0.15,
+            "Family": 0.12,
+            "Group": 0.09
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.08,
+            "Spring": 0.83,
+            "Summer": 0.03,
+            "Autumn": 0.48
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.44,
+            "Tuesday": 0.89,
+            "Wednesday": 0.58,
+            "Thursday": 0.55,
+            "Friday": 0.48,
+            "Saturday": 0.96,
+            "Sunday": 0.16
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.21,
+            "Afternoon": 0.22,
+            "Evening": 0.49,
+            "Night": 0.08
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.07,
+            "Cinema": 0.1,
+            "Public Transportation": 0.63,
+            "Workplace": 0.09,
+            "Community Center": 0.11
+        }
+    },
+    "U0018": {
+        "WATCH_TENDENCY_PROBS": 0.76,
+        "COMPANION_PROBS": {
+            "Alone": 0.05,
+            "Partner": 0.5,
+            "Friends": 0.18,
+            "Family": 0.17,
+            "Group": 0.1
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.15,
+            "Spring": 0.68,
+            "Summer": 0.17,
+            "Autumn": 0.26
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.28,
+            "Tuesday": 0.75,
+            "Wednesday": 0.77,
+            "Thursday": 0.7,
+            "Friday": 0.57,
+            "Saturday": 0.37,
+            "Sunday": 0.82
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.06,
+            "Afternoon": 0.11,
+            "Evening": 0.23,
+            "Night": 0.6
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.46,
+            "Cinema": 0.18,
+            "Public Transportation": 0.1,
+            "Workplace": 0.19,
+            "Community Center": 0.07
+        }
+    },
+    "U0019": {
+        "WATCH_TENDENCY_PROBS": 0.42,
+        "COMPANION_PROBS": {
+            "Alone": 0.11,
+            "Partner": 0.07,
+            "Friends": 0.18,
+            "Family": 0.56,
+            "Group": 0.08
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.41,
+            "Spring": 0.65,
+            "Summer": 0.26,
+            "Autumn": 0.9
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.89,
+            "Tuesday": 0.45,
+            "Wednesday": 0.71,
+            "Thursday": 0.59,
+            "Friday": 0.53,
+            "Saturday": 0.6,
+            "Sunday": 0.73
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.22,
+            "Afternoon": 0.57,
+            "Evening": 0.11,
+            "Night": 0.1
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.1,
+            "Cinema": 0.1,
+            "Public Transportation": 0.16,
+            "Workplace": 0.06,
+            "Community Center": 0.58
+        }
+    },
+    "U0020": {
+        "WATCH_TENDENCY_PROBS": 0.66,
+        "COMPANION_PROBS": {
+            "Alone": 0.49,
+            "Partner": 0.22,
+            "Friends": 0.14,
+            "Family": 0.07,
+            "Group": 0.08
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.88,
+            "Spring": 0.65,
+            "Summer": 0.81,
+            "Autumn": 0.84
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.37,
+            "Tuesday": 0.28,
+            "Wednesday": 0.33,
+            "Thursday": 0.48,
+            "Friday": 0.47,
+            "Saturday": 0.45,
+            "Sunday": 0.81
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.22,
+            "Afternoon": 0.5,
+            "Evening": 0.2,
+            "Night": 0.08
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.2,
+            "Cinema": 0.45,
+            "Public Transportation": 0.09,
+            "Workplace": 0.06,
+            "Community Center": 0.2
+        }
+    },
+    "U0021": {
+        "WATCH_TENDENCY_PROBS": 0.92,
+        "COMPANION_PROBS": {
+            "Alone": 0.13,
+            "Partner": 0.16,
+            "Friends": 0.08,
+            "Family": 0.46,
+            "Group": 0.17
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.49,
+            "Spring": 0.56,
+            "Summer": 0.21,
+            "Autumn": 0.07
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.91,
+            "Tuesday": 0.45,
+            "Wednesday": 0.58,
+            "Thursday": 0.4,
+            "Friday": 0.42,
+            "Saturday": 0.94,
+            "Sunday": 0.05
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.06,
+            "Afternoon": 0.26,
+            "Evening": 0.13,
+            "Night": 0.55
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.11,
+            "Cinema": 0.49,
+            "Public Transportation": 0.19,
+            "Workplace": 0.16,
+            "Community Center": 0.05
+        }
+    },
+    "U0022": {
+        "WATCH_TENDENCY_PROBS": 0.68,
+        "COMPANION_PROBS": {
+            "Alone": 0.14,
+            "Partner": 0.05,
+            "Friends": 0.14,
+            "Family": 0.49,
+            "Group": 0.18
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.93,
+            "Spring": 0.32,
+            "Summer": 0.98,
+            "Autumn": 0.62
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.94,
+            "Tuesday": 0.38,
+            "Wednesday": 0.36,
+            "Thursday": 0.94,
+            "Friday": 0.5,
+            "Saturday": 0.69,
+            "Sunday": 0.4
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.15,
+            "Afternoon": 0.18,
+            "Evening": 0.1,
+            "Night": 0.57
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.1,
+            "Cinema": 0.22,
+            "Public Transportation": 0.5,
+            "Workplace": 0.07,
             "Community Center": 0.11
         }
     },
     "U0023": {
+        "WATCH_TENDENCY_PROBS": 0.38,
         "COMPANION_PROBS": {
-            "Alone": 0.49,
-            "Partner": 0.06,
+            "Alone": 0.12,
+            "Partner": 0.13,
             "Friends": 0.17,
-            "Family": 0.07,
-            "Group": 0.21
+            "Family": 0.13,
+            "Group": 0.45
         },
         "SEASON_PROBS": {
-            "Winter": 0.2,
-            "Spring": 0.19,
-            "Summer": 0.45,
-            "Autumn": 0.16
+            "Winter": 0.95,
+            "Spring": 0.11,
+            "Summer": 0.63,
+            "Autumn": 0.19
         },
         "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.05,
-            "Tuesday": 0.15,
-            "Wednesday": 0.13,
-            "Thursday": 0.11,
-            "Friday": 0.1,
-            "Saturday": 0.09,
-            "Sunday": 0.37
+            "Monday": 0.41,
+            "Tuesday": 0.96,
+            "Wednesday": 0.54,
+            "Thursday": 0.71,
+            "Friday": 0.52,
+            "Saturday": 0.68,
+            "Sunday": 0.52
         },
         "TIME_OF_DAY_PROBS": {
-            "Morning": 0.55,
+            "Morning": 0.07,
             "Afternoon": 0.19,
-            "Evening": 0.09,
-            "Night": 0.17
+            "Evening": 0.22,
+            "Night": 0.52
         },
         "LOCATION_PROBS": {
-            "Home": 0.43,
-            "Cinema": 0.12,
-            "Public Transportation": 0.16,
-            "Workplace": 0.11,
-            "Community Center": 0.18
+            "Home": 0.1,
+            "Cinema": 0.5,
+            "Public Transportation": 0.1,
+            "Workplace": 0.14,
+            "Community Center": 0.16
         }
     },
     "U0024": {
+        "WATCH_TENDENCY_PROBS": 0.36,
         "COMPANION_PROBS": {
-            "Alone": 0.41,
-            "Partner": 0.15,
-            "Friends": 0.15,
-            "Family": 0.15,
-            "Group": 0.14
+            "Alone": 0.13,
+            "Partner": 0.48,
+            "Friends": 0.21,
+            "Family": 0.06,
+            "Group": 0.12
         },
         "SEASON_PROBS": {
             "Winter": 0.64,
-            "Spring": 0.13,
-            "Summer": 0.06,
-            "Autumn": 0.17
+            "Spring": 0.99,
+            "Summer": 0.3,
+            "Autumn": 0.04
         },
         "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.09,
-            "Tuesday": 0.08,
-            "Wednesday": 0.14,
-            "Thursday": 0.45,
-            "Friday": 0.04,
-            "Saturday": 0.08,
-            "Sunday": 0.12
+            "Monday": 0.83,
+            "Tuesday": 0.86,
+            "Wednesday": 0.59,
+            "Thursday": 0.51,
+            "Friday": 0.75,
+            "Saturday": 0.44,
+            "Sunday": 0.69
         },
         "TIME_OF_DAY_PROBS": {
-            "Morning": 0.2,
-            "Afternoon": 0.58,
-            "Evening": 0.13,
-            "Night": 0.09
+            "Morning": 0.44,
+            "Afternoon": 0.19,
+            "Evening": 0.21,
+            "Night": 0.16
         },
         "LOCATION_PROBS": {
-            "Home": 0.14,
-            "Cinema": 0.12,
-            "Public Transportation": 0.12,
-            "Workplace": 0.44,
-            "Community Center": 0.18
+            "Home": 0.08,
+            "Cinema": 0.19,
+            "Public Transportation": 0.45,
+            "Workplace": 0.21,
+            "Community Center": 0.07
         }
     },
     "U0025": {
+        "WATCH_TENDENCY_PROBS": 0.87,
         "COMPANION_PROBS": {
-            "Alone": 0.23,
-            "Partner": 0.51,
-            "Friends": 0.08,
-            "Family": 0.09,
+            "Alone": 0.52,
+            "Partner": 0.17,
+            "Friends": 0.21,
+            "Family": 0.05,
+            "Group": 0.05
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.53,
+            "Spring": 0.43,
+            "Summer": 0.55,
+            "Autumn": 0.34
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.48,
+            "Tuesday": 0.37,
+            "Wednesday": 0.45,
+            "Thursday": 0.79,
+            "Friday": 0.83,
+            "Saturday": 0.83,
+            "Sunday": 0.46
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.16,
+            "Afternoon": 0.09,
+            "Evening": 0.23,
+            "Night": 0.52
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.08,
+            "Cinema": 0.5,
+            "Public Transportation": 0.08,
+            "Workplace": 0.19,
+            "Community Center": 0.15
+        }
+    },
+    "U0026": {
+        "WATCH_TENDENCY_PROBS": 0.91,
+        "COMPANION_PROBS": {
+            "Alone": 0.51,
+            "Partner": 0.22,
+            "Friends": 0.11,
+            "Family": 0.05,
+            "Group": 0.11
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.49,
+            "Spring": 0.56,
+            "Summer": 0.5,
+            "Autumn": 0.45
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.44,
+            "Tuesday": 0.73,
+            "Wednesday": 0.17,
+            "Thursday": 0.25,
+            "Friday": 0.61,
+            "Saturday": 0.87,
+            "Sunday": 0.2
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.11,
+            "Afternoon": 0.2,
+            "Evening": 0.1,
+            "Night": 0.59
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.43,
+            "Cinema": 0.09,
+            "Public Transportation": 0.11,
+            "Workplace": 0.18,
+            "Community Center": 0.19
+        }
+    },
+    "U0027": {
+        "WATCH_TENDENCY_PROBS": 0.54,
+        "COMPANION_PROBS": {
+            "Alone": 0.17,
+            "Partner": 0.17,
+            "Friends": 0.4,
+            "Family": 0.17,
             "Group": 0.09
         },
         "SEASON_PROBS": {
-            "Winter": 0.12,
-            "Spring": 0.18,
-            "Summer": 0.52,
-            "Autumn": 0.18
+            "Winter": 0.63,
+            "Spring": 0.22,
+            "Summer": 0.4,
+            "Autumn": 0.89
         },
         "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.11,
-            "Tuesday": 0.16,
-            "Wednesday": 0.09,
-            "Thursday": 0.15,
-            "Friday": 0.09,
-            "Saturday": 0.36,
-            "Sunday": 0.04
+            "Monday": 0.17,
+            "Tuesday": 0.48,
+            "Wednesday": 0.47,
+            "Thursday": 0.85,
+            "Friday": 0.87,
+            "Saturday": 0.84,
+            "Sunday": 0.17
         },
         "TIME_OF_DAY_PROBS": {
-            "Morning": 0.12,
-            "Afternoon": 0.16,
+            "Morning": 0.17,
+            "Afternoon": 0.12,
+            "Evening": 0.51,
+            "Night": 0.2
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.15,
+            "Cinema": 0.17,
+            "Public Transportation": 0.11,
+            "Workplace": 0.14,
+            "Community Center": 0.43
+        }
+    },
+    "U0028": {
+        "WATCH_TENDENCY_PROBS": 0.57,
+        "COMPANION_PROBS": {
+            "Alone": 0.19,
+            "Partner": 0.17,
+            "Friends": 0.15,
+            "Family": 0.07,
+            "Group": 0.42
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.81,
+            "Spring": 0.2,
+            "Summer": 0.5,
+            "Autumn": 0.13
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.61,
+            "Tuesday": 0.89,
+            "Wednesday": 0.05,
+            "Thursday": 0.29,
+            "Friday": 0.26,
+            "Saturday": 0.71,
+            "Sunday": 0.28
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.13,
+            "Afternoon": 0.15,
             "Evening": 0.52,
             "Night": 0.2
         },
         "LOCATION_PROBS": {
-            "Home": 0.18,
-            "Cinema": 0.44,
-            "Public Transportation": 0.16,
-            "Workplace": 0.16,
-            "Community Center": 0.06
-        }
-    },
-    "U0026": {
-        "COMPANION_PROBS": {
-            "Alone": 0.47,
-            "Partner": 0.08,
-            "Friends": 0.07,
-            "Family": 0.17,
-            "Group": 0.21
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.06,
-            "Spring": 0.2,
-            "Summer": 0.21,
-            "Autumn": 0.53
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.1,
-            "Tuesday": 0.04,
-            "Wednesday": 0.09,
-            "Thursday": 0.1,
-            "Friday": 0.18,
-            "Saturday": 0.45,
-            "Sunday": 0.04
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.16,
-            "Afternoon": 0.18,
-            "Evening": 0.45,
-            "Night": 0.21
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.64,
-            "Cinema": 0.06,
-            "Public Transportation": 0.08,
-            "Workplace": 0.09,
-            "Community Center": 0.13
-        }
-    },
-    "U0027": {
-        "COMPANION_PROBS": {
-            "Alone": 0.13,
-            "Partner": 0.44,
-            "Friends": 0.08,
-            "Family": 0.17,
-            "Group": 0.18
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.23,
-            "Spring": 0.13,
-            "Summer": 0.1,
-            "Autumn": 0.54
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.11,
-            "Tuesday": 0.09,
-            "Wednesday": 0.15,
-            "Thursday": 0.13,
-            "Friday": 0.09,
-            "Saturday": 0.04,
-            "Sunday": 0.39
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.63,
-            "Afternoon": 0.1,
-            "Evening": 0.17,
-            "Night": 0.1
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.44,
-            "Cinema": 0.18,
-            "Public Transportation": 0.17,
-            "Workplace": 0.14,
-            "Community Center": 0.07
-        }
-    },
-    "U0028": {
-        "COMPANION_PROBS": {
-            "Alone": 0.17,
-            "Partner": 0.15,
-            "Friends": 0.41,
-            "Family": 0.09,
-            "Group": 0.18
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.2,
-            "Spring": 0.53,
-            "Summer": 0.05,
-            "Autumn": 0.22
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.05,
-            "Tuesday": 0.07,
-            "Wednesday": 0.11,
-            "Thursday": 0.44,
-            "Friday": 0.12,
-            "Saturday": 0.16,
-            "Sunday": 0.05
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.54,
-            "Afternoon": 0.15,
-            "Evening": 0.16,
-            "Night": 0.15
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.2,
-            "Cinema": 0.07,
-            "Public Transportation": 0.53,
-            "Workplace": 0.12,
-            "Community Center": 0.08
-        }
-    },
-    "U0029": {
-        "COMPANION_PROBS": {
-            "Alone": 0.13,
-            "Partner": 0.43,
-            "Friends": 0.15,
-            "Family": 0.16,
-            "Group": 0.13
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.12,
-            "Spring": 0.23,
-            "Summer": 0.58,
-            "Autumn": 0.07
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.08,
-            "Tuesday": 0.07,
-            "Wednesday": 0.13,
-            "Thursday": 0.15,
-            "Friday": 0.35,
-            "Saturday": 0.15,
-            "Sunday": 0.07
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.17,
-            "Afternoon": 0.11,
-            "Evening": 0.12,
-            "Night": 0.6
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.13,
-            "Cinema": 0.19,
-            "Public Transportation": 0.1,
-            "Workplace": 0.1,
-            "Community Center": 0.48
-        }
-    },
-    "U0030": {
-        "COMPANION_PROBS": {
-            "Alone": 0.54,
-            "Partner": 0.1,
-            "Friends": 0.07,
-            "Family": 0.12,
-            "Group": 0.17
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.15,
-            "Spring": 0.09,
-            "Summer": 0.17,
-            "Autumn": 0.59
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.43,
-            "Tuesday": 0.1,
-            "Wednesday": 0.09,
-            "Thursday": 0.17,
-            "Friday": 0.05,
-            "Saturday": 0.05,
-            "Sunday": 0.11
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.17,
-            "Afternoon": 0.47,
-            "Evening": 0.2,
-            "Night": 0.16
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.09,
-            "Cinema": 0.07,
-            "Public Transportation": 0.12,
-            "Workplace": 0.65,
-            "Community Center": 0.07
-        }
-    },
-    "U0031": {
-        "COMPANION_PROBS": {
-            "Alone": 0.13,
-            "Partner": 0.12,
-            "Friends": 0.18,
-            "Family": 0.13,
-            "Group": 0.44
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.16,
-            "Spring": 0.06,
-            "Summer": 0.23,
-            "Autumn": 0.55
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.47,
-            "Tuesday": 0.04,
-            "Wednesday": 0.06,
-            "Thursday": 0.12,
-            "Friday": 0.05,
-            "Saturday": 0.13,
-            "Sunday": 0.13
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.21,
-            "Afternoon": 0.12,
-            "Evening": 0.48,
-            "Night": 0.19
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.09,
-            "Cinema": 0.06,
-            "Public Transportation": 0.08,
-            "Workplace": 0.54,
-            "Community Center": 0.23
-        }
-    },
-    "U0032": {
-        "COMPANION_PROBS": {
-            "Alone": 0.13,
-            "Partner": 0.2,
-            "Friends": 0.08,
-            "Family": 0.45,
-            "Group": 0.14
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.19,
-            "Spring": 0.17,
-            "Summer": 0.44,
-            "Autumn": 0.2
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.07,
-            "Tuesday": 0.08,
-            "Wednesday": 0.1,
-            "Thursday": 0.12,
-            "Friday": 0.37,
-            "Saturday": 0.11,
-            "Sunday": 0.15
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.08,
-            "Afternoon": 0.18,
-            "Evening": 0.64,
-            "Night": 0.1
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.17,
-            "Cinema": 0.16,
-            "Public Transportation": 0.11,
-            "Workplace": 0.13,
-            "Community Center": 0.43
-        }
-    },
-    "U0033": {
-        "COMPANION_PROBS": {
-            "Alone": 0.4,
-            "Partner": 0.15,
-            "Friends": 0.18,
-            "Family": 0.13,
-            "Group": 0.14
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.2,
-            "Spring": 0.15,
-            "Summer": 0.17,
-            "Autumn": 0.48
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.06,
-            "Tuesday": 0.05,
-            "Wednesday": 0.41,
-            "Thursday": 0.07,
-            "Friday": 0.06,
-            "Saturday": 0.17,
-            "Sunday": 0.18
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.16,
-            "Afternoon": 0.13,
-            "Evening": 0.09,
-            "Night": 0.62
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.11,
-            "Cinema": 0.2,
-            "Public Transportation": 0.47,
-            "Workplace": 0.12,
-            "Community Center": 0.1
-        }
-    },
-    "U0034": {
-        "COMPANION_PROBS": {
-            "Alone": 0.13,
-            "Partner": 0.22,
-            "Friends": 0.54,
-            "Family": 0.05,
-            "Group": 0.06
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.07,
-            "Spring": 0.2,
-            "Summer": 0.57,
-            "Autumn": 0.16
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.37,
-            "Tuesday": 0.16,
-            "Wednesday": 0.04,
-            "Thursday": 0.13,
-            "Friday": 0.06,
-            "Saturday": 0.12,
-            "Sunday": 0.12
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.48,
-            "Afternoon": 0.16,
-            "Evening": 0.19,
-            "Night": 0.17
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.41,
-            "Cinema": 0.19,
-            "Public Transportation": 0.17,
-            "Workplace": 0.12,
-            "Community Center": 0.11
-        }
-    },
-    "U0035": {
-        "COMPANION_PROBS": {
-            "Alone": 0.11,
-            "Partner": 0.17,
-            "Friends": 0.17,
-            "Family": 0.42,
-            "Group": 0.13
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.08,
-            "Spring": 0.56,
-            "Summer": 0.21,
-            "Autumn": 0.15
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.06,
-            "Tuesday": 0.14,
-            "Wednesday": 0.13,
-            "Thursday": 0.1,
-            "Friday": 0.07,
-            "Saturday": 0.14,
-            "Sunday": 0.36
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.1,
-            "Afternoon": 0.66,
-            "Evening": 0.07,
-            "Night": 0.17
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.07,
-            "Cinema": 0.15,
-            "Public Transportation": 0.14,
-            "Workplace": 0.2,
-            "Community Center": 0.44
-        }
-    },
-    "U0036": {
-        "COMPANION_PROBS": {
-            "Alone": 0.18,
-            "Partner": 0.17,
-            "Friends": 0.07,
-            "Family": 0.53,
-            "Group": 0.05
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.16,
-            "Spring": 0.22,
-            "Summer": 0.55,
-            "Autumn": 0.07
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.12,
-            "Tuesday": 0.39,
-            "Wednesday": 0.11,
-            "Thursday": 0.07,
-            "Friday": 0.12,
-            "Saturday": 0.09,
-            "Sunday": 0.1
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.24,
-            "Afternoon": 0.06,
-            "Evening": 0.51,
-            "Night": 0.19
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.12,
-            "Cinema": 0.14,
-            "Public Transportation": 0.06,
-            "Workplace": 0.18,
-            "Community Center": 0.5
-        }
-    },
-    "U0037": {
-        "COMPANION_PROBS": {
-            "Alone": 0.42,
-            "Partner": 0.16,
-            "Friends": 0.16,
-            "Family": 0.12,
-            "Group": 0.14
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.52,
-            "Spring": 0.2,
-            "Summer": 0.19,
-            "Autumn": 0.09
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.05,
-            "Tuesday": 0.16,
-            "Wednesday": 0.06,
-            "Thursday": 0.42,
-            "Friday": 0.09,
-            "Saturday": 0.08,
-            "Sunday": 0.14
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.12,
-            "Afternoon": 0.53,
-            "Evening": 0.21,
-            "Night": 0.14
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.45,
-            "Cinema": 0.2,
-            "Public Transportation": 0.19,
-            "Workplace": 0.08,
-            "Community Center": 0.08
-        }
-    },
-    "U0038": {
-        "COMPANION_PROBS": {
-            "Alone": 0.17,
-            "Partner": 0.47,
-            "Friends": 0.06,
-            "Family": 0.1,
-            "Group": 0.2
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.06,
-            "Spring": 0.2,
-            "Summer": 0.18,
-            "Autumn": 0.56
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.12,
-            "Tuesday": 0.08,
-            "Wednesday": 0.39,
-            "Thursday": 0.17,
-            "Friday": 0.03,
-            "Saturday": 0.05,
-            "Sunday": 0.16
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.67,
-            "Afternoon": 0.07,
-            "Evening": 0.07,
-            "Night": 0.19
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.06,
-            "Cinema": 0.08,
-            "Public Transportation": 0.18,
-            "Workplace": 0.2,
-            "Community Center": 0.48
-        }
-    },
-    "U0039": {
-        "COMPANION_PROBS": {
-            "Alone": 0.14,
-            "Partner": 0.06,
-            "Friends": 0.51,
-            "Family": 0.13,
-            "Group": 0.16
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.06,
-            "Spring": 0.53,
-            "Summer": 0.17,
-            "Autumn": 0.24
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.09,
-            "Tuesday": 0.06,
-            "Wednesday": 0.06,
-            "Thursday": 0.15,
-            "Friday": 0.08,
-            "Saturday": 0.4,
-            "Sunday": 0.16
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.2,
-            "Afternoon": 0.46,
-            "Evening": 0.17,
-            "Night": 0.17
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.18,
-            "Cinema": 0.08,
-            "Public Transportation": 0.46,
-            "Workplace": 0.12,
-            "Community Center": 0.16
-        }
-    },
-    "U0040": {
-        "COMPANION_PROBS": {
-            "Alone": 0.17,
-            "Partner": 0.11,
-            "Friends": 0.18,
-            "Family": 0.1,
-            "Group": 0.44
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.13,
-            "Spring": 0.15,
-            "Summer": 0.5,
-            "Autumn": 0.22
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.07,
-            "Tuesday": 0.1,
-            "Wednesday": 0.07,
-            "Thursday": 0.36,
-            "Friday": 0.12,
-            "Saturday": 0.16,
-            "Sunday": 0.12
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.2,
-            "Afternoon": 0.58,
-            "Evening": 0.09,
-            "Night": 0.13
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.09,
-            "Cinema": 0.63,
-            "Public Transportation": 0.09,
-            "Workplace": 0.06,
-            "Community Center": 0.13
-        }
-    },
-    "U0041": {
-        "COMPANION_PROBS": {
-            "Alone": 0.58,
-            "Partner": 0.11,
-            "Friends": 0.11,
-            "Family": 0.1,
-            "Group": 0.1
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.08,
-            "Spring": 0.58,
-            "Summer": 0.1,
-            "Autumn": 0.24
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.09,
-            "Tuesday": 0.39,
-            "Wednesday": 0.16,
-            "Thursday": 0.12,
-            "Friday": 0.03,
-            "Saturday": 0.09,
-            "Sunday": 0.12
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.18,
-            "Afternoon": 0.22,
-            "Evening": 0.51,
-            "Night": 0.09
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.05,
-            "Cinema": 0.16,
-            "Public Transportation": 0.11,
-            "Workplace": 0.52,
-            "Community Center": 0.16
-        }
-    },
-    "U0042": {
-        "COMPANION_PROBS": {
-            "Alone": 0.5,
-            "Partner": 0.09,
-            "Friends": 0.14,
-            "Family": 0.08,
-            "Group": 0.19
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.09,
-            "Spring": 0.13,
-            "Summer": 0.59,
-            "Autumn": 0.19
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.09,
-            "Tuesday": 0.43,
-            "Wednesday": 0.04,
-            "Thursday": 0.07,
-            "Friday": 0.13,
-            "Saturday": 0.14,
-            "Sunday": 0.1
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.22,
-            "Afternoon": 0.08,
-            "Evening": 0.55,
-            "Night": 0.15
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.11,
-            "Cinema": 0.13,
-            "Public Transportation": 0.18,
-            "Workplace": 0.15,
-            "Community Center": 0.43
-        }
-    },
-    "U0043": {
-        "COMPANION_PROBS": {
-            "Alone": 0.12,
-            "Partner": 0.1,
-            "Friends": 0.11,
-            "Family": 0.53,
-            "Group": 0.14
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.49,
-            "Spring": 0.14,
-            "Summer": 0.2,
-            "Autumn": 0.17
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.05,
-            "Tuesday": 0.13,
-            "Wednesday": 0.13,
-            "Thursday": 0.34,
-            "Friday": 0.15,
-            "Saturday": 0.07,
-            "Sunday": 0.13
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.15,
-            "Afternoon": 0.09,
-            "Evening": 0.64,
-            "Night": 0.12
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.22,
-            "Cinema": 0.1,
-            "Public Transportation": 0.09,
-            "Workplace": 0.49,
-            "Community Center": 0.1
-        }
-    },
-    "U0044": {
-        "COMPANION_PROBS": {
-            "Alone": 0.12,
-            "Partner": 0.45,
-            "Friends": 0.12,
-            "Family": 0.12,
-            "Group": 0.19
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.23,
-            "Spring": 0.51,
-            "Summer": 0.12,
-            "Autumn": 0.14
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.12,
-            "Tuesday": 0.12,
-            "Wednesday": 0.06,
-            "Thursday": 0.41,
-            "Friday": 0.05,
-            "Saturday": 0.15,
-            "Sunday": 0.09
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.26,
-            "Afternoon": 0.13,
-            "Evening": 0.56,
-            "Night": 0.05
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.18,
-            "Cinema": 0.19,
-            "Public Transportation": 0.1,
-            "Workplace": 0.45,
-            "Community Center": 0.08
-        }
-    },
-    "U0045": {
-        "COMPANION_PROBS": {
-            "Alone": 0.05,
-            "Partner": 0.18,
-            "Friends": 0.53,
-            "Family": 0.17,
-            "Group": 0.07
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.18,
-            "Spring": 0.52,
-            "Summer": 0.07,
-            "Autumn": 0.23
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.15,
-            "Tuesday": 0.14,
-            "Wednesday": 0.09,
-            "Thursday": 0.39,
-            "Friday": 0.1,
-            "Saturday": 0.06,
-            "Sunday": 0.07
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.15,
-            "Afternoon": 0.22,
-            "Evening": 0.13,
-            "Night": 0.5
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.16,
-            "Cinema": 0.11,
-            "Public Transportation": 0.45,
-            "Workplace": 0.08,
-            "Community Center": 0.2
-        }
-    },
-    "U0046": {
-        "COMPANION_PROBS": {
-            "Alone": 0.11,
-            "Partner": 0.21,
-            "Friends": 0.46,
-            "Family": 0.04,
-            "Group": 0.18
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.66,
-            "Spring": 0.2,
-            "Summer": 0.07,
-            "Autumn": 0.07
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.04,
-            "Tuesday": 0.06,
-            "Wednesday": 0.05,
-            "Thursday": 0.11,
-            "Friday": 0.18,
-            "Saturday": 0.09,
-            "Sunday": 0.47
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.14,
-            "Afternoon": 0.16,
-            "Evening": 0.14,
-            "Night": 0.56
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.48,
-            "Cinema": 0.13,
-            "Public Transportation": 0.1,
-            "Workplace": 0.22,
-            "Community Center": 0.07
-        }
-    },
-    "U0047": {
-        "COMPANION_PROBS": {
-            "Alone": 0.46,
-            "Partner": 0.08,
-            "Friends": 0.17,
-            "Family": 0.18,
-            "Group": 0.11
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.5,
-            "Spring": 0.23,
-            "Summer": 0.06,
-            "Autumn": 0.21
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.13,
-            "Tuesday": 0.04,
-            "Wednesday": 0.15,
-            "Thursday": 0.1,
-            "Friday": 0.07,
-            "Saturday": 0.37,
-            "Sunday": 0.14
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.2,
-            "Afternoon": 0.56,
-            "Evening": 0.13,
-            "Night": 0.11
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.15,
+            "Home": 0.21,
             "Cinema": 0.05,
-            "Public Transportation": 0.18,
-            "Workplace": 0.13,
+            "Public Transportation": 0.14,
+            "Workplace": 0.11,
             "Community Center": 0.49
         }
     },
-    "U0048": {
+    "U0029": {
+        "WATCH_TENDENCY_PROBS": 0.73,
         "COMPANION_PROBS": {
-            "Alone": 0.16,
-            "Partner": 0.43,
-            "Friends": 0.18,
-            "Family": 0.08,
-            "Group": 0.15
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.47,
-            "Spring": 0.22,
-            "Summer": 0.2,
-            "Autumn": 0.11
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.06,
-            "Tuesday": 0.15,
-            "Wednesday": 0.14,
-            "Thursday": 0.06,
-            "Friday": 0.12,
-            "Saturday": 0.36,
-            "Sunday": 0.11
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.21,
-            "Afternoon": 0.09,
-            "Evening": 0.14,
-            "Night": 0.56
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.21,
-            "Cinema": 0.46,
-            "Public Transportation": 0.16,
-            "Workplace": 0.06,
-            "Community Center": 0.11
-        }
-    },
-    "U0049": {
-        "COMPANION_PROBS": {
-            "Alone": 0.15,
-            "Partner": 0.19,
-            "Friends": 0.42,
-            "Family": 0.09,
-            "Group": 0.15
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.56,
-            "Spring": 0.13,
-            "Summer": 0.08,
-            "Autumn": 0.23
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.16,
-            "Tuesday": 0.38,
-            "Wednesday": 0.15,
-            "Thursday": 0.08,
-            "Friday": 0.14,
-            "Saturday": 0.03,
-            "Sunday": 0.06
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.56,
-            "Afternoon": 0.2,
-            "Evening": 0.15,
-            "Night": 0.09
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.08,
-            "Cinema": 0.51,
-            "Public Transportation": 0.05,
-            "Workplace": 0.13,
-            "Community Center": 0.23
-        }
-    },
-    "U0050": {
-        "COMPANION_PROBS": {
-            "Alone": 0.11,
-            "Partner": 0.14,
-            "Friends": 0.15,
-            "Family": 0.45,
-            "Group": 0.15
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.2,
-            "Spring": 0.09,
-            "Summer": 0.59,
-            "Autumn": 0.12
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.05,
-            "Tuesday": 0.07,
-            "Wednesday": 0.06,
-            "Thursday": 0.44,
-            "Friday": 0.16,
-            "Saturday": 0.13,
-            "Sunday": 0.09
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.19,
-            "Afternoon": 0.46,
-            "Evening": 0.17,
-            "Night": 0.18
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.18,
-            "Cinema": 0.11,
-            "Public Transportation": 0.14,
-            "Workplace": 0.42,
-            "Community Center": 0.15
-        }
-    },
-    "U0051": {
-        "COMPANION_PROBS": {
-            "Alone": 0.48,
-            "Partner": 0.17,
-            "Friends": 0.13,
-            "Family": 0.12,
-            "Group": 0.1
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.2,
-            "Spring": 0.21,
-            "Summer": 0.52,
-            "Autumn": 0.07
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.11,
-            "Tuesday": 0.04,
-            "Wednesday": 0.11,
-            "Thursday": 0.08,
-            "Friday": 0.41,
-            "Saturday": 0.09,
-            "Sunday": 0.16
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.07,
-            "Afternoon": 0.24,
-            "Evening": 0.09,
-            "Night": 0.6
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.41,
-            "Cinema": 0.19,
-            "Public Transportation": 0.14,
-            "Workplace": 0.07,
-            "Community Center": 0.19
-        }
-    },
-    "U0052": {
-        "COMPANION_PROBS": {
-            "Alone": 0.11,
-            "Partner": 0.1,
-            "Friends": 0.5,
+            "Alone": 0.08,
+            "Partner": 0.07,
+            "Friends": 0.12,
             "Family": 0.19,
-            "Group": 0.1
+            "Group": 0.54
         },
         "SEASON_PROBS": {
-            "Winter": 0.1,
-            "Spring": 0.09,
-            "Summer": 0.69,
-            "Autumn": 0.12
+            "Winter": 0.77,
+            "Spring": 0.66,
+            "Summer": 0.32,
+            "Autumn": 0.98
         },
         "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.11,
-            "Tuesday": 0.12,
-            "Wednesday": 0.04,
-            "Thursday": 0.12,
-            "Friday": 0.13,
-            "Saturday": 0.41,
-            "Sunday": 0.07
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.12,
-            "Afternoon": 0.21,
-            "Evening": 0.46,
-            "Night": 0.21
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.04,
-            "Cinema": 0.21,
-            "Public Transportation": 0.16,
-            "Workplace": 0.15,
-            "Community Center": 0.44
-        }
-    },
-    "U0053": {
-        "COMPANION_PROBS": {
-            "Alone": 0.49,
-            "Partner": 0.07,
-            "Friends": 0.17,
-            "Family": 0.16,
-            "Group": 0.11
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.23,
-            "Spring": 0.5,
-            "Summer": 0.07,
-            "Autumn": 0.2
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.16,
-            "Tuesday": 0.08,
-            "Wednesday": 0.05,
-            "Thursday": 0.14,
-            "Friday": 0.04,
-            "Saturday": 0.45,
-            "Sunday": 0.08
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.54,
-            "Afternoon": 0.11,
-            "Evening": 0.25,
-            "Night": 0.1
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.12,
-            "Cinema": 0.49,
-            "Public Transportation": 0.12,
-            "Workplace": 0.06,
-            "Community Center": 0.21
-        }
-    },
-    "U0054": {
-        "COMPANION_PROBS": {
-            "Alone": 0.15,
-            "Partner": 0.07,
-            "Friends": 0.19,
-            "Family": 0.47,
-            "Group": 0.12
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.07,
-            "Spring": 0.54,
-            "Summer": 0.23,
-            "Autumn": 0.16
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.05,
-            "Tuesday": 0.14,
-            "Wednesday": 0.13,
+            "Monday": 0.36,
+            "Tuesday": 0.22,
+            "Wednesday": 0.2,
             "Thursday": 0.1,
-            "Friday": 0.16,
-            "Saturday": 0.38,
-            "Sunday": 0.04
+            "Friday": 0.86,
+            "Saturday": 0.71,
+            "Sunday": 0.14
         },
         "TIME_OF_DAY_PROBS": {
-            "Morning": 0.14,
-            "Afternoon": 0.11,
-            "Evening": 0.54,
-            "Night": 0.21
+            "Morning": 0.16,
+            "Afternoon": 0.06,
+            "Evening": 0.21,
+            "Night": 0.57
         },
         "LOCATION_PROBS": {
-            "Home": 0.06,
-            "Cinema": 0.22,
-            "Public Transportation": 0.47,
-            "Workplace": 0.08,
+            "Home": 0.43,
+            "Cinema": 0.19,
+            "Public Transportation": 0.11,
+            "Workplace": 0.1,
             "Community Center": 0.17
         }
     },
-    "U0055": {
-        "COMPANION_PROBS": {
-            "Alone": 0.51,
-            "Partner": 0.08,
-            "Friends": 0.24,
-            "Family": 0.07,
-            "Group": 0.1
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.17,
-            "Spring": 0.48,
-            "Summer": 0.17,
-            "Autumn": 0.18
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.08,
-            "Tuesday": 0.42,
-            "Wednesday": 0.08,
-            "Thursday": 0.11,
-            "Friday": 0.09,
-            "Saturday": 0.09,
-            "Sunday": 0.13
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.08,
-            "Afternoon": 0.7,
-            "Evening": 0.14,
-            "Night": 0.08
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.17,
-            "Cinema": 0.08,
-            "Public Transportation": 0.42,
-            "Workplace": 0.14,
-            "Community Center": 0.19
-        }
-    },
-    "U0056": {
+    "U0030": {
+        "WATCH_TENDENCY_PROBS": 0.41,
         "COMPANION_PROBS": {
             "Alone": 0.07,
-            "Partner": 0.07,
-            "Friends": 0.63,
-            "Family": 0.13,
-            "Group": 0.1
+            "Partner": 0.06,
+            "Friends": 0.23,
+            "Family": 0.16,
+            "Group": 0.48
         },
         "SEASON_PROBS": {
-            "Winter": 0.13,
-            "Spring": 0.06,
-            "Summer": 0.19,
+            "Winter": 0.25,
+            "Spring": 0.48,
+            "Summer": 0.47,
             "Autumn": 0.62
         },
         "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.06,
-            "Tuesday": 0.13,
-            "Wednesday": 0.12,
-            "Thursday": 0.35,
-            "Friday": 0.15,
-            "Saturday": 0.05,
-            "Sunday": 0.14
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.17,
-            "Afternoon": 0.05,
-            "Evening": 0.61,
-            "Night": 0.17
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.48,
-            "Cinema": 0.05,
-            "Public Transportation": 0.21,
-            "Workplace": 0.16,
-            "Community Center": 0.1
-        }
-    },
-    "U0057": {
-        "COMPANION_PROBS": {
-            "Alone": 0.1,
-            "Partner": 0.1,
-            "Friends": 0.13,
-            "Family": 0.55,
-            "Group": 0.12
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.07,
-            "Spring": 0.14,
-            "Summer": 0.09,
-            "Autumn": 0.7
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.17,
-            "Tuesday": 0.07,
-            "Wednesday": 0.06,
-            "Thursday": 0.08,
-            "Friday": 0.08,
-            "Saturday": 0.11,
-            "Sunday": 0.43
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.06,
-            "Afternoon": 0.26,
-            "Evening": 0.61,
-            "Night": 0.07
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.19,
-            "Cinema": 0.11,
-            "Public Transportation": 0.2,
-            "Workplace": 0.44,
-            "Community Center": 0.06
-        }
-    },
-    "U0058": {
-        "COMPANION_PROBS": {
-            "Alone": 0.2,
-            "Partner": 0.54,
-            "Friends": 0.05,
-            "Family": 0.1,
-            "Group": 0.11
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.15,
-            "Spring": 0.09,
-            "Summer": 0.54,
-            "Autumn": 0.22
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.14,
-            "Tuesday": 0.13,
-            "Wednesday": 0.09,
-            "Thursday": 0.33,
-            "Friday": 0.07,
-            "Saturday": 0.12,
-            "Sunday": 0.12
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.15,
-            "Afternoon": 0.17,
-            "Evening": 0.57,
-            "Night": 0.11
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.55,
-            "Cinema": 0.1,
-            "Public Transportation": 0.07,
-            "Workplace": 0.2,
-            "Community Center": 0.08
-        }
-    },
-    "U0059": {
-        "COMPANION_PROBS": {
-            "Alone": 0.1,
-            "Partner": 0.51,
-            "Friends": 0.08,
-            "Family": 0.19,
-            "Group": 0.12
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.21,
-            "Spring": 0.17,
-            "Summer": 0.12,
-            "Autumn": 0.5
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.13,
-            "Tuesday": 0.05,
-            "Wednesday": 0.11,
-            "Thursday": 0.09,
-            "Friday": 0.37,
-            "Saturday": 0.14,
-            "Sunday": 0.11
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.21,
-            "Afternoon": 0.09,
-            "Evening": 0.5,
-            "Night": 0.2
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.47,
-            "Cinema": 0.15,
-            "Public Transportation": 0.12,
-            "Workplace": 0.16,
-            "Community Center": 0.1
-        }
-    },
-    "U0060": {
-        "COMPANION_PROBS": {
-            "Alone": 0.48,
-            "Partner": 0.17,
-            "Friends": 0.1,
-            "Family": 0.21,
-            "Group": 0.04
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.16,
-            "Spring": 0.09,
-            "Summer": 0.56,
-            "Autumn": 0.19
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.11,
-            "Tuesday": 0.1,
-            "Wednesday": 0.14,
-            "Thursday": 0.13,
-            "Friday": 0.12,
-            "Saturday": 0.32,
-            "Sunday": 0.08
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.1,
-            "Afternoon": 0.7,
-            "Evening": 0.1,
-            "Night": 0.1
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.07,
-            "Cinema": 0.64,
-            "Public Transportation": 0.12,
-            "Workplace": 0.06,
-            "Community Center": 0.11
-        }
-    },
-    "U0061": {
-        "COMPANION_PROBS": {
-            "Alone": 0.15,
-            "Partner": 0.48,
-            "Friends": 0.12,
-            "Family": 0.14,
-            "Group": 0.11
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.12,
-            "Spring": 0.52,
-            "Summer": 0.24,
-            "Autumn": 0.12
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.05,
-            "Tuesday": 0.14,
-            "Wednesday": 0.14,
-            "Thursday": 0.11,
-            "Friday": 0.33,
-            "Saturday": 0.11,
-            "Sunday": 0.12
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.59,
-            "Afternoon": 0.24,
-            "Evening": 0.11,
-            "Night": 0.06
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.13,
-            "Cinema": 0.22,
-            "Public Transportation": 0.1,
-            "Workplace": 0.05,
-            "Community Center": 0.5
-        }
-    },
-    "U0062": {
-        "COMPANION_PROBS": {
-            "Alone": 0.16,
-            "Partner": 0.16,
-            "Friends": 0.41,
-            "Family": 0.15,
-            "Group": 0.12
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.18,
-            "Spring": 0.54,
-            "Summer": 0.16,
-            "Autumn": 0.12
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.1,
-            "Tuesday": 0.4,
-            "Wednesday": 0.12,
-            "Thursday": 0.06,
-            "Friday": 0.15,
-            "Saturday": 0.07,
-            "Sunday": 0.1
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.7,
-            "Afternoon": 0.12,
-            "Evening": 0.1,
-            "Night": 0.08
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.49,
-            "Cinema": 0.09,
-            "Public Transportation": 0.2,
-            "Workplace": 0.08,
-            "Community Center": 0.14
-        }
-    },
-    "U0063": {
-        "COMPANION_PROBS": {
-            "Alone": 0.19,
-            "Partner": 0.41,
-            "Friends": 0.09,
-            "Family": 0.17,
-            "Group": 0.14
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.15,
-            "Spring": 0.21,
-            "Summer": 0.1,
-            "Autumn": 0.54
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.46,
-            "Tuesday": 0.2,
-            "Wednesday": 0.04,
-            "Thursday": 0.09,
-            "Friday": 0.06,
-            "Saturday": 0.04,
-            "Sunday": 0.11
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.2,
-            "Afternoon": 0.51,
-            "Evening": 0.21,
-            "Night": 0.08
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.2,
-            "Cinema": 0.13,
-            "Public Transportation": 0.12,
-            "Workplace": 0.12,
-            "Community Center": 0.43
-        }
-    },
-    "U0064": {
-        "COMPANION_PROBS": {
-            "Alone": 0.15,
-            "Partner": 0.06,
-            "Friends": 0.5,
-            "Family": 0.21,
-            "Group": 0.08
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.11,
-            "Spring": 0.14,
-            "Summer": 0.55,
-            "Autumn": 0.2
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.09,
-            "Tuesday": 0.08,
-            "Wednesday": 0.14,
-            "Thursday": 0.34,
-            "Friday": 0.12,
-            "Saturday": 0.09,
-            "Sunday": 0.14
+            "Monday": 0.64,
+            "Tuesday": 0.93,
+            "Wednesday": 0.94,
+            "Thursday": 0.67,
+            "Friday": 0.42,
+            "Saturday": 0.79,
+            "Sunday": 0.29
         },
         "TIME_OF_DAY_PROBS": {
             "Morning": 0.51,
-            "Afternoon": 0.16,
-            "Evening": 0.1,
-            "Night": 0.23
+            "Afternoon": 0.17,
+            "Evening": 0.2,
+            "Night": 0.12
         },
         "LOCATION_PROBS": {
-            "Home": 0.57,
-            "Cinema": 0.05,
-            "Public Transportation": 0.2,
-            "Workplace": 0.09,
-            "Community Center": 0.09
-        }
-    },
-    "U0065": {
-        "COMPANION_PROBS": {
-            "Alone": 0.18,
-            "Partner": 0.06,
-            "Friends": 0.54,
-            "Family": 0.06,
-            "Group": 0.16
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.1,
-            "Spring": 0.18,
-            "Summer": 0.63,
-            "Autumn": 0.09
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.15,
-            "Tuesday": 0.11,
-            "Wednesday": 0.09,
-            "Thursday": 0.04,
-            "Friday": 0.35,
-            "Saturday": 0.13,
-            "Sunday": 0.13
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.11,
-            "Afternoon": 0.08,
-            "Evening": 0.24,
-            "Night": 0.57
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.07,
-            "Cinema": 0.06,
-            "Public Transportation": 0.18,
-            "Workplace": 0.47,
-            "Community Center": 0.22
-        }
-    },
-    "U0066": {
-        "COMPANION_PROBS": {
-            "Alone": 0.13,
-            "Partner": 0.1,
-            "Friends": 0.56,
-            "Family": 0.13,
-            "Group": 0.08
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.13,
-            "Spring": 0.07,
-            "Summer": 0.61,
-            "Autumn": 0.19
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.07,
-            "Tuesday": 0.14,
-            "Wednesday": 0.13,
-            "Thursday": 0.05,
-            "Friday": 0.15,
-            "Saturday": 0.36,
-            "Sunday": 0.1
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.5,
-            "Afternoon": 0.18,
-            "Evening": 0.11,
-            "Night": 0.21
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.14,
-            "Cinema": 0.55,
-            "Public Transportation": 0.12,
-            "Workplace": 0.07,
-            "Community Center": 0.12
-        }
-    },
-    "U0067": {
-        "COMPANION_PROBS": {
-            "Alone": 0.13,
-            "Partner": 0.14,
-            "Friends": 0.19,
-            "Family": 0.06,
-            "Group": 0.48
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.14,
-            "Spring": 0.15,
-            "Summer": 0.09,
-            "Autumn": 0.62
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.14,
-            "Tuesday": 0.15,
-            "Wednesday": 0.14,
-            "Thursday": 0.06,
-            "Friday": 0.04,
-            "Saturday": 0.1,
-            "Sunday": 0.37
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.57,
-            "Afternoon": 0.1,
-            "Evening": 0.07,
-            "Night": 0.26
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.51,
-            "Cinema": 0.08,
-            "Public Transportation": 0.17,
-            "Workplace": 0.14,
-            "Community Center": 0.1
-        }
-    },
-    "U0068": {
-        "COMPANION_PROBS": {
-            "Alone": 0.45,
-            "Partner": 0.16,
-            "Friends": 0.07,
-            "Family": 0.13,
-            "Group": 0.19
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.18,
-            "Spring": 0.11,
-            "Summer": 0.49,
-            "Autumn": 0.22
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.04,
-            "Tuesday": 0.12,
-            "Wednesday": 0.44,
-            "Thursday": 0.07,
-            "Friday": 0.14,
-            "Saturday": 0.07,
-            "Sunday": 0.12
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.56,
-            "Afternoon": 0.26,
-            "Evening": 0.09,
-            "Night": 0.09
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.17,
-            "Cinema": 0.14,
-            "Public Transportation": 0.14,
-            "Workplace": 0.44,
-            "Community Center": 0.11
-        }
-    },
-    "U0069": {
-        "COMPANION_PROBS": {
-            "Alone": 0.08,
-            "Partner": 0.16,
-            "Friends": 0.16,
-            "Family": 0.15,
-            "Group": 0.45
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.16,
-            "Spring": 0.2,
-            "Summer": 0.14,
-            "Autumn": 0.5
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.04,
-            "Tuesday": 0.17,
-            "Wednesday": 0.13,
-            "Thursday": 0.03,
-            "Friday": 0.09,
-            "Saturday": 0.14,
-            "Sunday": 0.4
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.47,
-            "Afternoon": 0.18,
-            "Evening": 0.17,
-            "Night": 0.18
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.18,
-            "Cinema": 0.45,
-            "Public Transportation": 0.11,
-            "Workplace": 0.13,
-            "Community Center": 0.13
-        }
-    },
-    "U0070": {
-        "COMPANION_PROBS": {
-            "Alone": 0.15,
-            "Partner": 0.12,
-            "Friends": 0.17,
-            "Family": 0.41,
-            "Group": 0.15
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.46,
-            "Spring": 0.15,
-            "Summer": 0.21,
-            "Autumn": 0.18
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.14,
-            "Tuesday": 0.11,
-            "Wednesday": 0.07,
-            "Thursday": 0.37,
-            "Friday": 0.11,
-            "Saturday": 0.12,
-            "Sunday": 0.08
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.22,
-            "Afternoon": 0.16,
-            "Evening": 0.51,
-            "Night": 0.11
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.08,
-            "Cinema": 0.13,
-            "Public Transportation": 0.19,
-            "Workplace": 0.12,
-            "Community Center": 0.48
-        }
-    },
-    "U0071": {
-        "COMPANION_PROBS": {
-            "Alone": 0.22,
-            "Partner": 0.07,
-            "Friends": 0.5,
-            "Family": 0.16,
-            "Group": 0.05
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.09,
-            "Spring": 0.2,
-            "Summer": 0.56,
-            "Autumn": 0.15
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.42,
-            "Tuesday": 0.14,
-            "Wednesday": 0.14,
-            "Thursday": 0.08,
-            "Friday": 0.08,
-            "Saturday": 0.08,
-            "Sunday": 0.06
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.15,
-            "Afternoon": 0.09,
-            "Evening": 0.7,
-            "Night": 0.06
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.17,
-            "Cinema": 0.06,
-            "Public Transportation": 0.44,
-            "Workplace": 0.18,
+            "Home": 0.43,
+            "Cinema": 0.09,
+            "Public Transportation": 0.16,
+            "Workplace": 0.17,
             "Community Center": 0.15
         }
     },
-    "U0072": {
+    "U0031": {
+        "WATCH_TENDENCY_PROBS": 0.51,
         "COMPANION_PROBS": {
-            "Alone": 0.55,
-            "Partner": 0.17,
-            "Friends": 0.07,
-            "Family": 0.13,
+            "Alone": 0.53,
+            "Partner": 0.1,
+            "Friends": 0.14,
+            "Family": 0.15,
             "Group": 0.08
         },
         "SEASON_PROBS": {
-            "Winter": 0.05,
-            "Spring": 0.17,
-            "Summer": 0.25,
-            "Autumn": 0.53
+            "Winter": 0.14,
+            "Spring": 0.16,
+            "Summer": 0.89,
+            "Autumn": 0.2
         },
         "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.11,
-            "Tuesday": 0.03,
-            "Wednesday": 0.13,
-            "Thursday": 0.1,
-            "Friday": 0.39,
-            "Saturday": 0.15,
-            "Sunday": 0.09
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.53,
-            "Afternoon": 0.23,
-            "Evening": 0.08,
-            "Night": 0.16
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.55,
-            "Cinema": 0.07,
-            "Public Transportation": 0.14,
-            "Workplace": 0.12,
-            "Community Center": 0.12
-        }
-    },
-    "U0073": {
-        "COMPANION_PROBS": {
-            "Alone": 0.13,
-            "Partner": 0.45,
-            "Friends": 0.12,
-            "Family": 0.21,
-            "Group": 0.09
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.57,
-            "Spring": 0.1,
-            "Summer": 0.18,
-            "Autumn": 0.15
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.04,
-            "Tuesday": 0.12,
-            "Wednesday": 0.1,
-            "Thursday": 0.11,
-            "Friday": 0.17,
-            "Saturday": 0.04,
-            "Sunday": 0.42
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.22,
-            "Afternoon": 0.58,
-            "Evening": 0.07,
-            "Night": 0.13
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.12,
-            "Cinema": 0.41,
-            "Public Transportation": 0.17,
-            "Workplace": 0.11,
-            "Community Center": 0.19
-        }
-    },
-    "U0074": {
-        "COMPANION_PROBS": {
-            "Alone": 0.15,
-            "Partner": 0.54,
-            "Friends": 0.18,
-            "Family": 0.07,
-            "Group": 0.06
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.09,
-            "Spring": 0.2,
-            "Summer": 0.62,
-            "Autumn": 0.09
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.06,
-            "Tuesday": 0.39,
-            "Wednesday": 0.09,
-            "Thursday": 0.04,
-            "Friday": 0.13,
-            "Saturday": 0.12,
-            "Sunday": 0.17
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.23,
-            "Afternoon": 0.13,
-            "Evening": 0.5,
-            "Night": 0.14
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.47,
-            "Cinema": 0.11,
-            "Public Transportation": 0.05,
-            "Workplace": 0.21,
-            "Community Center": 0.16
-        }
-    },
-    "U0075": {
-        "COMPANION_PROBS": {
-            "Alone": 0.07,
-            "Partner": 0.48,
-            "Friends": 0.12,
-            "Family": 0.12,
-            "Group": 0.21
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.08,
-            "Spring": 0.62,
-            "Summer": 0.16,
-            "Autumn": 0.14
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.13,
-            "Tuesday": 0.08,
-            "Wednesday": 0.12,
-            "Thursday": 0.11,
-            "Friday": 0.08,
-            "Saturday": 0.14,
-            "Sunday": 0.34
+            "Monday": 0.47,
+            "Tuesday": 0.71,
+            "Wednesday": 0.56,
+            "Thursday": 0.51,
+            "Friday": 0.89,
+            "Saturday": 0.41,
+            "Sunday": 0.79
         },
         "TIME_OF_DAY_PROBS": {
             "Morning": 0.61,
-            "Afternoon": 0.22,
-            "Evening": 0.11,
-            "Night": 0.06
+            "Afternoon": 0.15,
+            "Evening": 0.14,
+            "Night": 0.1
         },
         "LOCATION_PROBS": {
-            "Home": 0.48,
-            "Cinema": 0.23,
-            "Public Transportation": 0.11,
-            "Workplace": 0.12,
-            "Community Center": 0.06
+            "Home": 0.63,
+            "Cinema": 0.12,
+            "Public Transportation": 0.08,
+            "Workplace": 0.1,
+            "Community Center": 0.07
         }
     },
-    "U0076": {
+    "U0032": {
+        "WATCH_TENDENCY_PROBS": 0.59,
         "COMPANION_PROBS": {
-            "Alone": 0.21,
-            "Partner": 0.54,
-            "Friends": 0.14,
-            "Family": 0.05,
-            "Group": 0.06
+            "Alone": 0.45,
+            "Partner": 0.11,
+            "Friends": 0.17,
+            "Family": 0.15,
+            "Group": 0.12
         },
         "SEASON_PROBS": {
-            "Winter": 0.16,
-            "Spring": 0.15,
-            "Summer": 0.52,
-            "Autumn": 0.17
+            "Winter": 0.22,
+            "Spring": 0.07,
+            "Summer": 0.01,
+            "Autumn": 0.09
         },
         "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.04,
-            "Tuesday": 0.05,
-            "Wednesday": 0.16,
-            "Thursday": 0.13,
-            "Friday": 0.14,
-            "Saturday": 0.38,
-            "Sunday": 0.1
+            "Monday": 0.64,
+            "Tuesday": 0.14,
+            "Wednesday": 0.17,
+            "Thursday": 0.72,
+            "Friday": 0.01,
+            "Saturday": 0.5,
+            "Sunday": 0.85
         },
         "TIME_OF_DAY_PROBS": {
-            "Morning": 0.06,
-            "Afternoon": 0.26,
-            "Evening": 0.11,
-            "Night": 0.57
+            "Morning": 0.18,
+            "Afternoon": 0.1,
+            "Evening": 0.22,
+            "Night": 0.5
         },
         "LOCATION_PROBS": {
-            "Home": 0.06,
-            "Cinema": 0.2,
-            "Public Transportation": 0.15,
-            "Workplace": 0.15,
-            "Community Center": 0.44
+            "Home": 0.13,
+            "Cinema": 0.17,
+            "Public Transportation": 0.5,
+            "Workplace": 0.13,
+            "Community Center": 0.07
         }
     },
-    "U0077": {
+    "U0033": {
+        "WATCH_TENDENCY_PROBS": 0.09,
         "COMPANION_PROBS": {
             "Alone": 0.1,
-            "Partner": 0.43,
-            "Friends": 0.15,
-            "Family": 0.13,
-            "Group": 0.19
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.55,
-            "Spring": 0.17,
-            "Summer": 0.2,
-            "Autumn": 0.08
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.48,
-            "Tuesday": 0.14,
-            "Wednesday": 0.06,
-            "Thursday": 0.07,
-            "Friday": 0.07,
-            "Saturday": 0.11,
-            "Sunday": 0.07
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.17,
-            "Afternoon": 0.61,
-            "Evening": 0.11,
-            "Night": 0.11
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.15,
-            "Cinema": 0.1,
-            "Public Transportation": 0.5,
-            "Workplace": 0.08,
-            "Community Center": 0.17
-        }
-    },
-    "U0078": {
-        "COMPANION_PROBS": {
-            "Alone": 0.07,
             "Partner": 0.12,
             "Friends": 0.47,
-            "Family": 0.21,
-            "Group": 0.13
+            "Family": 0.15,
+            "Group": 0.16
         },
         "SEASON_PROBS": {
-            "Winter": 0.54,
-            "Spring": 0.11,
-            "Summer": 0.18,
-            "Autumn": 0.17
+            "Winter": 0.3,
+            "Spring": 0.59,
+            "Summer": 0.15,
+            "Autumn": 0.39
         },
         "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.15,
-            "Tuesday": 0.03,
-            "Wednesday": 0.06,
-            "Thursday": 0.37,
-            "Friday": 0.16,
-            "Saturday": 0.08,
-            "Sunday": 0.15
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.2,
-            "Afternoon": 0.44,
-            "Evening": 0.2,
-            "Night": 0.16
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.19,
-            "Cinema": 0.11,
-            "Public Transportation": 0.18,
-            "Workplace": 0.09,
-            "Community Center": 0.43
-        }
-    },
-    "U0079": {
-        "COMPANION_PROBS": {
-            "Alone": 0.52,
-            "Partner": 0.14,
-            "Friends": 0.15,
-            "Family": 0.05,
-            "Group": 0.14
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.05,
-            "Spring": 0.19,
-            "Summer": 0.54,
-            "Autumn": 0.22
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.15,
+            "Monday": 0.52,
             "Tuesday": 0.12,
-            "Wednesday": 0.1,
-            "Thursday": 0.43,
-            "Friday": 0.05,
-            "Saturday": 0.08,
-            "Sunday": 0.07
+            "Wednesday": 0.02,
+            "Thursday": 0.24,
+            "Friday": 0.43,
+            "Saturday": 0.18,
+            "Sunday": 0.04
         },
         "TIME_OF_DAY_PROBS": {
-            "Morning": 0.58,
-            "Afternoon": 0.1,
-            "Evening": 0.19,
-            "Night": 0.13
+            "Morning": 0.1,
+            "Afternoon": 0.21,
+            "Evening": 0.21,
+            "Night": 0.48
         },
         "LOCATION_PROBS": {
             "Home": 0.17,
-            "Cinema": 0.11,
-            "Public Transportation": 0.1,
-            "Workplace": 0.51,
-            "Community Center": 0.11
+            "Cinema": 0.09,
+            "Public Transportation": 0.16,
+            "Workplace": 0.18,
+            "Community Center": 0.4
         }
     },
-    "U0080": {
+    "U0034": {
+        "WATCH_TENDENCY_PROBS": 0.05,
         "COMPANION_PROBS": {
-            "Alone": 0.15,
-            "Partner": 0.11,
-            "Friends": 0.13,
+            "Alone": 0.2,
+            "Partner": 0.12,
+            "Friends": 0.44,
             "Family": 0.13,
-            "Group": 0.48
+            "Group": 0.11
         },
         "SEASON_PROBS": {
-            "Winter": 0.08,
-            "Spring": 0.14,
-            "Summer": 0.61,
-            "Autumn": 0.17
+            "Winter": 0.22,
+            "Spring": 0.17,
+            "Summer": 0.8,
+            "Autumn": 0.41
         },
         "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.09,
-            "Tuesday": 0.09,
-            "Wednesday": 0.38,
-            "Thursday": 0.15,
-            "Friday": 0.13,
-            "Saturday": 0.04,
-            "Sunday": 0.12
+            "Monday": 0.47,
+            "Tuesday": 0.69,
+            "Wednesday": 0.02,
+            "Thursday": 0.7,
+            "Friday": 0.42,
+            "Saturday": 0.68,
+            "Sunday": 1.0
         },
         "TIME_OF_DAY_PROBS": {
-            "Morning": 0.17,
-            "Afternoon": 0.06,
-            "Evening": 0.23,
-            "Night": 0.54
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.1,
-            "Cinema": 0.18,
-            "Public Transportation": 0.45,
-            "Workplace": 0.21,
-            "Community Center": 0.06
-        }
-    },
-    "U0081": {
-        "COMPANION_PROBS": {
-            "Alone": 0.15,
-            "Partner": 0.08,
-            "Friends": 0.09,
-            "Family": 0.15,
-            "Group": 0.53
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.14,
-            "Spring": 0.09,
-            "Summer": 0.21,
-            "Autumn": 0.56
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.07,
-            "Tuesday": 0.16,
-            "Wednesday": 0.43,
-            "Thursday": 0.07,
-            "Friday": 0.04,
-            "Saturday": 0.05,
-            "Sunday": 0.18
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.59,
-            "Afternoon": 0.13,
-            "Evening": 0.07,
-            "Night": 0.21
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.2,
-            "Cinema": 0.45,
-            "Public Transportation": 0.06,
-            "Workplace": 0.1,
-            "Community Center": 0.19
-        }
-    },
-    "U0082": {
-        "COMPANION_PROBS": {
-            "Alone": 0.08,
-            "Partner": 0.48,
-            "Friends": 0.09,
-            "Family": 0.18,
-            "Group": 0.17
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.09,
-            "Spring": 0.07,
-            "Summer": 0.18,
-            "Autumn": 0.66
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.06,
-            "Tuesday": 0.07,
-            "Wednesday": 0.17,
-            "Thursday": 0.39,
-            "Friday": 0.04,
-            "Saturday": 0.16,
-            "Sunday": 0.11
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.09,
-            "Afternoon": 0.58,
-            "Evening": 0.27,
-            "Night": 0.06
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.18,
-            "Cinema": 0.07,
-            "Public Transportation": 0.19,
-            "Workplace": 0.06,
-            "Community Center": 0.5
-        }
-    },
-    "U0083": {
-        "COMPANION_PROBS": {
-            "Alone": 0.05,
-            "Partner": 0.07,
-            "Friends": 0.19,
-            "Family": 0.5,
-            "Group": 0.19
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.18,
-            "Spring": 0.64,
-            "Summer": 0.08,
-            "Autumn": 0.1
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.14,
-            "Tuesday": 0.15,
-            "Wednesday": 0.05,
-            "Thursday": 0.15,
-            "Friday": 0.07,
-            "Saturday": 0.36,
-            "Sunday": 0.08
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.58,
-            "Afternoon": 0.07,
-            "Evening": 0.16,
+            "Morning": 0.14,
+            "Afternoon": 0.48,
+            "Evening": 0.19,
             "Night": 0.19
         },
         "LOCATION_PROBS": {
             "Home": 0.12,
-            "Cinema": 0.13,
-            "Public Transportation": 0.06,
-            "Workplace": 0.22,
-            "Community Center": 0.47
-        }
-    },
-    "U0084": {
-        "COMPANION_PROBS": {
-            "Alone": 0.09,
-            "Partner": 0.11,
-            "Friends": 0.17,
-            "Family": 0.45,
-            "Group": 0.18
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.07,
-            "Spring": 0.19,
-            "Summer": 0.22,
-            "Autumn": 0.52
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.15,
-            "Tuesday": 0.05,
-            "Wednesday": 0.14,
-            "Thursday": 0.05,
-            "Friday": 0.42,
-            "Saturday": 0.1,
-            "Sunday": 0.09
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.12,
-            "Afternoon": 0.6,
-            "Evening": 0.06,
-            "Night": 0.22
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.08,
             "Cinema": 0.14,
-            "Public Transportation": 0.21,
-            "Workplace": 0.51,
-            "Community Center": 0.06
+            "Public Transportation": 0.19,
+            "Workplace": 0.5,
+            "Community Center": 0.05
         }
     },
-    "U0085": {
+    "U0035": {
+        "WATCH_TENDENCY_PROBS": 0.26,
         "COMPANION_PROBS": {
-            "Alone": 0.07,
-            "Partner": 0.14,
-            "Friends": 0.14,
-            "Family": 0.51,
-            "Group": 0.14
+            "Alone": 0.1,
+            "Partner": 0.1,
+            "Friends": 0.18,
+            "Family": 0.42,
+            "Group": 0.2
         },
         "SEASON_PROBS": {
             "Winter": 0.52,
             "Spring": 0.24,
-            "Summer": 0.1,
+            "Summer": 0.23,
             "Autumn": 0.14
         },
         "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.08,
-            "Tuesday": 0.05,
-            "Wednesday": 0.38,
-            "Thursday": 0.17,
-            "Friday": 0.14,
-            "Saturday": 0.13,
-            "Sunday": 0.05
+            "Monday": 0.4,
+            "Tuesday": 0.95,
+            "Wednesday": 0.87,
+            "Thursday": 0.41,
+            "Friday": 0.6,
+            "Saturday": 0.37,
+            "Sunday": 0.7
         },
         "TIME_OF_DAY_PROBS": {
-            "Morning": 0.19,
-            "Afternoon": 0.11,
-            "Evening": 0.61,
-            "Night": 0.09
+            "Morning": 0.1,
+            "Afternoon": 0.5,
+            "Evening": 0.18,
+            "Night": 0.22
         },
         "LOCATION_PROBS": {
-            "Home": 0.47,
-            "Cinema": 0.19,
-            "Public Transportation": 0.16,
+            "Home": 0.44,
+            "Cinema": 0.15,
+            "Public Transportation": 0.09,
             "Workplace": 0.12,
-            "Community Center": 0.06
+            "Community Center": 0.2
         }
     },
-    "U0086": {
+    "U0036": {
+        "WATCH_TENDENCY_PROBS": 0.74,
         "COMPANION_PROBS": {
-            "Alone": 0.13,
-            "Partner": 0.21,
-            "Friends": 0.51,
-            "Family": 0.08,
-            "Group": 0.07
+            "Alone": 0.17,
+            "Partner": 0.05,
+            "Friends": 0.42,
+            "Family": 0.19,
+            "Group": 0.17
         },
         "SEASON_PROBS": {
-            "Winter": 0.2,
-            "Spring": 0.46,
-            "Summer": 0.13,
-            "Autumn": 0.21
+            "Winter": 0.61,
+            "Spring": 0.06,
+            "Summer": 0.09,
+            "Autumn": 0.15
         },
         "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.15,
-            "Tuesday": 0.07,
-            "Wednesday": 0.16,
-            "Thursday": 0.13,
-            "Friday": 0.05,
-            "Saturday": 0.39,
-            "Sunday": 0.05
+            "Monday": 0.44,
+            "Tuesday": 0.72,
+            "Wednesday": 0.54,
+            "Thursday": 0.72,
+            "Friday": 0.69,
+            "Saturday": 0.81,
+            "Sunday": 0.16
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.11,
+            "Afternoon": 0.17,
+            "Evening": 0.21,
+            "Night": 0.51
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.13,
+            "Cinema": 0.14,
+            "Public Transportation": 0.14,
+            "Workplace": 0.16,
+            "Community Center": 0.43
+        }
+    },
+    "U0037": {
+        "WATCH_TENDENCY_PROBS": 0.46,
+        "COMPANION_PROBS": {
+            "Alone": 0.41,
+            "Partner": 0.16,
+            "Friends": 0.13,
+            "Family": 0.13,
+            "Group": 0.17
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.94,
+            "Spring": 0.19,
+            "Summer": 0.38,
+            "Autumn": 0.18
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.06,
+            "Tuesday": 0.64,
+            "Wednesday": 0.6,
+            "Thursday": 0.85,
+            "Friday": 0.79,
+            "Saturday": 0.77,
+            "Sunday": 0.1
         },
         "TIME_OF_DAY_PROBS": {
             "Morning": 0.17,
-            "Afternoon": 0.14,
-            "Evening": 0.52,
+            "Afternoon": 0.16,
+            "Evening": 0.61,
+            "Night": 0.06
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.44,
+            "Cinema": 0.05,
+            "Public Transportation": 0.16,
+            "Workplace": 0.2,
+            "Community Center": 0.15
+        }
+    },
+    "U0038": {
+        "WATCH_TENDENCY_PROBS": 0.54,
+        "COMPANION_PROBS": {
+            "Alone": 0.25,
+            "Partner": 0.54,
+            "Friends": 0.05,
+            "Family": 0.09,
+            "Group": 0.07
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.13,
+            "Spring": 0.5,
+            "Summer": 0.97,
+            "Autumn": 0.7
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.01,
+            "Tuesday": 0.56,
+            "Wednesday": 0.46,
+            "Thursday": 0.1,
+            "Friday": 0.86,
+            "Saturday": 0.63,
+            "Sunday": 0.62
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.19,
+            "Afternoon": 0.2,
+            "Evening": 0.44,
             "Night": 0.17
         },
         "LOCATION_PROBS": {
-            "Home": 0.05,
-            "Cinema": 0.15,
-            "Public Transportation": 0.18,
-            "Workplace": 0.48,
+            "Home": 0.07,
+            "Cinema": 0.46,
+            "Public Transportation": 0.11,
+            "Workplace": 0.15,
+            "Community Center": 0.21
+        }
+    },
+    "U0039": {
+        "WATCH_TENDENCY_PROBS": 0.95,
+        "COMPANION_PROBS": {
+            "Alone": 0.2,
+            "Partner": 0.19,
+            "Friends": 0.09,
+            "Family": 0.44,
+            "Group": 0.08
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.01,
+            "Spring": 0.8,
+            "Summer": 0.61,
+            "Autumn": 0.04
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.7,
+            "Tuesday": 0.27,
+            "Wednesday": 0.09,
+            "Thursday": 0.33,
+            "Friday": 0.12,
+            "Saturday": 0.17,
+            "Sunday": 0.19
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.05,
+            "Afternoon": 0.23,
+            "Evening": 0.14,
+            "Night": 0.58
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.15,
+            "Cinema": 0.12,
+            "Public Transportation": 0.11,
+            "Workplace": 0.19,
+            "Community Center": 0.43
+        }
+    },
+    "U0040": {
+        "WATCH_TENDENCY_PROBS": 0.21,
+        "COMPANION_PROBS": {
+            "Alone": 0.11,
+            "Partner": 0.41,
+            "Friends": 0.13,
+            "Family": 0.17,
+            "Group": 0.18
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.52,
+            "Spring": 0.6,
+            "Summer": 0.29,
+            "Autumn": 0.28
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.23,
+            "Tuesday": 0.99,
+            "Wednesday": 0.58,
+            "Thursday": 0.83,
+            "Friday": 0.39,
+            "Saturday": 0.2,
+            "Sunday": 0.11
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.1,
+            "Afternoon": 0.23,
+            "Evening": 0.51,
+            "Night": 0.16
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.19,
+            "Cinema": 0.1,
+            "Public Transportation": 0.16,
+            "Workplace": 0.07,
+            "Community Center": 0.48
+        }
+    },
+    "U0041": {
+        "WATCH_TENDENCY_PROBS": 0.8,
+        "COMPANION_PROBS": {
+            "Alone": 0.2,
+            "Partner": 0.14,
+            "Friends": 0.44,
+            "Family": 0.14,
+            "Group": 0.08
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.88,
+            "Spring": 0.96,
+            "Summer": 0.95,
+            "Autumn": 0.85
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.37,
+            "Tuesday": 0.26,
+            "Wednesday": 0.97,
+            "Thursday": 0.3,
+            "Friday": 0.15,
+            "Saturday": 0.21,
+            "Sunday": 0.81
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.09,
+            "Afternoon": 0.57,
+            "Evening": 0.22,
+            "Night": 0.12
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.08,
+            "Cinema": 0.11,
+            "Public Transportation": 0.51,
+            "Workplace": 0.16,
             "Community Center": 0.14
         }
     },
-    "U0087": {
+    "U0042": {
+        "WATCH_TENDENCY_PROBS": 0.45,
+        "COMPANION_PROBS": {
+            "Alone": 0.18,
+            "Partner": 0.12,
+            "Friends": 0.16,
+            "Family": 0.46,
+            "Group": 0.08
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.88,
+            "Spring": 0.15,
+            "Summer": 0.18,
+            "Autumn": 0.85
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.75,
+            "Tuesday": 0.59,
+            "Wednesday": 0.3,
+            "Thursday": 0.38,
+            "Friday": 0.25,
+            "Saturday": 0.9,
+            "Sunday": 0.98
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.13,
+            "Afternoon": 0.22,
+            "Evening": 0.49,
+            "Night": 0.16
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.46,
+            "Cinema": 0.15,
+            "Public Transportation": 0.16,
+            "Workplace": 0.16,
+            "Community Center": 0.07
+        }
+    },
+    "U0043": {
+        "WATCH_TENDENCY_PROBS": 0.77,
+        "COMPANION_PROBS": {
+            "Alone": 0.12,
+            "Partner": 0.18,
+            "Friends": 0.13,
+            "Family": 0.41,
+            "Group": 0.16
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.51,
+            "Spring": 0.52,
+            "Summer": 0.49,
+            "Autumn": 0.62
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.39,
+            "Tuesday": 0.57,
+            "Wednesday": 0.68,
+            "Thursday": 0.46,
+            "Friday": 0.67,
+            "Saturday": 0.94,
+            "Sunday": 0.85
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.11,
+            "Afternoon": 0.56,
+            "Evening": 0.25,
+            "Night": 0.08
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.39,
+            "Cinema": 0.1,
+            "Public Transportation": 0.17,
+            "Workplace": 0.17,
+            "Community Center": 0.17
+        }
+    },
+    "U0044": {
+        "WATCH_TENDENCY_PROBS": 0.16,
+        "COMPANION_PROBS": {
+            "Alone": 0.49,
+            "Partner": 0.09,
+            "Friends": 0.18,
+            "Family": 0.08,
+            "Group": 0.16
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.76,
+            "Spring": 0.73,
+            "Summer": 0.69,
+            "Autumn": 0.67
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.37,
+            "Tuesday": 0.89,
+            "Wednesday": 0.98,
+            "Thursday": 0.06,
+            "Friday": 0.63,
+            "Saturday": 0.49,
+            "Sunday": 0.8
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.23,
+            "Afternoon": 0.51,
+            "Evening": 0.12,
+            "Night": 0.14
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.11,
+            "Cinema": 0.19,
+            "Public Transportation": 0.06,
+            "Workplace": 0.16,
+            "Community Center": 0.48
+        }
+    },
+    "U0045": {
+        "WATCH_TENDENCY_PROBS": 0.63,
+        "COMPANION_PROBS": {
+            "Alone": 0.17,
+            "Partner": 0.2,
+            "Friends": 0.06,
+            "Family": 0.5,
+            "Group": 0.07
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.92,
+            "Spring": 0.47,
+            "Summer": 0.25,
+            "Autumn": 0.57
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.08,
+            "Tuesday": 0.27,
+            "Wednesday": 0.75,
+            "Thursday": 0.09,
+            "Friday": 0.37,
+            "Saturday": 0.76,
+            "Sunday": 0.34
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.18,
+            "Afternoon": 0.55,
+            "Evening": 0.19,
+            "Night": 0.08
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.09,
+            "Cinema": 0.16,
+            "Public Transportation": 0.14,
+            "Workplace": 0.11,
+            "Community Center": 0.5
+        }
+    },
+    "U0046": {
+        "WATCH_TENDENCY_PROBS": 0.07,
+        "COMPANION_PROBS": {
+            "Alone": 0.14,
+            "Partner": 0.18,
+            "Friends": 0.47,
+            "Family": 0.13,
+            "Group": 0.08
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.87,
+            "Spring": 0.72,
+            "Summer": 0.64,
+            "Autumn": 0.59
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.55,
+            "Tuesday": 0.58,
+            "Wednesday": 0.82,
+            "Thursday": 0.09,
+            "Friday": 0.94,
+            "Saturday": 0.1,
+            "Sunday": 0.86
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.15,
+            "Afternoon": 0.11,
+            "Evening": 0.53,
+            "Night": 0.21
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.17,
+            "Cinema": 0.15,
+            "Public Transportation": 0.17,
+            "Workplace": 0.38,
+            "Community Center": 0.13
+        }
+    },
+    "U0047": {
+        "WATCH_TENDENCY_PROBS": 0.4,
+        "COMPANION_PROBS": {
+            "Alone": 0.13,
+            "Partner": 0.15,
+            "Friends": 0.45,
+            "Family": 0.15,
+            "Group": 0.12
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.51,
+            "Spring": 0.84,
+            "Summer": 0.05,
+            "Autumn": 0.68
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.22,
+            "Tuesday": 0.78,
+            "Wednesday": 0.41,
+            "Thursday": 0.21,
+            "Friday": 0.3,
+            "Saturday": 0.28,
+            "Sunday": 0.75
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.08,
+            "Afternoon": 0.59,
+            "Evening": 0.15,
+            "Night": 0.18
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.15,
+            "Cinema": 0.13,
+            "Public Transportation": 0.46,
+            "Workplace": 0.1,
+            "Community Center": 0.16
+        }
+    },
+    "U0048": {
+        "WATCH_TENDENCY_PROBS": 0.65,
+        "COMPANION_PROBS": {
+            "Alone": 0.2,
+            "Partner": 0.13,
+            "Friends": 0.13,
+            "Family": 0.1,
+            "Group": 0.44
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.24,
+            "Spring": 0.74,
+            "Summer": 0.87,
+            "Autumn": 0.81
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.86,
+            "Tuesday": 0.58,
+            "Wednesday": 0.53,
+            "Thursday": 0.04,
+            "Friday": 0.43,
+            "Saturday": 0.85,
+            "Sunday": 0.34
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.16,
+            "Afternoon": 0.5,
+            "Evening": 0.23,
+            "Night": 0.11
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.17,
+            "Cinema": 0.08,
+            "Public Transportation": 0.19,
+            "Workplace": 0.43,
+            "Community Center": 0.13
+        }
+    },
+    "U0049": {
+        "WATCH_TENDENCY_PROBS": 0.54,
+        "COMPANION_PROBS": {
+            "Alone": 0.07,
+            "Partner": 0.06,
+            "Friends": 0.19,
+            "Family": 0.46,
+            "Group": 0.22
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.49,
+            "Spring": 0.98,
+            "Summer": 0.52,
+            "Autumn": 0.91
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.98,
+            "Tuesday": 0.94,
+            "Wednesday": 0.35,
+            "Thursday": 0.1,
+            "Friday": 0.5,
+            "Saturday": 0.28,
+            "Sunday": 0.15
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.57,
+            "Afternoon": 0.13,
+            "Evening": 0.11,
+            "Night": 0.19
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.13,
+            "Cinema": 0.16,
+            "Public Transportation": 0.07,
+            "Workplace": 0.17,
+            "Community Center": 0.47
+        }
+    },
+    "U0050": {
+        "WATCH_TENDENCY_PROBS": 0.36,
+        "COMPANION_PROBS": {
+            "Alone": 0.07,
+            "Partner": 0.55,
+            "Friends": 0.11,
+            "Family": 0.09,
+            "Group": 0.18
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.04,
+            "Spring": 1.0,
+            "Summer": 0.32,
+            "Autumn": 0.74
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.64,
+            "Tuesday": 0.9,
+            "Wednesday": 0.73,
+            "Thursday": 0.74,
+            "Friday": 0.83,
+            "Saturday": 0.76,
+            "Sunday": 0.12
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.12,
+            "Afternoon": 0.64,
+            "Evening": 0.09,
+            "Night": 0.15
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.08,
+            "Cinema": 0.1,
+            "Public Transportation": 0.58,
+            "Workplace": 0.06,
+            "Community Center": 0.18
+        }
+    },
+    "U0051": {
+        "WATCH_TENDENCY_PROBS": 0.85,
+        "COMPANION_PROBS": {
+            "Alone": 0.49,
+            "Partner": 0.17,
+            "Friends": 0.14,
+            "Family": 0.14,
+            "Group": 0.06
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.2,
+            "Spring": 0.68,
+            "Summer": 0.8,
+            "Autumn": 0.87
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.93,
+            "Tuesday": 0.07,
+            "Wednesday": 0.3,
+            "Thursday": 0.68,
+            "Friday": 0.53,
+            "Saturday": 0.47,
+            "Sunday": 0.68
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.08,
+            "Afternoon": 0.23,
+            "Evening": 0.11,
+            "Night": 0.58
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.49,
+            "Cinema": 0.09,
+            "Public Transportation": 0.11,
+            "Workplace": 0.19,
+            "Community Center": 0.12
+        }
+    },
+    "U0052": {
+        "WATCH_TENDENCY_PROBS": 0.09,
+        "COMPANION_PROBS": {
+            "Alone": 0.45,
+            "Partner": 0.16,
+            "Friends": 0.16,
+            "Family": 0.13,
+            "Group": 0.1
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.64,
+            "Spring": 0.43,
+            "Summer": 0.44,
+            "Autumn": 0.15
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.46,
+            "Tuesday": 0.58,
+            "Wednesday": 0.16,
+            "Thursday": 0.42,
+            "Friday": 0.61,
+            "Saturday": 0.49,
+            "Sunday": 0.55
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.2,
+            "Afternoon": 0.61,
+            "Evening": 0.09,
+            "Night": 0.1
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.19,
+            "Cinema": 0.06,
+            "Public Transportation": 0.08,
+            "Workplace": 0.06,
+            "Community Center": 0.61
+        }
+    },
+    "U0053": {
+        "WATCH_TENDENCY_PROBS": 0.69,
+        "COMPANION_PROBS": {
+            "Alone": 0.13,
+            "Partner": 0.14,
+            "Friends": 0.49,
+            "Family": 0.11,
+            "Group": 0.13
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.76,
+            "Spring": 0.81,
+            "Summer": 0.51,
+            "Autumn": 0.23
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.88,
+            "Tuesday": 0.59,
+            "Wednesday": 0.45,
+            "Thursday": 0.97,
+            "Friday": 0.89,
+            "Saturday": 0.74,
+            "Sunday": 0.02
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.19,
+            "Afternoon": 0.13,
+            "Evening": 0.62,
+            "Night": 0.06
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.15,
+            "Cinema": 0.44,
+            "Public Transportation": 0.17,
+            "Workplace": 0.18,
+            "Community Center": 0.06
+        }
+    },
+    "U0054": {
+        "WATCH_TENDENCY_PROBS": 0.64,
+        "COMPANION_PROBS": {
+            "Alone": 0.15,
+            "Partner": 0.04,
+            "Friends": 0.49,
+            "Family": 0.13,
+            "Group": 0.19
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.37,
+            "Spring": 0.96,
+            "Summer": 0.51,
+            "Autumn": 0.72
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.55,
+            "Tuesday": 0.57,
+            "Wednesday": 0.65,
+            "Thursday": 0.51,
+            "Friday": 0.14,
+            "Saturday": 0.8,
+            "Sunday": 0.37
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.13,
+            "Afternoon": 0.64,
+            "Evening": 0.13,
+            "Night": 0.1
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.23,
+            "Cinema": 0.09,
+            "Public Transportation": 0.08,
+            "Workplace": 0.06,
+            "Community Center": 0.54
+        }
+    },
+    "U0055": {
+        "WATCH_TENDENCY_PROBS": 0.48,
+        "COMPANION_PROBS": {
+            "Alone": 0.16,
+            "Partner": 0.12,
+            "Friends": 0.48,
+            "Family": 0.16,
+            "Group": 0.08
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.7,
+            "Spring": 0.12,
+            "Summer": 0.97,
+            "Autumn": 0.02
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.28,
+            "Tuesday": 0.37,
+            "Wednesday": 0.28,
+            "Thursday": 0.4,
+            "Friday": 0.31,
+            "Saturday": 0.58,
+            "Sunday": 0.73
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.14,
+            "Afternoon": 0.5,
+            "Evening": 0.21,
+            "Night": 0.15
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.08,
+            "Cinema": 0.15,
+            "Public Transportation": 0.09,
+            "Workplace": 0.07,
+            "Community Center": 0.61
+        }
+    },
+    "U0056": {
+        "WATCH_TENDENCY_PROBS": 0.18,
+        "COMPANION_PROBS": {
+            "Alone": 0.05,
+            "Partner": 0.15,
+            "Friends": 0.18,
+            "Family": 0.19,
+            "Group": 0.43
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.35,
+            "Spring": 0.72,
+            "Summer": 0.09,
+            "Autumn": 0.81
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.51,
+            "Tuesday": 0.62,
+            "Wednesday": 0.69,
+            "Thursday": 0.57,
+            "Friday": 0.42,
+            "Saturday": 0.06,
+            "Sunday": 0.78
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.1,
+            "Afternoon": 0.07,
+            "Evening": 0.59,
+            "Night": 0.24
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.19,
+            "Cinema": 0.46,
+            "Public Transportation": 0.13,
+            "Workplace": 0.06,
+            "Community Center": 0.16
+        }
+    },
+    "U0057": {
+        "WATCH_TENDENCY_PROBS": 0.52,
+        "COMPANION_PROBS": {
+            "Alone": 0.13,
+            "Partner": 0.15,
+            "Friends": 0.21,
+            "Family": 0.05,
+            "Group": 0.46
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.01,
+            "Spring": 0.59,
+            "Summer": 0.87,
+            "Autumn": 0.06
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.83,
+            "Tuesday": 0.72,
+            "Wednesday": 0.92,
+            "Thursday": 0.39,
+            "Friday": 0.26,
+            "Saturday": 0.04,
+            "Sunday": 0.9
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.12,
+            "Afternoon": 0.58,
+            "Evening": 0.16,
+            "Night": 0.14
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.16,
+            "Cinema": 0.15,
+            "Public Transportation": 0.16,
+            "Workplace": 0.41,
+            "Community Center": 0.12
+        }
+    },
+    "U0058": {
+        "WATCH_TENDENCY_PROBS": 0.05,
+        "COMPANION_PROBS": {
+            "Alone": 0.16,
+            "Partner": 0.09,
+            "Friends": 0.15,
+            "Family": 0.5,
+            "Group": 0.1
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.97,
+            "Spring": 0.38,
+            "Summer": 0.95,
+            "Autumn": 0.88
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.5,
+            "Tuesday": 0.35,
+            "Wednesday": 0.59,
+            "Thursday": 0.08,
+            "Friday": 0.54,
+            "Saturday": 0.15,
+            "Sunday": 0.91
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.49,
+            "Afternoon": 0.18,
+            "Evening": 0.19,
+            "Night": 0.14
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.09,
+            "Cinema": 0.5,
+            "Public Transportation": 0.23,
+            "Workplace": 0.09,
+            "Community Center": 0.09
+        }
+    },
+    "U0059": {
+        "WATCH_TENDENCY_PROBS": 0.15,
+        "COMPANION_PROBS": {
+            "Alone": 0.19,
+            "Partner": 0.06,
+            "Friends": 0.06,
+            "Family": 0.5,
+            "Group": 0.19
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.13,
+            "Spring": 0.02,
+            "Summer": 0.69,
+            "Autumn": 0.17
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.44,
+            "Tuesday": 0.97,
+            "Wednesday": 0.53,
+            "Thursday": 0.29,
+            "Friday": 0.08,
+            "Saturday": 0.01,
+            "Sunday": 0.83
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.09,
+            "Afternoon": 0.11,
+            "Evening": 0.67,
+            "Night": 0.13
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.15,
+            "Cinema": 0.13,
+            "Public Transportation": 0.06,
+            "Workplace": 0.58,
+            "Community Center": 0.08
+        }
+    },
+    "U0060": {
+        "WATCH_TENDENCY_PROBS": 0.94,
+        "COMPANION_PROBS": {
+            "Alone": 0.61,
+            "Partner": 0.1,
+            "Friends": 0.06,
+            "Family": 0.09,
+            "Group": 0.14
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.5,
+            "Spring": 0.28,
+            "Summer": 0.24,
+            "Autumn": 0.81
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.66,
+            "Tuesday": 0.51,
+            "Wednesday": 0.43,
+            "Thursday": 0.59,
+            "Friday": 0.14,
+            "Saturday": 0.93,
+            "Sunday": 0.27
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.08,
+            "Afternoon": 0.62,
+            "Evening": 0.11,
+            "Night": 0.19
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.17,
+            "Cinema": 0.39,
+            "Public Transportation": 0.17,
+            "Workplace": 0.12,
+            "Community Center": 0.15
+        }
+    },
+    "U0061": {
+        "WATCH_TENDENCY_PROBS": 0.64,
+        "COMPANION_PROBS": {
+            "Alone": 0.11,
+            "Partner": 0.08,
+            "Friends": 0.06,
+            "Family": 0.21,
+            "Group": 0.54
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.83,
+            "Spring": 0.16,
+            "Summer": 0.2,
+            "Autumn": 0.89
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.7,
+            "Tuesday": 0.16,
+            "Wednesday": 0.78,
+            "Thursday": 0.87,
+            "Friday": 0.83,
+            "Saturday": 0.72,
+            "Sunday": 0.9
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.17,
+            "Afternoon": 0.5,
+            "Evening": 0.24,
+            "Night": 0.09
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.05,
+            "Cinema": 0.12,
+            "Public Transportation": 0.09,
+            "Workplace": 0.14,
+            "Community Center": 0.6
+        }
+    },
+    "U0062": {
+        "WATCH_TENDENCY_PROBS": 0.61,
+        "COMPANION_PROBS": {
+            "Alone": 0.12,
+            "Partner": 0.15,
+            "Friends": 0.16,
+            "Family": 0.45,
+            "Group": 0.12
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.9,
+            "Spring": 0.63,
+            "Summer": 0.51,
+            "Autumn": 0.21
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.37,
+            "Tuesday": 0.94,
+            "Wednesday": 0.85,
+            "Thursday": 0.15,
+            "Friday": 0.79,
+            "Saturday": 0.79,
+            "Sunday": 0.15
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.19,
+            "Afternoon": 0.1,
+            "Evening": 0.54,
+            "Night": 0.17
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.19,
+            "Cinema": 0.55,
+            "Public Transportation": 0.11,
+            "Workplace": 0.08,
+            "Community Center": 0.07
+        }
+    },
+    "U0063": {
+        "WATCH_TENDENCY_PROBS": 0.67,
+        "COMPANION_PROBS": {
+            "Alone": 0.2,
+            "Partner": 0.56,
+            "Friends": 0.07,
+            "Family": 0.08,
+            "Group": 0.09
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.04,
+            "Spring": 0.5,
+            "Summer": 0.63,
+            "Autumn": 0.4
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.55,
+            "Tuesday": 0.52,
+            "Wednesday": 0.92,
+            "Thursday": 0.15,
+            "Friday": 0.29,
+            "Saturday": 0.92,
+            "Sunday": 0.68
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.63,
+            "Afternoon": 0.06,
+            "Evening": 0.09,
+            "Night": 0.22
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.06,
+            "Cinema": 0.2,
+            "Public Transportation": 0.12,
+            "Workplace": 0.16,
+            "Community Center": 0.46
+        }
+    },
+    "U0064": {
+        "WATCH_TENDENCY_PROBS": 0.21,
+        "COMPANION_PROBS": {
+            "Alone": 0.14,
+            "Partner": 0.17,
+            "Friends": 0.45,
+            "Family": 0.19,
+            "Group": 0.05
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.17,
+            "Spring": 0.28,
+            "Summer": 0.67,
+            "Autumn": 0.84
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.23,
+            "Tuesday": 0.5,
+            "Wednesday": 0.7,
+            "Thursday": 0.32,
+            "Friday": 0.43,
+            "Saturday": 0.24,
+            "Sunday": 0.78
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.12,
+            "Afternoon": 0.48,
+            "Evening": 0.18,
+            "Night": 0.22
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.13,
+            "Cinema": 0.14,
+            "Public Transportation": 0.47,
+            "Workplace": 0.18,
+            "Community Center": 0.08
+        }
+    },
+    "U0065": {
+        "WATCH_TENDENCY_PROBS": 0.42,
+        "COMPANION_PROBS": {
+            "Alone": 0.07,
+            "Partner": 0.23,
+            "Friends": 0.58,
+            "Family": 0.07,
+            "Group": 0.05
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.46,
+            "Spring": 0.44,
+            "Summer": 0.55,
+            "Autumn": 0.66
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.02,
+            "Tuesday": 0.17,
+            "Wednesday": 0.74,
+            "Thursday": 0.47,
+            "Friday": 0.03,
+            "Saturday": 0.49,
+            "Sunday": 0.33
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.21,
+            "Afternoon": 0.2,
+            "Evening": 0.13,
+            "Night": 0.46
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.17,
+            "Cinema": 0.15,
+            "Public Transportation": 0.44,
+            "Workplace": 0.16,
+            "Community Center": 0.08
+        }
+    },
+    "U0066": {
+        "WATCH_TENDENCY_PROBS": 0.24,
+        "COMPANION_PROBS": {
+            "Alone": 0.48,
+            "Partner": 0.1,
+            "Friends": 0.22,
+            "Family": 0.13,
+            "Group": 0.07
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.96,
+            "Spring": 0.62,
+            "Summer": 0.5,
+            "Autumn": 0.94
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.31,
+            "Tuesday": 0.99,
+            "Wednesday": 0.88,
+            "Thursday": 0.93,
+            "Friday": 0.85,
+            "Saturday": 0.47,
+            "Sunday": 0.95
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.14,
+            "Afternoon": 0.1,
+            "Evening": 0.19,
+            "Night": 0.57
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.05,
+            "Cinema": 0.53,
+            "Public Transportation": 0.21,
+            "Workplace": 0.09,
+            "Community Center": 0.12
+        }
+    },
+    "U0067": {
+        "WATCH_TENDENCY_PROBS": 0.04,
+        "COMPANION_PROBS": {
+            "Alone": 0.22,
+            "Partner": 0.04,
+            "Friends": 0.49,
+            "Family": 0.21,
+            "Group": 0.04
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.22,
+            "Spring": 0.98,
+            "Summer": 0.16,
+            "Autumn": 0.74
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.79,
+            "Tuesday": 0.82,
+            "Wednesday": 0.47,
+            "Thursday": 0.43,
+            "Friday": 0.63,
+            "Saturday": 0.44,
+            "Sunday": 0.06
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.18,
+            "Afternoon": 0.45,
+            "Evening": 0.2,
+            "Night": 0.17
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.06,
+            "Cinema": 0.46,
+            "Public Transportation": 0.13,
+            "Workplace": 0.2,
+            "Community Center": 0.15
+        }
+    },
+    "U0068": {
+        "WATCH_TENDENCY_PROBS": 0.55,
         "COMPANION_PROBS": {
             "Alone": 0.4,
             "Partner": 0.13,
@@ -3190,513 +2555,1248 @@
             "Group": 0.17
         },
         "SEASON_PROBS": {
-            "Winter": 0.09,
-            "Spring": 0.22,
-            "Summer": 0.2,
-            "Autumn": 0.49
+            "Winter": 0.2,
+            "Spring": 0.74,
+            "Summer": 0.1,
+            "Autumn": 0.11
         },
         "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.11,
-            "Tuesday": 0.12,
-            "Wednesday": 0.37,
-            "Thursday": 0.14,
-            "Friday": 0.05,
-            "Saturday": 0.09,
-            "Sunday": 0.12
+            "Monday": 0.78,
+            "Tuesday": 0.23,
+            "Wednesday": 0.28,
+            "Thursday": 0.31,
+            "Friday": 0.27,
+            "Saturday": 0.9,
+            "Sunday": 0.09
         },
         "TIME_OF_DAY_PROBS": {
-            "Morning": 0.23,
-            "Afternoon": 0.5,
+            "Morning": 0.62,
+            "Afternoon": 0.08,
             "Evening": 0.1,
-            "Night": 0.17
+            "Night": 0.2
         },
         "LOCATION_PROBS": {
-            "Home": 0.5,
-            "Cinema": 0.06,
-            "Public Transportation": 0.16,
-            "Workplace": 0.13,
-            "Community Center": 0.15
+            "Home": 0.07,
+            "Cinema": 0.14,
+            "Public Transportation": 0.57,
+            "Workplace": 0.14,
+            "Community Center": 0.08
         }
     },
-    "U0088": {
+    "U0069": {
+        "WATCH_TENDENCY_PROBS": 0.3,
         "COMPANION_PROBS": {
-            "Alone": 0.07,
-            "Partner": 0.5,
-            "Friends": 0.14,
-            "Family": 0.2,
-            "Group": 0.09
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.25,
-            "Spring": 0.59,
-            "Summer": 0.08,
-            "Autumn": 0.08
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.13,
-            "Tuesday": 0.13,
-            "Wednesday": 0.42,
-            "Thursday": 0.1,
-            "Friday": 0.07,
-            "Saturday": 0.08,
-            "Sunday": 0.07
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.16,
-            "Afternoon": 0.22,
-            "Evening": 0.06,
-            "Night": 0.56
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.16,
-            "Cinema": 0.09,
-            "Public Transportation": 0.14,
-            "Workplace": 0.48,
-            "Community Center": 0.13
-        }
-    },
-    "U0089": {
-        "COMPANION_PROBS": {
-            "Alone": 0.09,
-            "Partner": 0.14,
-            "Friends": 0.19,
-            "Family": 0.4,
+            "Alone": 0.5,
+            "Partner": 0.15,
+            "Friends": 0.07,
+            "Family": 0.1,
             "Group": 0.18
         },
         "SEASON_PROBS": {
-            "Winter": 0.22,
-            "Spring": 0.5,
-            "Summer": 0.22,
-            "Autumn": 0.06
+            "Winter": 0.04,
+            "Spring": 0.02,
+            "Summer": 0.57,
+            "Autumn": 0.73
         },
         "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.4,
-            "Tuesday": 0.06,
-            "Wednesday": 0.06,
-            "Thursday": 0.09,
-            "Friday": 0.14,
-            "Saturday": 0.14,
-            "Sunday": 0.11
+            "Monday": 0.36,
+            "Tuesday": 0.44,
+            "Wednesday": 0.25,
+            "Thursday": 0.2,
+            "Friday": 0.05,
+            "Saturday": 0.23,
+            "Sunday": 0.52
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.52,
+            "Afternoon": 0.08,
+            "Evening": 0.19,
+            "Night": 0.21
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.09,
+            "Cinema": 0.12,
+            "Public Transportation": 0.51,
+            "Workplace": 0.23,
+            "Community Center": 0.05
+        }
+    },
+    "U0070": {
+        "WATCH_TENDENCY_PROBS": 0.76,
+        "COMPANION_PROBS": {
+            "Alone": 0.16,
+            "Partner": 0.18,
+            "Friends": 0.08,
+            "Family": 0.42,
+            "Group": 0.16
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.46,
+            "Spring": 0.84,
+            "Summer": 0.33,
+            "Autumn": 0.41
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.6,
+            "Tuesday": 0.08,
+            "Wednesday": 0.39,
+            "Thursday": 0.43,
+            "Friday": 0.15,
+            "Saturday": 0.74,
+            "Sunday": 0.31
         },
         "TIME_OF_DAY_PROBS": {
             "Morning": 0.13,
             "Afternoon": 0.07,
-            "Evening": 0.59,
-            "Night": 0.21
+            "Evening": 0.66,
+            "Night": 0.14
         },
         "LOCATION_PROBS": {
-            "Home": 0.08,
-            "Cinema": 0.1,
-            "Public Transportation": 0.16,
-            "Workplace": 0.49,
+            "Home": 0.14,
+            "Cinema": 0.12,
+            "Public Transportation": 0.46,
+            "Workplace": 0.11,
             "Community Center": 0.17
         }
     },
-    "U0090": {
+    "U0071": {
+        "WATCH_TENDENCY_PROBS": 0.88,
         "COMPANION_PROBS": {
-            "Alone": 0.05,
-            "Partner": 0.49,
-            "Friends": 0.14,
-            "Family": 0.13,
-            "Group": 0.19
+            "Alone": 0.61,
+            "Partner": 0.07,
+            "Friends": 0.12,
+            "Family": 0.1,
+            "Group": 0.1
         },
         "SEASON_PROBS": {
-            "Winter": 0.08,
-            "Spring": 0.12,
-            "Summer": 0.12,
-            "Autumn": 0.68
+            "Winter": 0.03,
+            "Spring": 0.71,
+            "Summer": 0.14,
+            "Autumn": 0.75
         },
         "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.09,
-            "Tuesday": 0.16,
-            "Wednesday": 0.15,
-            "Thursday": 0.05,
-            "Friday": 0.07,
-            "Saturday": 0.43,
-            "Sunday": 0.05
+            "Monday": 0.57,
+            "Tuesday": 0.29,
+            "Wednesday": 0.53,
+            "Thursday": 0.14,
+            "Friday": 0.65,
+            "Saturday": 0.41,
+            "Sunday": 0.99
         },
         "TIME_OF_DAY_PROBS": {
-            "Morning": 0.45,
-            "Afternoon": 0.19,
-            "Evening": 0.17,
-            "Night": 0.19
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.09,
-            "Cinema": 0.22,
-            "Public Transportation": 0.07,
-            "Workplace": 0.51,
-            "Community Center": 0.11
-        }
-    },
-    "U0091": {
-        "COMPANION_PROBS": {
-            "Alone": 0.4,
-            "Partner": 0.11,
-            "Friends": 0.15,
-            "Family": 0.17,
-            "Group": 0.17
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.53,
-            "Spring": 0.16,
-            "Summer": 0.08,
-            "Autumn": 0.23
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.1,
-            "Tuesday": 0.15,
-            "Wednesday": 0.1,
-            "Thursday": 0.39,
-            "Friday": 0.05,
-            "Saturday": 0.13,
-            "Sunday": 0.08
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.61,
-            "Afternoon": 0.19,
-            "Evening": 0.09,
+            "Morning": 0.14,
+            "Afternoon": 0.09,
+            "Evening": 0.66,
             "Night": 0.11
         },
         "LOCATION_PROBS": {
-            "Home": 0.1,
+            "Home": 0.45,
             "Cinema": 0.09,
             "Public Transportation": 0.11,
-            "Workplace": 0.2,
-            "Community Center": 0.5
+            "Workplace": 0.16,
+            "Community Center": 0.19
         }
     },
-    "U0092": {
+    "U0072": {
+        "WATCH_TENDENCY_PROBS": 0.38,
         "COMPANION_PROBS": {
-            "Alone": 0.09,
-            "Partner": 0.21,
-            "Friends": 0.51,
-            "Family": 0.12,
+            "Alone": 0.06,
+            "Partner": 0.57,
+            "Friends": 0.13,
+            "Family": 0.17,
             "Group": 0.07
         },
         "SEASON_PROBS": {
-            "Winter": 0.51,
-            "Spring": 0.21,
-            "Summer": 0.12,
-            "Autumn": 0.16
+            "Winter": 0.16,
+            "Spring": 0.71,
+            "Summer": 0.48,
+            "Autumn": 0.67
         },
         "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.1,
-            "Tuesday": 0.4,
-            "Wednesday": 0.12,
-            "Thursday": 0.11,
-            "Friday": 0.06,
-            "Saturday": 0.04,
-            "Sunday": 0.17
+            "Monday": 0.2,
+            "Tuesday": 0.41,
+            "Wednesday": 0.33,
+            "Thursday": 0.47,
+            "Friday": 0.32,
+            "Saturday": 0.93,
+            "Sunday": 0.47
         },
         "TIME_OF_DAY_PROBS": {
-            "Morning": 0.59,
-            "Afternoon": 0.26,
-            "Evening": 0.07,
-            "Night": 0.08
+            "Morning": 0.2,
+            "Afternoon": 0.45,
+            "Evening": 0.18,
+            "Night": 0.17
         },
         "LOCATION_PROBS": {
-            "Home": 0.08,
-            "Cinema": 0.57,
-            "Public Transportation": 0.2,
-            "Workplace": 0.06,
-            "Community Center": 0.09
-        }
-    },
-    "U0093": {
-        "COMPANION_PROBS": {
-            "Alone": 0.07,
-            "Partner": 0.53,
-            "Friends": 0.05,
-            "Family": 0.22,
-            "Group": 0.13
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.21,
-            "Spring": 0.49,
-            "Summer": 0.07,
-            "Autumn": 0.23
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.06,
-            "Tuesday": 0.37,
-            "Wednesday": 0.09,
-            "Thursday": 0.05,
-            "Friday": 0.16,
-            "Saturday": 0.13,
-            "Sunday": 0.14
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.22,
-            "Afternoon": 0.17,
-            "Evening": 0.13,
-            "Night": 0.48
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.44,
-            "Cinema": 0.2,
-            "Public Transportation": 0.17,
-            "Workplace": 0.06,
+            "Home": 0.17,
+            "Cinema": 0.06,
+            "Public Transportation": 0.52,
+            "Workplace": 0.12,
             "Community Center": 0.13
         }
     },
-    "U0094": {
+    "U0073": {
+        "WATCH_TENDENCY_PROBS": 0.64,
         "COMPANION_PROBS": {
-            "Alone": 0.13,
-            "Partner": 0.08,
-            "Friends": 0.22,
-            "Family": 0.51,
-            "Group": 0.06
+            "Alone": 0.22,
+            "Partner": 0.48,
+            "Friends": 0.06,
+            "Family": 0.11,
+            "Group": 0.13
         },
         "SEASON_PROBS": {
-            "Winter": 0.22,
-            "Spring": 0.12,
-            "Summer": 0.14,
-            "Autumn": 0.52
+            "Winter": 0.38,
+            "Spring": 0.82,
+            "Summer": 0.59,
+            "Autumn": 0.09
         },
         "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.38,
-            "Tuesday": 0.09,
-            "Wednesday": 0.13,
-            "Thursday": 0.15,
-            "Friday": 0.05,
-            "Saturday": 0.15,
-            "Sunday": 0.05
+            "Monday": 0.48,
+            "Tuesday": 0.3,
+            "Wednesday": 0.19,
+            "Thursday": 0.9,
+            "Friday": 1.0,
+            "Saturday": 0.88,
+            "Sunday": 0.63
         },
         "TIME_OF_DAY_PROBS": {
-            "Morning": 0.56,
-            "Afternoon": 0.1,
+            "Morning": 0.14,
+            "Afternoon": 0.18,
             "Evening": 0.12,
+            "Night": 0.56
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.2,
+            "Cinema": 0.11,
+            "Public Transportation": 0.44,
+            "Workplace": 0.11,
+            "Community Center": 0.14
+        }
+    },
+    "U0074": {
+        "WATCH_TENDENCY_PROBS": 0.39,
+        "COMPANION_PROBS": {
+            "Alone": 0.45,
+            "Partner": 0.16,
+            "Friends": 0.18,
+            "Family": 0.05,
+            "Group": 0.16
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.89,
+            "Spring": 0.53,
+            "Summer": 0.42,
+            "Autumn": 0.45
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.57,
+            "Tuesday": 0.4,
+            "Wednesday": 0.45,
+            "Thursday": 0.81,
+            "Friday": 0.7,
+            "Saturday": 0.7,
+            "Sunday": 0.28
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.48,
+            "Afternoon": 0.2,
+            "Evening": 0.09,
+            "Night": 0.23
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.55,
+            "Cinema": 0.23,
+            "Public Transportation": 0.08,
+            "Workplace": 0.09,
+            "Community Center": 0.05
+        }
+    },
+    "U0075": {
+        "WATCH_TENDENCY_PROBS": 0.08,
+        "COMPANION_PROBS": {
+            "Alone": 0.17,
+            "Partner": 0.41,
+            "Friends": 0.17,
+            "Family": 0.14,
+            "Group": 0.11
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.18,
+            "Spring": 0.15,
+            "Summer": 0.59,
+            "Autumn": 0.14
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.03,
+            "Tuesday": 0.58,
+            "Wednesday": 0.98,
+            "Thursday": 0.89,
+            "Friday": 0.92,
+            "Saturday": 0.04,
+            "Sunday": 0.97
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.1,
+            "Afternoon": 0.52,
+            "Evening": 0.16,
             "Night": 0.22
         },
         "LOCATION_PROBS": {
             "Home": 0.49,
-            "Cinema": 0.11,
-            "Public Transportation": 0.17,
-            "Workplace": 0.14,
-            "Community Center": 0.09
-        }
-    },
-    "U0095": {
-        "COMPANION_PROBS": {
-            "Alone": 0.16,
-            "Partner": 0.16,
-            "Friends": 0.18,
-            "Family": 0.11,
-            "Group": 0.39
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.11,
-            "Spring": 0.2,
-            "Summer": 0.62,
-            "Autumn": 0.07
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.19,
-            "Tuesday": 0.14,
-            "Wednesday": 0.11,
-            "Thursday": 0.06,
-            "Friday": 0.04,
-            "Saturday": 0.41,
-            "Sunday": 0.05
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.5,
-            "Afternoon": 0.05,
-            "Evening": 0.22,
-            "Night": 0.23
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.42,
-            "Cinema": 0.12,
-            "Public Transportation": 0.2,
+            "Cinema": 0.09,
+            "Public Transportation": 0.13,
             "Workplace": 0.11,
-            "Community Center": 0.15
+            "Community Center": 0.18
         }
     },
-    "U0096": {
+    "U0076": {
+        "WATCH_TENDENCY_PROBS": 0.44,
         "COMPANION_PROBS": {
-            "Alone": 0.07,
-            "Partner": 0.55,
-            "Friends": 0.09,
-            "Family": 0.17,
-            "Group": 0.12
+            "Alone": 0.05,
+            "Partner": 0.49,
+            "Friends": 0.05,
+            "Family": 0.18,
+            "Group": 0.23
         },
         "SEASON_PROBS": {
-            "Winter": 0.14,
-            "Spring": 0.21,
-            "Summer": 0.08,
-            "Autumn": 0.57
+            "Winter": 0.79,
+            "Spring": 0.07,
+            "Summer": 0.86,
+            "Autumn": 0.31
         },
         "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.11,
-            "Tuesday": 0.1,
-            "Wednesday": 0.08,
-            "Thursday": 0.32,
-            "Friday": 0.13,
-            "Saturday": 0.13,
-            "Sunday": 0.13
+            "Monday": 0.48,
+            "Tuesday": 0.45,
+            "Wednesday": 0.51,
+            "Thursday": 0.56,
+            "Friday": 0.46,
+            "Saturday": 0.85,
+            "Sunday": 0.56
         },
         "TIME_OF_DAY_PROBS": {
             "Morning": 0.22,
-            "Afternoon": 0.12,
-            "Evening": 0.54,
-            "Night": 0.12
+            "Afternoon": 0.1,
+            "Evening": 0.48,
+            "Night": 0.2
         },
         "LOCATION_PROBS": {
-            "Home": 0.13,
-            "Cinema": 0.11,
-            "Public Transportation": 0.41,
-            "Workplace": 0.18,
-            "Community Center": 0.17
+            "Home": 0.16,
+            "Cinema": 0.08,
+            "Public Transportation": 0.52,
+            "Workplace": 0.16,
+            "Community Center": 0.08
         }
     },
-    "U0097": {
+    "U0077": {
+        "WATCH_TENDENCY_PROBS": 0.62,
         "COMPANION_PROBS": {
-            "Alone": 0.21,
-            "Partner": 0.05,
-            "Friends": 0.12,
-            "Family": 0.14,
-            "Group": 0.48
-        },
-        "SEASON_PROBS": {
-            "Winter": 0.49,
-            "Spring": 0.2,
-            "Summer": 0.17,
-            "Autumn": 0.14
-        },
-        "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.13,
-            "Tuesday": 0.11,
-            "Wednesday": 0.06,
-            "Thursday": 0.05,
-            "Friday": 0.1,
-            "Saturday": 0.15,
-            "Sunday": 0.4
-        },
-        "TIME_OF_DAY_PROBS": {
-            "Morning": 0.11,
-            "Afternoon": 0.22,
-            "Evening": 0.52,
-            "Night": 0.15
-        },
-        "LOCATION_PROBS": {
-            "Home": 0.15,
-            "Cinema": 0.18,
-            "Public Transportation": 0.14,
-            "Workplace": 0.12,
-            "Community Center": 0.41
-        }
-    },
-    "U0098": {
-        "COMPANION_PROBS": {
-            "Alone": 0.16,
-            "Partner": 0.07,
+            "Alone": 0.49,
+            "Partner": 0.15,
             "Friends": 0.17,
-            "Family": 0.42,
-            "Group": 0.18
+            "Family": 0.04,
+            "Group": 0.15
         },
         "SEASON_PROBS": {
-            "Winter": 0.18,
-            "Spring": 0.1,
-            "Summer": 0.16,
-            "Autumn": 0.56
+            "Winter": 0.03,
+            "Spring": 0.36,
+            "Summer": 0.6,
+            "Autumn": 0.05
         },
         "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.14,
-            "Tuesday": 0.35,
-            "Wednesday": 0.07,
-            "Thursday": 0.09,
-            "Friday": 0.15,
-            "Saturday": 0.05,
-            "Sunday": 0.15
+            "Monday": 0.65,
+            "Tuesday": 0.45,
+            "Wednesday": 0.8,
+            "Thursday": 0.0,
+            "Friday": 0.03,
+            "Saturday": 0.46,
+            "Sunday": 0.62
         },
         "TIME_OF_DAY_PROBS": {
-            "Morning": 0.6,
-            "Afternoon": 0.22,
-            "Evening": 0.09,
+            "Morning": 0.58,
+            "Afternoon": 0.14,
+            "Evening": 0.19,
             "Night": 0.09
         },
         "LOCATION_PROBS": {
-            "Home": 0.38,
-            "Cinema": 0.15,
-            "Public Transportation": 0.16,
-            "Workplace": 0.17,
+            "Home": 0.46,
+            "Cinema": 0.11,
+            "Public Transportation": 0.08,
+            "Workplace": 0.21,
             "Community Center": 0.14
         }
     },
-    "U0099": {
+    "U0078": {
+        "WATCH_TENDENCY_PROBS": 0.11,
         "COMPANION_PROBS": {
-            "Alone": 0.04,
-            "Partner": 0.5,
-            "Friends": 0.21,
-            "Family": 0.16,
+            "Alone": 0.44,
+            "Partner": 0.14,
+            "Friends": 0.2,
+            "Family": 0.11,
+            "Group": 0.11
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.45,
+            "Spring": 0.15,
+            "Summer": 0.42,
+            "Autumn": 0.43
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.86,
+            "Tuesday": 0.3,
+            "Wednesday": 0.92,
+            "Thursday": 0.46,
+            "Friday": 0.25,
+            "Saturday": 0.37,
+            "Sunday": 0.99
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.62,
+            "Afternoon": 0.15,
+            "Evening": 0.06,
+            "Night": 0.17
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.1,
+            "Cinema": 0.1,
+            "Public Transportation": 0.1,
+            "Workplace": 0.6,
+            "Community Center": 0.1
+        }
+    },
+    "U0079": {
+        "WATCH_TENDENCY_PROBS": 0.39,
+        "COMPANION_PROBS": {
+            "Alone": 0.42,
+            "Partner": 0.16,
+            "Friends": 0.15,
+            "Family": 0.07,
+            "Group": 0.2
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.08,
+            "Spring": 0.01,
+            "Summer": 0.9,
+            "Autumn": 0.05
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.78,
+            "Tuesday": 0.31,
+            "Wednesday": 0.58,
+            "Thursday": 0.15,
+            "Friday": 0.47,
+            "Saturday": 0.41,
+            "Sunday": 0.49
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.52,
+            "Afternoon": 0.06,
+            "Evening": 0.18,
+            "Night": 0.24
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.15,
+            "Cinema": 0.19,
+            "Public Transportation": 0.07,
+            "Workplace": 0.15,
+            "Community Center": 0.44
+        }
+    },
+    "U0080": {
+        "WATCH_TENDENCY_PROBS": 0.11,
+        "COMPANION_PROBS": {
+            "Alone": 0.15,
+            "Partner": 0.06,
+            "Friends": 0.56,
+            "Family": 0.08,
+            "Group": 0.15
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.83,
+            "Spring": 0.88,
+            "Summer": 0.82,
+            "Autumn": 0.78
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.6,
+            "Tuesday": 0.53,
+            "Wednesday": 0.69,
+            "Thursday": 0.21,
+            "Friday": 0.42,
+            "Saturday": 0.89,
+            "Sunday": 0.65
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.08,
+            "Afternoon": 0.6,
+            "Evening": 0.22,
+            "Night": 0.1
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.15,
+            "Cinema": 0.59,
+            "Public Transportation": 0.06,
+            "Workplace": 0.15,
+            "Community Center": 0.05
+        }
+    },
+    "U0081": {
+        "WATCH_TENDENCY_PROBS": 0.24,
+        "COMPANION_PROBS": {
+            "Alone": 0.14,
+            "Partner": 0.18,
+            "Friends": 0.17,
+            "Family": 0.07,
+            "Group": 0.44
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.54,
+            "Spring": 0.98,
+            "Summer": 0.5,
+            "Autumn": 0.87
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.54,
+            "Tuesday": 0.47,
+            "Wednesday": 0.64,
+            "Thursday": 0.07,
+            "Friday": 0.92,
+            "Saturday": 0.31,
+            "Sunday": 0.84
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.15,
+            "Afternoon": 0.17,
+            "Evening": 0.5,
+            "Night": 0.18
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.11,
+            "Cinema": 0.12,
+            "Public Transportation": 0.23,
+            "Workplace": 0.05,
+            "Community Center": 0.49
+        }
+    },
+    "U0082": {
+        "WATCH_TENDENCY_PROBS": 0.72,
+        "COMPANION_PROBS": {
+            "Alone": 0.1,
+            "Partner": 0.53,
+            "Friends": 0.13,
+            "Family": 0.15,
             "Group": 0.09
         },
         "SEASON_PROBS": {
+            "Winter": 0.27,
+            "Spring": 0.63,
+            "Summer": 0.99,
+            "Autumn": 0.31
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.94,
+            "Tuesday": 0.63,
+            "Wednesday": 0.18,
+            "Thursday": 0.26,
+            "Friday": 0.94,
+            "Saturday": 0.98,
+            "Sunday": 0.53
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.06,
+            "Afternoon": 0.61,
+            "Evening": 0.27,
+            "Night": 0.06
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.11,
+            "Cinema": 0.09,
+            "Public Transportation": 0.2,
+            "Workplace": 0.06,
+            "Community Center": 0.54
+        }
+    },
+    "U0083": {
+        "WATCH_TENDENCY_PROBS": 0.24,
+        "COMPANION_PROBS": {
+            "Alone": 0.48,
+            "Partner": 0.17,
+            "Friends": 0.17,
+            "Family": 0.11,
+            "Group": 0.07
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.56,
+            "Spring": 1.0,
+            "Summer": 0.89,
+            "Autumn": 0.76
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.98,
+            "Tuesday": 0.94,
+            "Wednesday": 0.77,
+            "Thursday": 0.95,
+            "Friday": 0.27,
+            "Saturday": 0.52,
+            "Sunday": 0.78
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.21,
+            "Afternoon": 0.15,
+            "Evening": 0.46,
+            "Night": 0.18
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.11,
+            "Cinema": 0.16,
+            "Public Transportation": 0.45,
+            "Workplace": 0.1,
+            "Community Center": 0.18
+        }
+    },
+    "U0084": {
+        "WATCH_TENDENCY_PROBS": 0.66,
+        "COMPANION_PROBS": {
+            "Alone": 0.19,
+            "Partner": 0.13,
+            "Friends": 0.09,
+            "Family": 0.43,
+            "Group": 0.16
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.16,
+            "Spring": 0.27,
+            "Summer": 0.59,
+            "Autumn": 0.48
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.79,
+            "Tuesday": 0.01,
+            "Wednesday": 0.18,
+            "Thursday": 0.45,
+            "Friday": 0.41,
+            "Saturday": 0.37,
+            "Sunday": 0.3
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.51,
+            "Afternoon": 0.17,
+            "Evening": 0.2,
+            "Night": 0.12
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.56,
+            "Cinema": 0.13,
+            "Public Transportation": 0.11,
+            "Workplace": 0.13,
+            "Community Center": 0.07
+        }
+    },
+    "U0085": {
+        "WATCH_TENDENCY_PROBS": 0.59,
+        "COMPANION_PROBS": {
+            "Alone": 0.11,
+            "Partner": 0.49,
+            "Friends": 0.18,
+            "Family": 0.15,
+            "Group": 0.07
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.34,
+            "Spring": 0.82,
+            "Summer": 0.26,
+            "Autumn": 0.84
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.75,
+            "Tuesday": 0.48,
+            "Wednesday": 0.18,
+            "Thursday": 0.39,
+            "Friday": 0.75,
+            "Saturday": 0.71,
+            "Sunday": 0.29
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.14,
+            "Afternoon": 0.18,
+            "Evening": 0.17,
+            "Night": 0.51
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.19,
+            "Cinema": 0.44,
+            "Public Transportation": 0.17,
+            "Workplace": 0.09,
+            "Community Center": 0.11
+        }
+    },
+    "U0086": {
+        "WATCH_TENDENCY_PROBS": 0.9,
+        "COMPANION_PROBS": {
+            "Alone": 0.44,
+            "Partner": 0.12,
+            "Friends": 0.17,
+            "Family": 0.1,
+            "Group": 0.17
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.3,
+            "Spring": 0.35,
+            "Summer": 0.46,
+            "Autumn": 0.46
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.15,
+            "Tuesday": 0.01,
+            "Wednesday": 0.56,
+            "Thursday": 0.65,
+            "Friday": 0.85,
+            "Saturday": 0.41,
+            "Sunday": 0.72
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.13,
+            "Afternoon": 0.05,
+            "Evening": 0.23,
+            "Night": 0.59
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.52,
+            "Cinema": 0.05,
+            "Public Transportation": 0.12,
+            "Workplace": 0.06,
+            "Community Center": 0.25
+        }
+    },
+    "U0087": {
+        "WATCH_TENDENCY_PROBS": 0.1,
+        "COMPANION_PROBS": {
+            "Alone": 0.14,
+            "Partner": 0.44,
+            "Friends": 0.09,
+            "Family": 0.16,
+            "Group": 0.17
+        },
+        "SEASON_PROBS": {
             "Winter": 0.22,
-            "Spring": 0.08,
+            "Spring": 0.82,
             "Summer": 0.11,
-            "Autumn": 0.59
+            "Autumn": 0.49
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.87,
+            "Tuesday": 0.07,
+            "Wednesday": 0.99,
+            "Thursday": 0.18,
+            "Friday": 0.19,
+            "Saturday": 0.15,
+            "Sunday": 0.79
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.54,
+            "Afternoon": 0.13,
+            "Evening": 0.17,
+            "Night": 0.16
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.48,
+            "Cinema": 0.09,
+            "Public Transportation": 0.06,
+            "Workplace": 0.18,
+            "Community Center": 0.19
+        }
+    },
+    "U0088": {
+        "WATCH_TENDENCY_PROBS": 0.11,
+        "COMPANION_PROBS": {
+            "Alone": 0.12,
+            "Partner": 0.47,
+            "Friends": 0.16,
+            "Family": 0.14,
+            "Group": 0.11
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.82,
+            "Spring": 0.97,
+            "Summer": 0.03,
+            "Autumn": 0.58
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.62,
+            "Tuesday": 0.54,
+            "Wednesday": 0.91,
+            "Thursday": 0.05,
+            "Friday": 0.44,
+            "Saturday": 0.49,
+            "Sunday": 0.33
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.57,
+            "Afternoon": 0.22,
+            "Evening": 0.14,
+            "Night": 0.07
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.18,
+            "Cinema": 0.04,
+            "Public Transportation": 0.44,
+            "Workplace": 0.17,
+            "Community Center": 0.17
+        }
+    },
+    "U0089": {
+        "WATCH_TENDENCY_PROBS": 0.64,
+        "COMPANION_PROBS": {
+            "Alone": 0.08,
+            "Partner": 0.56,
+            "Friends": 0.22,
+            "Family": 0.06,
+            "Group": 0.08
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.86,
+            "Spring": 0.21,
+            "Summer": 0.86,
+            "Autumn": 0.33
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.18,
+            "Tuesday": 0.85,
+            "Wednesday": 0.85,
+            "Thursday": 0.98,
+            "Friday": 0.11,
+            "Saturday": 0.03,
+            "Sunday": 0.39
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.46,
+            "Afternoon": 0.2,
+            "Evening": 0.14,
+            "Night": 0.2
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.2,
+            "Cinema": 0.1,
+            "Public Transportation": 0.05,
+            "Workplace": 0.46,
+            "Community Center": 0.19
+        }
+    },
+    "U0090": {
+        "WATCH_TENDENCY_PROBS": 0.15,
+        "COMPANION_PROBS": {
+            "Alone": 0.15,
+            "Partner": 0.12,
+            "Friends": 0.4,
+            "Family": 0.17,
+            "Group": 0.16
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.93,
+            "Spring": 0.73,
+            "Summer": 0.68,
+            "Autumn": 0.03
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.67,
+            "Tuesday": 0.58,
+            "Wednesday": 0.67,
+            "Thursday": 0.56,
+            "Friday": 0.12,
+            "Saturday": 0.22,
+            "Sunday": 0.8
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.53,
+            "Afternoon": 0.25,
+            "Evening": 0.08,
+            "Night": 0.14
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.59,
+            "Cinema": 0.14,
+            "Public Transportation": 0.06,
+            "Workplace": 0.06,
+            "Community Center": 0.15
+        }
+    },
+    "U0091": {
+        "WATCH_TENDENCY_PROBS": 0.04,
+        "COMPANION_PROBS": {
+            "Alone": 0.13,
+            "Partner": 0.08,
+            "Friends": 0.15,
+            "Family": 0.13,
+            "Group": 0.51
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.82,
+            "Spring": 0.57,
+            "Summer": 0.1,
+            "Autumn": 0.54
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.55,
+            "Tuesday": 0.6,
+            "Wednesday": 0.22,
+            "Thursday": 0.76,
+            "Friday": 0.33,
+            "Saturday": 0.21,
+            "Sunday": 0.45
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.19,
+            "Afternoon": 0.46,
+            "Evening": 0.14,
+            "Night": 0.21
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.07,
+            "Cinema": 0.18,
+            "Public Transportation": 0.43,
+            "Workplace": 0.19,
+            "Community Center": 0.13
+        }
+    },
+    "U0092": {
+        "WATCH_TENDENCY_PROBS": 0.99,
+        "COMPANION_PROBS": {
+            "Alone": 0.07,
+            "Partner": 0.2,
+            "Friends": 0.14,
+            "Family": 0.17,
+            "Group": 0.42
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.81,
+            "Spring": 0.92,
+            "Summer": 0.47,
+            "Autumn": 0.72
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.55,
+            "Tuesday": 0.99,
+            "Wednesday": 0.65,
+            "Thursday": 0.28,
+            "Friday": 0.26,
+            "Saturday": 0.73,
+            "Sunday": 0.56
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.6,
+            "Afternoon": 0.16,
+            "Evening": 0.18,
+            "Night": 0.06
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.14,
+            "Cinema": 0.18,
+            "Public Transportation": 0.16,
+            "Workplace": 0.05,
+            "Community Center": 0.47
+        }
+    },
+    "U0093": {
+        "WATCH_TENDENCY_PROBS": 0.64,
+        "COMPANION_PROBS": {
+            "Alone": 0.15,
+            "Partner": 0.16,
+            "Friends": 0.14,
+            "Family": 0.15,
+            "Group": 0.4
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.2,
+            "Spring": 0.22,
+            "Summer": 0.48,
+            "Autumn": 0.77
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.43,
+            "Tuesday": 0.49,
+            "Wednesday": 0.78,
+            "Thursday": 0.85,
+            "Friday": 0.21,
+            "Saturday": 0.11,
+            "Sunday": 0.86
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.59,
+            "Afternoon": 0.18,
+            "Evening": 0.17,
+            "Night": 0.06
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.5,
+            "Cinema": 0.17,
+            "Public Transportation": 0.2,
+            "Workplace": 0.06,
+            "Community Center": 0.07
+        }
+    },
+    "U0094": {
+        "WATCH_TENDENCY_PROBS": 0.09,
+        "COMPANION_PROBS": {
+            "Alone": 0.06,
+            "Partner": 0.5,
+            "Friends": 0.07,
+            "Family": 0.21,
+            "Group": 0.16
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.44,
+            "Spring": 0.07,
+            "Summer": 0.9,
+            "Autumn": 0.68
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.19,
+            "Tuesday": 0.13,
+            "Wednesday": 0.07,
+            "Thursday": 0.28,
+            "Friday": 1.0,
+            "Saturday": 0.97,
+            "Sunday": 0.39
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.63,
+            "Afternoon": 0.19,
+            "Evening": 0.11,
+            "Night": 0.07
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.12,
+            "Cinema": 0.12,
+            "Public Transportation": 0.42,
+            "Workplace": 0.18,
+            "Community Center": 0.16
+        }
+    },
+    "U0095": {
+        "WATCH_TENDENCY_PROBS": 0.17,
+        "COMPANION_PROBS": {
+            "Alone": 0.17,
+            "Partner": 0.12,
+            "Friends": 0.18,
+            "Family": 0.43,
+            "Group": 0.1
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.91,
+            "Spring": 0.78,
+            "Summer": 0.31,
+            "Autumn": 0.22
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.64,
+            "Tuesday": 0.37,
+            "Wednesday": 0.04,
+            "Thursday": 0.7,
+            "Friday": 0.75,
+            "Saturday": 0.47,
+            "Sunday": 0.53
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.11,
+            "Afternoon": 0.2,
+            "Evening": 0.12,
+            "Night": 0.57
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.22,
+            "Cinema": 0.48,
+            "Public Transportation": 0.07,
+            "Workplace": 0.06,
+            "Community Center": 0.17
+        }
+    },
+    "U0096": {
+        "WATCH_TENDENCY_PROBS": 0.8,
+        "COMPANION_PROBS": {
+            "Alone": 0.49,
+            "Partner": 0.17,
+            "Friends": 0.13,
+            "Family": 0.15,
+            "Group": 0.06
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.47,
+            "Spring": 0.32,
+            "Summer": 0.51,
+            "Autumn": 0.45
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.08,
+            "Tuesday": 0.49,
+            "Wednesday": 0.11,
+            "Thursday": 0.17,
+            "Friday": 0.58,
+            "Saturday": 0.82,
+            "Sunday": 0.35
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.08,
+            "Afternoon": 0.09,
+            "Evening": 0.71,
+            "Night": 0.12
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.5,
+            "Cinema": 0.14,
+            "Public Transportation": 0.07,
+            "Workplace": 0.2,
+            "Community Center": 0.09
+        }
+    },
+    "U0097": {
+        "WATCH_TENDENCY_PROBS": 0.17,
+        "COMPANION_PROBS": {
+            "Alone": 0.1,
+            "Partner": 0.51,
+            "Friends": 0.14,
+            "Family": 0.13,
+            "Group": 0.12
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.29,
+            "Spring": 0.83,
+            "Summer": 0.67,
+            "Autumn": 0.15
         },
         "DAY_OF_WEEK_PROBS": {
             "Monday": 0.11,
-            "Tuesday": 0.09,
-            "Wednesday": 0.07,
-            "Thursday": 0.12,
-            "Friday": 0.4,
-            "Saturday": 0.17,
+            "Tuesday": 0.15,
+            "Wednesday": 0.97,
+            "Thursday": 0.28,
+            "Friday": 0.49,
+            "Saturday": 1.0,
+            "Sunday": 0.93
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.52,
+            "Afternoon": 0.18,
+            "Evening": 0.12,
+            "Night": 0.18
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.21,
+            "Cinema": 0.09,
+            "Public Transportation": 0.49,
+            "Workplace": 0.08,
+            "Community Center": 0.13
+        }
+    },
+    "U0098": {
+        "WATCH_TENDENCY_PROBS": 0.06,
+        "COMPANION_PROBS": {
+            "Alone": 0.13,
+            "Partner": 0.21,
+            "Friends": 0.46,
+            "Family": 0.08,
+            "Group": 0.12
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.69,
+            "Spring": 0.94,
+            "Summer": 0.56,
+            "Autumn": 0.79
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.81,
+            "Tuesday": 0.51,
+            "Wednesday": 0.31,
+            "Thursday": 0.08,
+            "Friday": 0.9,
+            "Saturday": 0.13,
             "Sunday": 0.04
         },
         "TIME_OF_DAY_PROBS": {
             "Morning": 0.06,
-            "Afternoon": 0.65,
-            "Evening": 0.22,
-            "Night": 0.07
+            "Afternoon": 0.15,
+            "Evening": 0.21,
+            "Night": 0.58
         },
         "LOCATION_PROBS": {
-            "Home": 0.05,
-            "Cinema": 0.2,
-            "Public Transportation": 0.11,
-            "Workplace": 0.56,
-            "Community Center": 0.08
+            "Home": 0.12,
+            "Cinema": 0.07,
+            "Public Transportation": 0.47,
+            "Workplace": 0.18,
+            "Community Center": 0.16
+        }
+    },
+    "U0099": {
+        "WATCH_TENDENCY_PROBS": 0.09,
+        "COMPANION_PROBS": {
+            "Alone": 0.2,
+            "Partner": 0.07,
+            "Friends": 0.5,
+            "Family": 0.07,
+            "Group": 0.16
+        },
+        "SEASON_PROBS": {
+            "Winter": 0.48,
+            "Spring": 0.4,
+            "Summer": 0.85,
+            "Autumn": 0.67
+        },
+        "DAY_OF_WEEK_PROBS": {
+            "Monday": 0.51,
+            "Tuesday": 0.54,
+            "Wednesday": 0.57,
+            "Thursday": 0.68,
+            "Friday": 0.73,
+            "Saturday": 0.85,
+            "Sunday": 0.51
+        },
+        "TIME_OF_DAY_PROBS": {
+            "Morning": 0.11,
+            "Afternoon": 0.58,
+            "Evening": 0.13,
+            "Night": 0.18
+        },
+        "LOCATION_PROBS": {
+            "Home": 0.09,
+            "Cinema": 0.07,
+            "Public Transportation": 0.51,
+            "Workplace": 0.12,
+            "Community Center": 0.21
         }
     },
     "U0100": {
+        "WATCH_TENDENCY_PROBS": 0.06,
         "COMPANION_PROBS": {
-            "Alone": 0.19,
-            "Partner": 0.07,
-            "Friends": 0.2,
-            "Family": 0.46,
-            "Group": 0.08
+            "Alone": 0.08,
+            "Partner": 0.14,
+            "Friends": 0.18,
+            "Family": 0.45,
+            "Group": 0.15
         },
         "SEASON_PROBS": {
-            "Winter": 0.12,
-            "Spring": 0.16,
-            "Summer": 0.52,
-            "Autumn": 0.2
+            "Winter": 0.4,
+            "Spring": 0.56,
+            "Summer": 0.97,
+            "Autumn": 0.0
         },
         "DAY_OF_WEEK_PROBS": {
-            "Monday": 0.35,
-            "Tuesday": 0.07,
-            "Wednesday": 0.12,
-            "Thursday": 0.15,
-            "Friday": 0.13,
-            "Saturday": 0.15,
-            "Sunday": 0.03
+            "Monday": 0.24,
+            "Tuesday": 0.77,
+            "Wednesday": 0.98,
+            "Thursday": 0.47,
+            "Friday": 0.95,
+            "Saturday": 0.62,
+            "Sunday": 0.21
         },
         "TIME_OF_DAY_PROBS": {
-            "Morning": 0.17,
-            "Afternoon": 0.47,
-            "Evening": 0.17,
-            "Night": 0.19
+            "Morning": 0.18,
+            "Afternoon": 0.16,
+            "Evening": 0.57,
+            "Night": 0.09
         },
         "LOCATION_PROBS": {
-            "Home": 0.19,
-            "Cinema": 0.1,
-            "Public Transportation": 0.17,
-            "Workplace": 0.4,
-            "Community Center": 0.14
+            "Home": 0.18,
+            "Cinema": 0.11,
+            "Public Transportation": 0.08,
+            "Workplace": 0.53,
+            "Community Center": 0.1
         }
     }
 }

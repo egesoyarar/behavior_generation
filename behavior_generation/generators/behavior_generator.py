@@ -2,11 +2,6 @@ import random
 import pandas as pd
 from datetime import datetime, timedelta
 from behavior_generation.data.context_probabilities import (
-    LOCATION_PROBS,
-    COMPANION_PROBS,
-    DAY_OF_WEEK_PROBS,
-    SEASON_PROBS,
-    TIME_OF_DAY_PROBS,
     SEASON_BY_MONTH,
 )
 from behavior_generation.utils import pick_from_probabilities
@@ -35,33 +30,10 @@ def create_day_mapping(start_date, num_days):
     return day_mapping
 
 
-def distribute_behaviors(total_behaviors, day_mapping):
+def generate_behavior_data(users, movies, user_preferences, num_days=30, start_date="2025-01-01"):
     """
-    Distribute total behaviors across days based on season and day_of_week weights.
-    """
-    # Calculate weights for each day
-    weights = [
-        SEASON_PROBS[day_mapping[day]["season"]] *
-        DAY_OF_WEEK_PROBS[day_mapping[day]["day_of_week"]]
-        for day in range(len(day_mapping))
-    ]
-    scaling_factor = total_behaviors / sum(weights)
-
-    # Scale weights to match total_behaviors
-    distributed_counts = [int(weight * scaling_factor) for weight in weights]
-
-    # Adjust rounding errors to ensure exact total
-    while sum(distributed_counts) < total_behaviors:
-        distributed_counts[random.randint(0, len(distributed_counts) - 1)] += 1
-    while sum(distributed_counts) > total_behaviors:
-        distributed_counts[random.randint(0, len(distributed_counts) - 1)] -= 1
-
-    return distributed_counts
-
-
-def generate_behavior_data(users, movies, num_days=30, total_behaviors=1000, start_date="2025-01-01"):
-    """
-    Generate synthetic behavior data considering seasonality and day_of_week.
+    Generate synthetic behavior data considering seasonality and day_of_week on a per-user basis.
+    Each user decides whether to watch a movie each day based on their probabilities.
     """
     behavior_data = []
     user_records = users.to_dict("records")
@@ -70,50 +42,54 @@ def generate_behavior_data(users, movies, num_days=30, total_behaviors=1000, sta
     # Create day mapping
     day_mapping = create_day_mapping(start_date, num_days)
 
-    # Distribute behaviors across days based on weights
-    behaviors_per_day = distribute_behaviors(total_behaviors, day_mapping)
-
     for day_number in range(num_days):
         season = day_mapping[day_number]["season"]
         day_of_week = day_mapping[day_number]["day_of_week"]
 
-        for _ in range(behaviors_per_day[day_number]):
-            user = random.choice(user_records)
-            movie = random.choice(movie_records)
+        for user in user_records:
+            user_id = user["userID"]
+            user_watch_tendency_probs = user_preferences[user_id]["WATCH_TENDENCY_PROBS"]
+            user_season_probs = user_preferences[user_id]["SEASON_PROBS"]
+            user_day_of_week_probs = user_preferences[user_id]["DAY_OF_WEEK_PROBS"]
 
-            # Example context fields (location, companions, etc.)
-            location = pick_from_probabilities(LOCATION_PROBS)
-            companions = pick_from_probabilities(COMPANION_PROBS)
-            user_mood = random.choice(["Happy", "Neutral", "Sad"])
+            watch_probability = user_watch_tendency_probs * user_season_probs.get(season, 0) * user_day_of_week_probs.get(day_of_week, 0)
 
-            time_of_day = pick_from_probabilities(TIME_OF_DAY_PROBS)
+            # Decide if the user watches a movie
+            if random.random() < watch_probability:
+                movie = random.choice(movie_records)
 
+                # Example context fields (location, companions, etc.)
+                location = pick_from_probabilities(user_preferences[user_id]["LOCATION_PROBS"])
+                companions = pick_from_probabilities(user_preferences[user_id]["COMPANION_PROBS"])
+                user_mood = random.choice(["Happy", "Neutral", "Sad"])
+                time_of_day = pick_from_probabilities(user_preferences[user_id]["TIME_OF_DAY_PROBS"])
 
-            # Calculate satisfaction score
-            satisfaction_score = calculate_satisfaction_score(
-                movie["genres"],
-                user["liked_genres"],
-                user["disliked_genres"],
-                movie["language"],
-                user["language_spoken"],
-                movie["imdbRating"],
-                user_mood,
-                movie.get("numberOfRewatches", 0)
-            )
+                # Calculate satisfaction score
+                satisfaction_score = calculate_satisfaction_score(
+                    movie["genres"],
+                    user["liked_genres"],
+                    user["disliked_genres"],
+                    movie["language"],
+                    user["language_spoken"],
+                    movie["imdbRating"],
+                    user_mood,
+                    movie.get("numberOfRewatches", 0)
+                )
 
-            # Add season and day_of_week to the behavior record
-            behavior_data.append({
-                "day_number": day_number,
-                "date": day_mapping[day_number]["date"],
-                "season": season,
-                "day_of_week": day_of_week,
-                "time_of_day": time_of_day,
-                "userId": user["userID"],
-                "movieId": movie["movieId"],
-                "location": location,
-                "companions": companions,
-                "user_mood": user_mood,
-                "satisfaction_score": satisfaction_score
-            })
+                # Add the behavior record
+                behavior_data.append({
+                    "day_number": day_number,
+                    "date": day_mapping[day_number]["date"],
+                    "season": season,
+                    "day_of_week": day_of_week,
+                    "time_of_day": time_of_day,
+                    "userId": user_id,
+                    "movieId": movie["movieId"],
+                    "location": location,
+                    "companions": companions,
+                    "user_mood": user_mood,
+                    "satisfaction_score": satisfaction_score
+                })
 
     return pd.DataFrame(behavior_data)
+
