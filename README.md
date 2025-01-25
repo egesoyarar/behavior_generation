@@ -40,7 +40,7 @@ python scripts/generate_users.py --num_users 100 --output outputs/users/user_dat
 ### 2. Generate Behaviors
 Run the behavior generation script to simulate movie-watching behaviors:
 ```bash
-python scripts/generate_behaviors.py --num_users 100 --num_days 30 --total_behaviors 1000 --output outputs/behaviors/behavior_data.csv
+python scripts/generate_behaviors.py --num_users 100 --num_days 30 --output outputs/behaviors/behavior_data.csv
 ```
 
  
@@ -48,7 +48,6 @@ Arguments:
 
 - **`--num_users`**: Number of users to generate. (Default: 100)
 - **`--num_days`**: Number of days to simulate. (Default: 30)
-- **`--total_behaviors`**: Total number of behaviors to generate during the simulation. (Default: 1000)
 - **`--start_date`**: Start date of the simulation in YYYY-MM-DD format. (Default: 2025-01-01)
 - **`--user_output_file`**: Path to save the generated user dataset. (Default: outputs/users/user_data.csv)
 - **`--behavior_output_file`**: Path to save the generated behavior dataset. (Default: outputs/behaviors/behavior_data.csv)

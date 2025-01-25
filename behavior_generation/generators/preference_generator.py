@@ -56,16 +56,16 @@ def generate_single_user_preferences(user_id):
     :return: A dictionary containing user-specific probabilities for different contexts.
     """
 
-    watch_tendency_probs = round(random.random(), 2)
+    watch_tendency = random.randint(1,5)
     companion_probs = generate_dominant_probabilities(COMPANIONS)
-    season_probs = generate_normal_probabilities(SEASONS)
-    day_of_week_probs = generate_normal_probabilities(DAYS_OF_WEEK)
+    season_probs = generate_dominant_probabilities(SEASONS)
+    day_of_week_probs = generate_dominant_probabilities(DAYS_OF_WEEK)
     time_of_day_probs = generate_dominant_probabilities(TIMES_OF_DAY)
     location_probs = generate_dominant_probabilities(LOCATIONS)
 
     return {
         user_id: {
-            "WATCH_TENDENCY_PROBS": watch_tendency_probs,
+            "WATCH_TENDENCY": watch_tendency,
             "COMPANION_PROBS": companion_probs,
             "SEASON_PROBS": season_probs,
             "DAY_OF_WEEK_PROBS": day_of_week_probs,
@@ -85,3 +85,4 @@ def generate_multiple_user_preferences(user_ids):
     for user_id in user_ids:
         all_preferences.update(generate_single_user_preferences(user_id))
     return all_preferences
+    

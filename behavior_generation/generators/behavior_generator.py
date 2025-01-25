@@ -1,12 +1,17 @@
 import random
 import pandas as pd
 from datetime import datetime, timedelta
-from behavior_generation.data.context_probabilities import (
-    SEASON_BY_MONTH,
-)
+
 from behavior_generation.utils import pick_from_probabilities
 
 from behavior_generation.generators.satisfaction_calculator import calculate_satisfaction_score
+
+SEASON_BY_MONTH = {
+    1: "Winter", 2: "Winter", 3: "Spring",
+    4: "Spring", 5: "Spring", 6: "Summer",
+    7: "Summer", 8: "Summer", 9: "Autumn",
+    10: "Autumn", 11: "Autumn", 12: "Winter"
+}
 
 def create_day_mapping(start_date, num_days):
     """
@@ -33,7 +38,8 @@ def create_day_mapping(start_date, num_days):
 def generate_behavior_data(users, movies, user_preferences, num_days=30, start_date="2025-01-01"):
     """
     Generate synthetic behavior data considering seasonality and day_of_week on a per-user basis.
-    Each user decides whether to watch a movie each day based on their probabilities.
+    Each user decides whether to watch a movie each day based on their probabilities,
+    with retries based on their watch tendency.
     """
     behavior_data = []
     user_records = users.to_dict("records")
@@ -48,17 +54,21 @@ def generate_behavior_data(users, movies, user_preferences, num_days=30, start_d
 
         for user in user_records:
             user_id = user["userID"]
-            user_watch_tendency_probs = user_preferences[user_id]["WATCH_TENDENCY_PROBS"]
+            user_watch_tendency = user_preferences[user_id]["WATCH_TENDENCY"]
             user_season_probs = user_preferences[user_id]["SEASON_PROBS"]
             user_day_of_week_probs = user_preferences[user_id]["DAY_OF_WEEK_PROBS"]
 
-            watch_probability = user_watch_tendency_probs * user_season_probs.get(season, 0) * user_day_of_week_probs.get(day_of_week, 0)
+            watch_probability = user_season_probs.get(season, 0) * user_day_of_week_probs.get(day_of_week, 0)
 
-            # Decide if the user watches a movie
-            if random.random() < watch_probability:
+            watch_status = False
+            for _ in range(user_watch_tendency):
+                if random.random() < watch_probability:
+                    watch_status = True
+                    break
+
+            if watch_status:
                 movie = random.choice(movie_records)
 
-                # Example context fields (location, companions, etc.)
                 location = pick_from_probabilities(user_preferences[user_id]["LOCATION_PROBS"])
                 companions = pick_from_probabilities(user_preferences[user_id]["COMPANION_PROBS"])
                 user_mood = random.choice(["Happy", "Neutral", "Sad"])
@@ -92,4 +102,3 @@ def generate_behavior_data(users, movies, user_preferences, num_days=30, start_d
                 })
 
     return pd.DataFrame(behavior_data)
-

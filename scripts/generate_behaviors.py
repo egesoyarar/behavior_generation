@@ -13,7 +13,6 @@ def main():
     parser = argparse.ArgumentParser(description="Generate synthetic user and behavior data.")
     parser.add_argument("--num_users", type=int, default=100, help="Number of users to generate.")
     parser.add_argument("--num_days", type=int, default=30, help="Number of days to simulate.")
-    parser.add_argument("--total_behaviors", type=int, default=1000, help="Number of total behaviors.")
     parser.add_argument("--start_date", type=str, default="2025-01-01", help="Start date of simulation.")
     parser.add_argument("--user_output_file", type=str, default="outputs/users/user_data.csv", help="Output file for user data.")
     parser.add_argument("--preference_output_file", type=str, default="outputs/users/preferences.json", help="Output file for preference probabilities.")
@@ -23,7 +22,6 @@ def main():
 
     num_users = args.num_users
     num_days = args.num_days
-    total_behaviors = args.total_behaviors
     start_date= args.start_date
     user_output_file = args.user_output_file
     preference_output_file = args.preference_output_file
