@@ -38,6 +38,218 @@ COUNTRY_PROBS = {
     "Pakistan": 0.03,
 }
 
+LANGUAGE_PROBS_BY_ORIGIN = {
+    "Saudi Arabia": {
+        "Arabic": 1,
+        "French": 0.2,
+        "Urdu": 0.1,
+    },
+    "Australia": {
+        "English": 1,
+        "Chinese": 0.3,
+        "Italian": 0.2,
+        "German": 0.1,
+    },
+    "Armenia": {
+        "Armenian": 1,
+        "Russian": 0.8,
+        "English": 0.4,
+        "French": 0.2,
+    },
+    "Brazil": {
+        "Portuguese": 1,
+        "Spanish": 0.5,
+        "English": 0.3,
+        "Italian": 0.1,
+    },
+    "Canada": {
+        "English": 0.8,
+        "French": 0.75,
+        "Chinese": 0.2,
+        "Spanish": 0.15,
+    },
+    "China": {
+        "Chinese": 1,
+        "English": 0.3,
+        "Korean": 0.1,
+    },
+    "Czech Republic": {
+        "Czech": 1,
+        "German": 0.3,
+    },
+    "Denmark": {
+        "Danish": 1,
+        "English": 0.7,
+        "German": 0.4,
+        "Swedish": 0.2,
+    },
+    "Netherlands": {
+        "Dutch": 1,
+        "English": 0.85,
+        "German": 0.5,
+        "French": 0.2,
+    },
+    "United Kingdom": {
+        "English": 1,
+        "French": 0.4,
+        "Spanish": 0.3,
+        "German": 0.2,
+    },
+    "Estonia": {
+        "Estonian": 1,
+        "Russian": 0.7,
+        "English": 0.6,
+    },
+    "Philippines": {
+        "Filipino": 1,
+        "English": 0.8,
+        "Spanish": 0.2,
+        "Chinese": 0.15,
+    },
+    "France": {
+        "French": 1,
+        "English": 0.5,
+        "Spanish": 0.3,
+        "Italian": 0.2,
+    },
+    "Germany": {
+        "German": 0.95,
+        "English": 0.7,
+        "French": 0.3,
+        "Italian": 0.2,
+    },
+    "Greece": {
+        "Greek": 1,
+        "English": 0.6,
+        "French": 0.3,
+        "German": 0.2,
+    },
+    "Israel": {
+        "Hebrew": 1,
+        "English": 0.7,
+        "Arabic": 0.5,
+        "Russian": 0.3,
+    },
+    "Hungary": {
+        "Hungarian": 1,
+        "English": 0.6,
+        "German": 0.4,
+        "Russian": 0.2,
+    },
+    "India": {
+        "Hindi": 1,
+        "English": 0.7,
+    },
+    "Indonesia": {
+        "Indonesian": 1,
+        "Dutch": 0.2,
+        "Chinese": 0.1,
+    },
+    "Italy": {
+        "Italian": 1,
+        "English": 0.6,
+        "French": 0.3,
+        "Spanish": 0.2,
+        "Portuguese": 0.1,
+    },
+    "Japan": {
+        "Japanese": 1,
+        "English": 0.4,
+        "Chinese": 0.2,
+        "Korean": 0.1,
+    },
+    "South Korea": {
+        "Korean": 1,
+        "Chinese": 0.3,
+        "Japanese": 0.2,
+    },
+    "Mexico": {
+        "Spanish": 1,
+        "English": 0.6,
+        "Italian": 0.2,
+        "French": 0.2,
+        "Portuguese": 0.1,
+    },
+    "Norway": {
+        "Norwegian": 1,
+        "English": 0.8,
+        "Swedish": 0.4,
+        "Danish": 0.3,
+    },
+    "Iran": {
+        "Persian": 1,
+        "English": 0.5,
+        "Arabic": 0.3,
+        "French": 0.2,
+    },
+    "Poland": {
+        "Polish": 1,
+        "English": 0.7,
+        "German": 0.4,
+        "Russian": 0.2,
+    },
+    "Portugal": {
+        "Portuguese": 1,
+        "Spanish": 0.6,
+        "Italian": 0.3,
+        "French": 0.2,
+    },
+    "Romania": {
+        "Romanian": 1,
+        "English": 0.6,
+        "French": 0.4,
+        "Russian": 0.2,
+    },
+    "Russia": {
+        "Russian": 1,
+        "German": 0.3,
+        "Chinese": 0.1,
+    },
+    "Serbia": {
+        "Serbian": 0.9,
+        "English": 0.5,
+        "Russian": 0.4,
+        "German": 0.2,
+    },
+    "Spain": {
+        "Spanish": 1,
+        "Italian": 0.5,
+        "French": 0.3,
+    },
+    "Sweden": {
+        "Swedish": 1,
+        "English": 0.8,
+        "German": 0.4,
+        "Norwegian": 0.4,
+    },
+    "Thailand": {
+        "Thai": 1,
+        "Chinese": 0.3,
+        "Japanese": 0.1,
+    },
+    "Turkey": {
+        "Turkish": 1,
+        "Arabic": 0.2,
+        "German": 0.2,
+    },
+    "Ukraine": {
+        "Ukrainian": 1,
+        "Russian": 0.7,
+        "Polish": 0.3,
+    },
+    "USA": {
+        "English": 1,
+        "Spanish": 0.4,
+        "French": 0.3,
+    },
+    "Pakistan": {
+        "Urdu": 1,
+        "English": 0.7,
+        "Punjabi": 0.4,
+        "Arabic": 0.3,
+    },
+}
+
 CITIES_BY_COUNTRY = {
     "Saudi Arabia": ["Riyadh"],
     "Australia": ["Sydney", "Melbourne"],
@@ -84,7 +296,7 @@ LANGUAGES_BY_COUNTRY = {
     "Armenia": ["Armenian"],
     "Brazil": ["Portuguese"],
     "Canada": ["English", "French"],
-    "China": ["Mandarin"],
+    "China": ["Chinese"],
     "Czech Republic": ["Czech"],
     "Denmark": ["Danish"],
     "Netherlands": ["Dutch"],

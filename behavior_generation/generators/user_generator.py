@@ -5,6 +5,7 @@ from behavior_generation.data.country_data import (
     COUNTRY_PROBS,
     CITIES_BY_COUNTRY,
     LANGUAGES_BY_COUNTRY,
+    LANGUAGE_PROBS_BY_ORIGIN
 )
 from behavior_generation.data.user_probabilities import (
     GENDER_PROBS,
@@ -42,7 +43,8 @@ def generate_single_user(index):
     current_location = pick_city(living_country)
     liked_genres = pick_liked_genres()
     disliked_genres = pick_disliked_genres(liked_genres)
-    language_spoken = pick_languages(living_country)
+
+    language_spoken = pick_languages(living_country, country_of_origin)
 
     return {
         "userID": user_id,
@@ -61,6 +63,26 @@ def generate_single_user(index):
         "ethnicity": ethnicity,
         "language_spoken": language_spoken,
     }
+
+def get_specialized_country_probs(origin_country):
+    """
+    Generate a specialized LANGUAGE_PROBS map for a given origin country,
+    updating base LANGUAGE_PROBS with LANGUAGE_PROBS_BY_ORIGIN.
+
+    :param origin_country: The user's origin country.
+    :return: A dictionary of updated LANGUAGE_PROBS specific to the origin country.
+    """
+    if origin_country not in LANGUAGE_PROBS_BY_ORIGIN:
+        raise ValueError(f"Country '{origin_country}' not found in LANGUAGE_PROBS_BY_ORIGIN.")
+
+    origin_language_probs = LANGUAGE_PROBS_BY_ORIGIN[origin_country]
+
+    specialized_probs = {
+        language: origin_language_probs.get(language, base_prob)
+        for language, base_prob in LANGUAGE_PROBS.items()
+    }
+
+    return specialized_probs
 
 
 def generate_users(num_users):
@@ -125,14 +147,15 @@ def pick_disliked_genres(liked_genres):
     return random.sample(disliked_candidates, min(len(disliked_candidates), 3))
 
 
-def pick_languages(living_country):
+def pick_languages(living_country, country_of_origin):
     """
     Determine which languages a user knows, prioritizing official languages of the living country.
     """
     official_langs = LANGUAGES_BY_COUNTRY.get(living_country, ["English"])
+    lang_probs = get_specialized_country_probs(country_of_origin)
     user_langs = [
         lang
-        for lang, base_prob in LANGUAGE_PROBS.items()
+        for lang, base_prob in lang_probs.items()
         if random.random() < (base_prob * 2.0 if lang in official_langs else base_prob)
     ]
     if not any(lang in official_langs for lang in user_langs):

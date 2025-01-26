@@ -4,7 +4,7 @@ LANGUAGE_PROBS = {
     "Armenian":   0.0079,
     "Portuguese": 0.0372,
     "French":     0.0472,
-    "Mandarin":   0.0630,
+    "Chinese":    0.0630,
     "Czech":      0.0157,
     "Danish":     0.0157,
     "Dutch":      0.0236,
