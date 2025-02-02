@@ -48,6 +48,8 @@ def generate_single_user(index):
 
     award_hunter = pick_award_hunter()
 
+    hard_constraint = pick_hard_constraint(age_range, lifestyle, award_hunter)
+
     return {
         "userID": user_id,
         "name": name,
@@ -65,6 +67,7 @@ def generate_single_user(index):
         "ethnicity": ethnicity,
         "language_spoken": language_spoken,
         "award_hunter": award_hunter,
+        "hard_constraint": hard_constraint,
     }
 
 def get_specialized_country_probs(origin_country):
@@ -99,7 +102,7 @@ def pick_working_status(age_range):
     """
     Determine the working status based on age range.
     """
-    if age_range == "Under 18":
+    if (age_range == "Under 13" or age_range == "14-17"):
         return "Student"
     if age_range == "65+":
         return "Retired"
@@ -112,7 +115,7 @@ def pick_marital_status(age_range):
     """
     Determine marital status based on age range.
     """
-    return "Single" if age_range == "Under 18" else pick_from_probabilities(MARITAL_STATUS_PROBS)
+    return "Single" if (age_range == "Under 13" or age_range == "14-17") else pick_from_probabilities(MARITAL_STATUS_PROBS)
 
 
 def pick_living_country(country_of_origin):
@@ -172,3 +175,26 @@ def pick_award_hunter():
     :return: 1 if the user is an award hunter, 0 otherwise.
     """
     return 1 if random.random() < 0.2 else 0
+
+def pick_hard_constraint(age_range, lifestyle, award_hunter):
+    """
+    Assigns a single constraint to a user based on logical rules.
+    20% of users will have one constraint, if applicable.
+    """
+    #  Under 18 constraints should be strict.
+    if age_range == "Under 13":
+        return "under_13_constraint"
+    if age_range == "14-17":
+        return "14_17_constraint"
+
+    if random.random() > 0.2:
+        return "no_constraint"  
+
+    possible_constraints = ["no_morning_thriller_action", "award_hunter_strict", "only_known_languages"]
+
+    if lifestyle == "Busy" or "Active":
+        possible_constraints.append("no_long_movie_constraint") 
+    if award_hunter == 1:
+        possible_constraints.append("strict_award_hunter")
+    
+    return random.choice(possible_constraints)
