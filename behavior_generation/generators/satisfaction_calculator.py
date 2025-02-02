@@ -6,7 +6,9 @@ def calculate_satisfaction_score(
     user_languages,
     imdb_rating,
     user_mood,
-    number_of_rewatches
+    number_of_rewatches,
+    award_hunter,
+    movie_award
 ):
     """
     Calculate the satisfaction score as a weighted composite of various factors.
@@ -48,11 +50,17 @@ def calculate_satisfaction_score(
     # Language match
     language_match = 1 if any(lang in user_languages for lang in movie_languages) else 0
 
-    # Normalize IMDb rating to 0-1 scale
-    imdb_rating_normalized = float(imdb_rating) / 10 if imdb_rating else 0
+    if imdb_rating and float(imdb_rating) < 5.5:
+        imdb_rating_normalized = -0.4
+    else:
+        imdb_rating_normalized = float(imdb_rating) / 10 if imdb_rating else 0
+
 
     # User mood score
     user_mood_score = calculate_user_mood_score(user_mood)
+
+    # Having award bonus
+    award_bonus = 0.1 if award_hunter and movie_award else 0
 
     # Calculate the weighted satisfaction score
     satisfaction = (
@@ -61,7 +69,8 @@ def calculate_satisfaction_score(
         (language_match * 0.1) +
         (imdb_rating_normalized * 0.2) +
         (user_mood_score * 0.1) +
-        (min(number_of_rewatches, 3) * 0.1)  # Cap rewatch influence
+        (min(number_of_rewatches, 3) * 0.1) + 
+        award_bonus
     )
 
     return round(max(0, min(satisfaction, 1)), 2)

@@ -46,6 +46,8 @@ def generate_single_user(index):
 
     language_spoken = pick_languages(living_country, country_of_origin)
 
+    award_hunter = pick_award_hunter()
+
     return {
         "userID": user_id,
         "name": name,
@@ -62,6 +64,7 @@ def generate_single_user(index):
         "marital_status": marital_status,
         "ethnicity": ethnicity,
         "language_spoken": language_spoken,
+        "award_hunter": award_hunter,
     }
 
 def get_specialized_country_probs(origin_country):
@@ -161,3 +164,11 @@ def pick_languages(living_country, country_of_origin):
     if not any(lang in official_langs for lang in user_langs):
         user_langs.append(random.choice(official_langs))
     return user_langs
+
+def pick_award_hunter():
+    """
+    Randomly determine if a user is an award hunter.
+    Probability of being an award hunter is 20%.
+    :return: 1 if the user is an award hunter, 0 otherwise.
+    """
+    return 1 if random.random() < 0.2 else 0
