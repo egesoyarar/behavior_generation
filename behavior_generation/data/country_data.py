@@ -113,7 +113,7 @@ LANGUAGE_PROBS_BY_ORIGIN = {
         "Italian": 0.2,
     },
     "Germany": {
-        "German": 0.95,
+        "German": 1,
         "English": 0.7,
         "French": 0.3,
         "Italian": 0.2,

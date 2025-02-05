@@ -102,7 +102,7 @@ def pick_working_status(age_range):
     """
     Determine the working status based on age range.
     """
-    if (age_range == "Under 13" or age_range == "14-17"):
+    if (age_range == "Under 13" or age_range == "13-17"):
         return "Student"
     if age_range == "65+":
         return "Retired"
@@ -115,7 +115,7 @@ def pick_marital_status(age_range):
     """
     Determine marital status based on age range.
     """
-    return "Single" if (age_range == "Under 13" or age_range == "14-17") else pick_from_probabilities(MARITAL_STATUS_PROBS)
+    return "Single" if (age_range == "Under 13" or age_range == "13-17") else pick_from_probabilities(MARITAL_STATUS_PROBS)
 
 
 def pick_living_country(country_of_origin):
@@ -183,14 +183,14 @@ def pick_hard_constraint(age_range, lifestyle, award_hunter):
     """
     #  Under 18 constraints should be strict.
     if age_range == "Under 13":
-        return "under_13_constraint"
-    if age_range == "14-17":
-        return "14_17_constraint"
+        return "under_13"
+    if age_range == "13-17":
+        return "13_17_constraint"
 
     if random.random() > 0.2:
         return "no_constraint"  
 
-    possible_constraints = ["no_morning_thriller_action", "award_hunter_strict", "only_known_languages"]
+    possible_constraints = ["no_morning_thriller_horror", "only_known_languages"]
 
     if lifestyle == "Busy" or "Active":
         possible_constraints.append("no_long_movie_constraint") 

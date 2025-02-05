@@ -6,6 +6,8 @@ from behavior_generation.utils import pick_from_probabilities
 
 from behavior_generation.generators.satisfaction_calculator import calculate_satisfaction_score
 
+from behavior_generation.generators.hard_constraints import get_filtered_movies, pick_movie
+
 SEASON_BY_MONTH = {
     1: "Winter", 2: "Winter", 3: "Spring",
     4: "Spring", 5: "Spring", 6: "Summer",
@@ -43,7 +45,8 @@ def generate_behavior_data(users, movies, user_preferences, num_days=30, start_d
     """
     behavior_data = []
     user_records = users.to_dict("records")
-    movie_records = movies.to_dict("records")
+
+    filtered_movies = get_filtered_movies(movies)
 
     # Create day mapping
     day_mapping = create_day_mapping(start_date, num_days)
@@ -67,12 +70,12 @@ def generate_behavior_data(users, movies, user_preferences, num_days=30, start_d
                     break
 
             if watch_status:
-                movie = random.choice(movie_records)
-
                 location = pick_from_probabilities(user_preferences[user_id]["LOCATION_PROBS"])
                 companions = pick_from_probabilities(user_preferences[user_id]["COMPANION_PROBS"])
                 user_mood = random.choice(["Happy", "Neutral", "Sad"])
                 time_of_day = pick_from_probabilities(user_preferences[user_id]["TIME_OF_DAY_PROBS"])
+
+                movie = pick_movie(filtered_movies, user, companions, time_of_day)
 
                 # Calculate satisfaction score
                 satisfaction_score = calculate_satisfaction_score(
