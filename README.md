@@ -49,13 +49,34 @@ Arguments:
 - **`--num_users`**: Number of users to generate. (Default: 100)
 - **`--num_days`**: Number of days to simulate. (Default: 30)
 - **`--start_date`**: Start date of the simulation in YYYY-MM-DD format. (Default: 2025-01-01)
-- **`--user_output_file`**: Path to save the generated user dataset. (Default: outputs/users/user_data.csv)
-- **`--behavior_output_file`**: Path to save the generated behavior dataset. (Default: outputs/behaviors/behavior_data.csv)
-- **`--movie_data_file`**: Path to the input movie dataset. (Default: behavior_generation/data/movie_data.csv)
+- **`--user_output_file`**: Path to save the generated user dataset. (Default: `outputs/users/user_data.csv`)
+- **`--behavior_output_file`**: Path to save the generated behavior dataset. (Default: `outputs/behaviors/behavior_data.csv`)
+- **`--movie_data_file`**: Path to the input movie dataset. (Default: `behavior_generation/data/movie_data.csv`)
+
+### 3. Interactive Configuration with Streamlit
+To adjust settings and generate users and behaviors interactively, run:
+```bash
+streamlit run scripts/configured_generation.py
+```
+This will open a web-based UI where you can:
+
+- Adjust **total users*** and **number of days** for simulation.
+- Modify probability distributions for:
+  - **Gender**
+  - **Age Range**
+  - **Lifestyle**
+  - **Working Status**
+  - **Marital Status**
+  - **Ethnicity**
+- Click "**Generate Behaviors**" to run the entire process.
+Outputs
+- The system automatically generates:
+  - Users stored in `outputs/users/user_data.csv`
+  - Behavior Data stored in `outputs/behaviors/behavior_data.csv`
+  - User Configuration saved as `outputs/configs/user_config_<DATE>.json`
 
 
-
-### 3. Outputs
+### Outputs
 - **User Data**: Contains user profiles with attributes like `userId`, `gender`, `age_range`, `liked_genres`, and `language_spoken`.
 - **Behavior Data**: Contains contextual behaviors with attributes like `date`, `season`, `day_of_week`, `location`, `companions`, and `satisfaction`.
 

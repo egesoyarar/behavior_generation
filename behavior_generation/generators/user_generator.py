@@ -8,20 +8,15 @@ from behavior_generation.data.country_data import (
     LANGUAGE_PROBS_BY_ORIGIN
 )
 from behavior_generation.data.user_probabilities import (
-    GENDER_PROBS,
-    AGE_RANGE_PROBS,
-    LIFESTYLE_PROBS,
-    WORKING_STATUS_PROBS,
-    MARITAL_STATUS_PROBS,
-    ETHNICITY_PROBS,
     GENRE_LIKE_PROBS,
     GENRE_DISLIKE_PROBS,
     LANGUAGE_PROBS,
 )
+
 from behavior_generation.utils import pick_from_probabilities
 
 
-def generate_single_user(index):
+def generate_single_user(index, user_probabilities):
     """
     Generate a single user's data.
     """
@@ -30,14 +25,14 @@ def generate_single_user(index):
     name, surname = faker.first_name(), faker.last_name()
 
     # Probability-based selections
-    clinical_gender = pick_from_probabilities(GENDER_PROBS)
-    age_range = pick_from_probabilities(AGE_RANGE_PROBS)
-    lifestyle = pick_from_probabilities(LIFESTYLE_PROBS)
-    ethnicity = pick_from_probabilities(ETHNICITY_PROBS)
+    clinical_gender = pick_from_probabilities(user_probabilities.get("GENDER_PROBS"))
+    age_range = pick_from_probabilities(user_probabilities.get("AGE_RANGE_PROBS"))
+    lifestyle = pick_from_probabilities(user_probabilities.get("LIFESTYLE_PROBS"))
+    ethnicity = pick_from_probabilities(user_probabilities.get("ETHNICITY_PROBS"))
 
     # Logical selections
-    current_working_status = pick_working_status(age_range)
-    marital_status = pick_marital_status(age_range)
+    current_working_status = pick_working_status(age_range, user_probabilities.get("WORKING_STATUS_PROBS"))
+    marital_status = pick_marital_status(age_range, user_probabilities.get("MARITAL_STATUS_PROBS"))
     country_of_origin = pick_from_probabilities(COUNTRY_PROBS)
     living_country = pick_living_country(country_of_origin)
     current_location = pick_city(living_country)
@@ -91,14 +86,14 @@ def get_specialized_country_probs(origin_country):
     return specialized_probs
 
 
-def generate_users(num_users):
+def generate_users(num_users, user_probabilities):
     """
     Generate a DataFrame containing synthetic user data.
     """
-    return pd.DataFrame([generate_single_user(i) for i in range(num_users)])
+    return pd.DataFrame([generate_single_user(i, user_probabilities) for i in range(num_users)])
 
 
-def pick_working_status(age_range):
+def pick_working_status(age_range, WORKING_STATUS_PROBS):
     """
     Determine the working status based on age range.
     """
@@ -111,7 +106,7 @@ def pick_working_status(age_range):
     return pick_from_probabilities(WORKING_STATUS_PROBS)
 
 
-def pick_marital_status(age_range):
+def pick_marital_status(age_range, MARITAL_STATUS_PROBS):
     """
     Determine marital status based on age range.
     """

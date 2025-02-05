@@ -18,6 +18,7 @@ def main():
     parser.add_argument("--preference_output_file", type=str, default="outputs/users/preferences.json", help="Output file for preference probabilities.")
     parser.add_argument("--behavior_output_file", type=str, default="outputs/behaviors/behavior_data.csv", help="Output file for behavior data.")
     parser.add_argument("--movie_data_file", type=str, default="behavior_generation/data/movie_data.csv", help="Path to movie data file.")
+    parser.add_argument("--user_probabilities_file", type=str, default="behavior_generation/data/default_user_probabilities.json", help="Path to user probabilities file.")
     args = parser.parse_args()
 
     num_users = args.num_users
@@ -27,9 +28,20 @@ def main():
     preference_output_file = args.preference_output_file
     behavior_output_file = args.behavior_output_file
     movie_data_file = args.movie_data_file
+    user_probabilities_file = args.user_probabilities_file
+
+    try:
+        with open(user_probabilities_file, "r", encoding="utf-8") as file:
+            user_probabilities = json.load(file)
+    except FileNotFoundError:
+        print(f"Error: The file '{user_probabilities_file}' was not found.")
+    except json.JSONDecodeError:
+        print(f"Error: The file '{user_probabilities_file}' contains invalid JSON.")
+
+    print(user_probabilities)
 
     print(f"Generating {num_users} users...")
-    user_df = generate_users(num_users)
+    user_df = generate_users(num_users, user_probabilities)
     user_df.to_csv(user_output_file, index=False, sep="|")
     print(f"User data saved to '{user_output_file}'.")
 
