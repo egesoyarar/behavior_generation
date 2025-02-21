@@ -1,10 +1,14 @@
 import argparse
 import pandas as pd
 import json
+import os
+from datetime import datetime
 from behavior_generation.generators.behavior_generator import generate_behavior_data
 from behavior_generation.generators.user_generator import generate_users
 from behavior_generation.generators.preference_generator import generate_multiple_user_preferences
 
+def get_timestamp():
+    return datetime.now().strftime("%d_%m_%Y_%H_%M")
 
 def main():
     """
@@ -14,19 +18,23 @@ def main():
     parser.add_argument("--num_users", type=int, default=100, help="Number of users to generate.")
     parser.add_argument("--num_days", type=int, default=30, help="Number of days to simulate.")
     parser.add_argument("--start_date", type=str, default="2025-01-01", help="Start date of simulation.")
-    parser.add_argument("--user_output_file", type=str, default="outputs/users/user_data.csv", help="Output file for user data.")
-    parser.add_argument("--preference_output_file", type=str, default="outputs/users/preferences.json", help="Output file for preference probabilities.")
-    parser.add_argument("--behavior_output_file", type=str, default="outputs/behaviors/behavior_data.csv", help="Output file for behavior data.")
     parser.add_argument("--movie_data_file", type=str, default="behavior_generation/data/movie_data.csv", help="Path to movie data file.")
     parser.add_argument("--user_probabilities_file", type=str, default="behavior_generation/data/default_user_probabilities.json", help="Path to user probabilities file.")
     args = parser.parse_args()
 
+    timestamp = get_timestamp()
+    output_dir = f"outputs/{timestamp}"
+    os.makedirs(output_dir, exist_ok=True)
+    os.makedirs(f"{output_dir}/users", exist_ok=True)
+    os.makedirs(f"{output_dir}/behaviors", exist_ok=True)
+
+    user_output_file = f"{output_dir}/users/user_data.csv"
+    preference_output_file = f"{output_dir}/users/preferences.json"
+    behavior_output_file = f"{output_dir}/behaviors/behavior_data.csv"
+
     num_users = args.num_users
     num_days = args.num_days
     start_date= args.start_date
-    user_output_file = args.user_output_file
-    preference_output_file = args.preference_output_file
-    behavior_output_file = args.behavior_output_file
     movie_data_file = args.movie_data_file
     user_probabilities_file = args.user_probabilities_file
 

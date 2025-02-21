@@ -1,13 +1,27 @@
 import streamlit as st
 import json
 import pandas as pd
-import datetime
+import os
+from datetime import datetime
 from behavior_generation.generators.user_generator import generate_users
 from behavior_generation.generators.preference_generator import generate_multiple_user_preferences
 from behavior_generation.generators.behavior_generator import generate_behavior_data
 
 # File path for user probability configurations
 USER_PROBABILITIES_FILE = "behavior_generation/data/default_user_probabilities.json"
+
+def get_timestamp():
+    return datetime.now().strftime("%d_%m_%Y_%H_%M")
+
+timestamp = get_timestamp()
+output_dir = f"outputs/{timestamp}"
+os.makedirs(output_dir, exist_ok=True)
+os.makedirs(f"{output_dir}/users", exist_ok=True)
+os.makedirs(f"{output_dir}/behaviors", exist_ok=True)
+
+user_output_file = f"{output_dir}/users/user_data.csv"
+preference_output_file = f"{output_dir}/users/preferences.json"
+behavior_output_file = f"{output_dir}/behaviors/behavior_data.csv"
 
 # **Load existing configuration**
 def load_user_probabilities():
@@ -62,18 +76,14 @@ if st.button("Generate Behaviors"):
     movie_df = pd.read_csv("behavior_generation/data/movie_data.csv", sep="|")
     behavior_df = generate_behavior_data(user_df, movie_df, user_preferences, num_days=num_days)
 
-    # **Save Generated Data**
-    user_output_file = "outputs/users/user_data.csv"
-    behavior_output_file = "outputs/behaviors/behavior_data.csv"
-
     user_df.to_csv(user_output_file, index=False, sep="|")
     behavior_df.to_csv(behavior_output_file, index=False, sep="|")
 
     st.success(f"Users saved to {user_output_file}")
     st.success(f"Behavior data saved to {behavior_output_file}")
 
-    date = datetime.datetime.today().strftime("%d_%m_%Y")
-    config_filename = f"behavior_generation/data/user_config_{date}.json"
+    date = datetime.today().strftime("%d_%m_%Y")
+    config_filename = f"{output_dir}/user_config_{date}.json"
 
     # **Save the latest configuration**
     with open(config_filename, "w", encoding="utf-8") as file:
