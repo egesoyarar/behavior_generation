@@ -8,7 +8,8 @@ def calculate_satisfaction_score(
     user_mood,
     number_of_rewatches,
     award_hunter,
-    movie_award
+    movie_award,
+    satisfaction_weights
 ):
     """
     Calculate the satisfaction score as a weighted composite of various factors.
@@ -64,13 +65,13 @@ def calculate_satisfaction_score(
 
     # Calculate the weighted satisfaction score
     satisfaction = (
-        (liked_genre_match_score * 0.3) -
-        (disliked_genre_match_score * 0.4) +
-        (language_match * 0.1) +
-        (imdb_rating_normalized * 0.2) +
-        (user_mood_score * 0.1) +
-        (min(number_of_rewatches, 3) * 0.1) + 
-        award_bonus
+        (liked_genre_match_score * satisfaction_weights["liked_genre_match"]) +
+        (disliked_genre_match_score * satisfaction_weights["disliked_genre_match"]) +
+        (language_match * satisfaction_weights["language_match"]) +
+        (imdb_rating_normalized * satisfaction_weights["imdb_rating"]) +
+        (user_mood_score * satisfaction_weights["user_mood"]) +
+        (min(number_of_rewatches, 3) * satisfaction_weights["rewatch_factor"]) +
+        (award_bonus * satisfaction_weights["award_bonus"])
     )
 
     return round(max(0, min(satisfaction, 1)), 2)

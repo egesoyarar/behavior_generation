@@ -88,7 +88,8 @@ def generate_behavior_data(users, movies, user_preferences, num_days=30, start_d
                     user_mood,
                     movie.get("numberOfRewatches", 0),
                     user["award_hunter"],
-                    movie["havingAward"]
+                    movie["havingAward"],
+                    user_preferences[user_id]["SATISFACTION_WEIGHTS"]
                 )
 
                 # Add the behavior record

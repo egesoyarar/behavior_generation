@@ -46,6 +46,25 @@ def generate_dominant_probabilities(categories):
     probabilities = {category: weight for category, weight in zip(categories, base_weights)}
     return normalize_probabilities(probabilities)
 
+def generate_satisfaction_weights():
+    """
+    Generate individual weights for satisfaction score components, ensuring a balanced total.
+    """
+    weights = {
+        "liked_genre_match": round(random.uniform(0.2, 0.4), 2),
+        "disliked_genre_match": round(random.uniform(0.3, 0.5), 2) * -1,  # Negative influence
+        "language_match": round(random.uniform(0.05, 0.2), 2),
+        "imdb_rating": round(random.uniform(0.15, 0.3), 2),
+        "user_mood": round(random.uniform(0.05, 0.2), 2),
+        "rewatch_factor": round(random.uniform(0.05, 0.2), 2),
+        "award_bonus": round(random.uniform(0.05, 0.15), 2),
+    }
+
+    # Normalize to sum to 1 (absolute values considered)
+    total_abs = sum(abs(w) for w in weights.values())
+    weights = {k: round(v / total_abs, 2) for k, v in weights.items()}
+
+    return weights
 
 def generate_single_user_preferences(user_id):
     """
@@ -62,6 +81,7 @@ def generate_single_user_preferences(user_id):
     day_of_week_probs = generate_dominant_probabilities(DAYS_OF_WEEK)
     time_of_day_probs = generate_dominant_probabilities(TIMES_OF_DAY)
     location_probs = generate_dominant_probabilities(LOCATIONS)
+    satisfaction_weights = generate_satisfaction_weights()
 
     return {
         user_id: {
@@ -71,6 +91,7 @@ def generate_single_user_preferences(user_id):
             "DAY_OF_WEEK_PROBS": day_of_week_probs,
             "TIME_OF_DAY_PROBS": time_of_day_probs,
             "LOCATION_PROBS": location_probs,
+            "SATISFACTION_WEIGHTS": satisfaction_weights,
         }
     }
 
